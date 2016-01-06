@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="video" id="e3af17ed08be21681753add610c69e80" label="VO-MVI_2020.MOV" group="video" url="/resources/video/momusic/afb84d5d44774993a362fb5f4f74ea7a.flv" audio="/resources/video/momusic/afb84d5d44774993a362fb5f4f74ea7a.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="afb84d5d44774993a362fb5f4f74ea7a" label="MVI_2020.MOV" group="video" url="/resources/video/momusic/afb84d5d44774993a362fb5f4f74ea7a.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

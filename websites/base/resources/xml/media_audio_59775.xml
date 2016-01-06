@@ -1,0 +1,5 @@
+<moviemasher>
+	<media type="audio" id="079e8d1ce34fd91d7cc4b1af2247b6fe" label="Nobel Life Alex Khaskin" group="audio" audio="http://ftmedia.s3.amazonaws.com/alexkhaskin/15ofjan2010/nobellife.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="211"/>
+	<media type="audio" id="30d801f06119412060500be4f2c78662" label="Life Lindy Botha" group="audio" audio="http://ftmedia.s3.amazonaws.com/lindybotha/ajourneywithin/life.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="170"/>
+	<media type="audio" id="6d4719a3d5570c2f18b6db708d3de21d" label="Emotional Strength 60 sec B Martin Sebastian Holm" group="audio" audio="http://ftmedia.s3.amazonaws.com/martinsebastianholm/cinematic/emotionalstrength60secb.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="61"/>
+</moviemasher>

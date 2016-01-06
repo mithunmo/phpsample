@@ -1,0 +1,6 @@
+<moviemasher>
+	<media type="audio" id="e235713c892352f85f4a7ad184c86068" label="Hello Tomorrow Tribe Of Noise" group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/730000/733765_Hello+Tomorrow.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="262"/>
+	<media type="audio" id="75ded0da1566fbd740b237b807d3bf8e" label="Rise Slow To Big Build In D Leland Bond" group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/260000/269638_Rise+Slow+To+Big+Bui.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="34"/>
+	<media type="audio" id="b2acc4579c5ee84fee07b228e0ecef43" label="Ocean Machine_Instrumental Trace Studios" group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/420000/424957_Ocean+MachineInstrum.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="292"/>
+	<media type="audio" id="c8814254e1d8c22cb235b176c2604c1e" label="Battle Plans Nightraid" group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/560000/566098_Battle+Plans.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="244"/>
+</moviemasher>

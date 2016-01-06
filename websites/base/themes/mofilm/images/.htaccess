@@ -1,0 +1,2 @@
+RewriteEngine On
+ReWriteRule ^track(.*?)\.png$ http://%{HTTP_HOST}/track/track?track=$1 [L]

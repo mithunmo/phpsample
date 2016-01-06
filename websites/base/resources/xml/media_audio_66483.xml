@@ -1,0 +1,6 @@
+<moviemasher>
+	<media type="audio" id="3b702a54af1ccd0fc9ee8fe59c366a84" label="Burning Dean Batstone " group="audio" audio="http://ftmedia.s3.amazonaws.com/deanbatstone/lovethatshine/burningforyoursins.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="277"/>
+	<media type="audio" id="4933f254e90e88ce24ac54776b80fdb3" label="Burning Dean Batstone " group="audio" audio="http://ftmedia.s3.amazonaws.com/deanbatstone/lovethatshine/burningforyoursins.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="277"/>
+	<media type="audio" id="88d6b870ca269cf7bad2ce9cc66dd5b3" label="A better future no piano Ionics Music" group="audio" audio="http://momusic.s3.amazonaws.com/ionicsmusic/album-ionicsmusic/abetterfuturenopiano.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="141"/>
+	<media type="audio" id="9014550178c18c2799007ec7b5b62778" label="Gamma rays Social Club" group="audio" audio="http://momusic.s3.amazonaws.com/socialclub/socialclub/gammarays.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="293"/>
+</moviemasher>

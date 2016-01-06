@@ -1,0 +1,5 @@
+<moviemasher>
+	<media type="audio" id="b57ecb336a56da253d1b37d4e47f12c8" label="There is still hope rhodes and p Ionics Music " group="audio" audio="http://momusic.s3.amazonaws.com/ionicsmusic/album-ionicsmusic/thereisstillhoperhodesandpiano.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="124"/>
+	<media type="audio" id="c12aeca4af72e81cca2faa3ac80e95c6" label="There is still hope underscore Ionics Music " group="audio" audio="http://momusic.s3.amazonaws.com/ionicsmusic/album-ionicsmusic/thereisstillhopeunderscore.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="124"/>
+	<media type="audio" id="f34854cb95cb94884c52f827697a115e" label="Clear Premises Sam O'Neill" group="audio" audio="http://momusic.s3.amazonaws.com/samo39neill/samo39neill/clearpremises.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="0"/>
+</moviemasher>

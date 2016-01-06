@@ -1,0 +1,20 @@
+<!DOCTYPE controllers SYSTEM "../../data/dtds/controllerMap.dtd">
+<controllers>
+	<controller name="captcha" description="Captcha Generator" path="mvcCaptchaController.class.php" />
+	<controller name="image" description="Image Generator" path="mvcImageController.class.php" />
+	<controller name="static" description="Static Pages" />
+	<controller name="about" path="/static/staticController.class.php" />
+
+	<controller name="home" />
+	<controller name="competitions" />
+	<controller name="terms" />
+	
+	<controller name="xml" />
+	<controller name="video" />
+	<controller name="watch" path="/video/videoController.class.php" />
+	<controller name="track" />
+	<controller name="download" />
+	<controller name="momusic" />
+	<controller name="auth" />
+
+</controllers>

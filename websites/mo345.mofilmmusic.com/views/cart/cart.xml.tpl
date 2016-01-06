@@ -1,0 +1,10 @@
+<mofilm>	
+	<request>
+		<count>{$cnt}</count>
+		<login>{$login}</login>
+	</request>
+	<data>
+		<source>
+		</source>
+	</data>
+</mofilm>

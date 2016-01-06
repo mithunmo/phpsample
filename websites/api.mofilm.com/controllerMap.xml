@@ -1,0 +1,4 @@
+<!DOCTYPE controllers SYSTEM "../../data/dtds/controllerMap.dtd">
+<controllers>
+	<controller name="user" />
+</controllers>

@@ -1,0 +1,7 @@
+<moviemasher>
+	<media type="audio" id="1dd197475d0745d6c1934992433f8df1" label="Cheetah Songwire Studios" group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/210000/219798_Cheetah.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="112"/>
+	<media type="audio" id="a287b593aebfa9d58870b016f12ceefe" label="Cheetah Songwire Studios" group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/210000/219798_Cheetah.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="112"/>
+	<media type="audio" id="3db6fdb4e39bb95c6c1f19704c8d68bb" label="Wanderlust Stephen Doctor" group="audio" audio="http://momusic.s3.amazonaws.com/getty/stephendoctor/stephendoctor/wanderlust.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="134"/>
+	<media type="audio" id="4259bd6cd6ca3286d6ba54f81a78eda3" label="SILENT FAMILY N/A" group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/240000/249208_SILENT+FAMILY.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="78"/>
+	<media type="audio" id="424341d28ee08c3bb067dbfaa7dfd906" label="SILENT FAMILY N/A" group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/240000/249208_SILENT+FAMILY.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="78"/>
+</moviemasher>

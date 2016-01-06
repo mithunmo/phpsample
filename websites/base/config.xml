@@ -1,0 +1,23 @@
+<!DOCTYPE config SYSTEM "../../data/dtds/config.dtd">
+<config>
+	<section name="site" override="1">
+		<option name="parent" value="" override="1" />
+		<option name="active" value="1" override="1" />
+		<option name="uriTextSeparator" value="-" override="1" />
+		<option name="cacheStaticPages" value="1" override="1" />
+	</section>
+	<!-- If useCache is set to false (0), preloadSiteClasses MUST BE enabled -->
+	<section name="autoload" override="1">
+		<option name="useCache" value="1" override="1" />
+		<option name="autoSave" value="1" override="1" />
+		<option name="preloadSiteClasses" value="1" override="1" />
+	</section>
+	<section name="classes" override="1">
+		<option name="mvcController" value="controller.class.php" override="1" />
+		<option name="mvcSession" value="session.class.php" override="1" />
+		<option name="mvcView" value="view.class.php" override="1" />
+	</section>
+	<section name="distributorPlugins" override="1">
+		<option name="mvcDistributorPluginLog" value="true" override="1" />
+	</section>
+</config>

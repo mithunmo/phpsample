@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="video" id="dd0d993137cee9dc09c75a6a492b6a29" label="VO-Shell_Cut_04_mofilm.mp4" group="video" url="/resources/video/momusic/3d3553ebf13408d986042c60dad13d6d.flv" audio="/resources/video/momusic/3d3553ebf13408d986042c60dad13d6d.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="3d3553ebf13408d986042c60dad13d6d" label="Shell_Cut_04_mofilm.mp4" group="video" url="/resources/video/momusic/3d3553ebf13408d986042c60dad13d6d.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

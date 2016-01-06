@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="video" id="161202431cc29f49a2be69622b6157a7" label="VO-Sequence 01.mp4" group="video" url="/resources/video/momusic/008418a3c5e2663140a692bc1313d049.flv" audio="/resources/video/momusic/008418a3c5e2663140a692bc1313d049.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="008418a3c5e2663140a692bc1313d049" label="Sequence 01.mp4" group="video" url="/resources/video/momusic/008418a3c5e2663140a692bc1313d049.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

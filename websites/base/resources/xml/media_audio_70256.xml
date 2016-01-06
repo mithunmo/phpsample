@@ -1,0 +1,6 @@
+<moviemasher>
+	<media type="audio" id="c761ef7faa0fd12a268bd64f89fe147c" label="Leave Edward Kadane" group="audio" audio="http://ftmedia.s3.amazonaws.com/edwardkadane/blindfoldvol2/leave.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="105"/>
+	<media type="audio" id="966ab32e74ce7100be40f0de302cd465" label="TRAX HEARTS AND MINDS Makin Trax-FLIKTRAX" group="audio" audio="http://ftmedia.s3.amazonaws.com/makintrax-fliktrax/alexplowright/traxheartsandminds.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="236"/>
+	<media type="audio" id="636deea818a460fc7a350db0a99809a2" label="In Better Times Derek Jasnoch" group="audio" audio="http://ftmedia.s3.amazonaws.com/derekjasnoch/djasnochcd1/inbettertimes.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="231"/>
+	<media type="audio" id="3ed3ca4e4efec9a8be7b42ad6dfa7fe5" label="In Better Times Derek Jasnoch" group="audio" audio="http://ftmedia.s3.amazonaws.com/derekjasnoch/djasnochcd1/inbettertimes.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="231"/>
+</moviemasher>

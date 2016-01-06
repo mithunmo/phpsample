@@ -1,0 +1,5 @@
+<moviemasher>
+	<media type="video" id="300760c7f62caaae772f13b9b0d37e13" label="VO-MUSIC TESTS.mp4" group="video" url="/resources/video/momusic/6a11b8be3c4b8a00f6ad73f09015abd2.flv" audio="/resources/video/momusic/6a11b8be3c4b8a00f6ad73f09015abd2.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="6a11b8be3c4b8a00f6ad73f09015abd2" label="MUSIC TESTS.mp4" group="video" url="/resources/video/momusic/6a11b8be3c4b8a00f6ad73f09015abd2.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="34ed15902cd5d5ec728a8ca682ca343c" label="MUSIC TESTS.mp4" group="video" url="/resources/video/momusic/34ed15902cd5d5ec728a8ca682ca343c.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

@@ -1,0 +1,47 @@
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  border-radius: 5px;
+   color:#535659;
+   }
+#boxes #dialog {
+  width:550px; 
+  height:auto;
+  background-color:#ffffff;
+  font-family: "News Gothic MT",Helvetica,Arial,san-serif;
+  font-size: 15pt;
+
+}
+.maintext{
+  font-family: "News Gothic MT",Helvetica,Arial,san-serif;
+  text-decoration: none;
+}
+ 
+.warnningbox h2 {
+	    color: #333333;
+	    font-family: "News Gothic MT",Helvetica,Arial,san-serif;
+	    padding:15px 25px 5px 25px;
+	}
+	
+.warnningbox p {
+		    padding:30px 25px 20px 25px;
+		    font-size: 16px;
+    }
+
+	.warnningbox hr{ padding: 0; margin:0; }
+	.warnningbottom { background-color: #f3f3f3; border-bottom-left-radius: 5px;  border-bottom-right-radius: 5px; position: relative; padding:20px 25px;}
+	.warnningbtn{ float: right; font-size: 14px; color: #fff!important; padding:6px 27px; background-color: #189aca; border-radius: 5px;}
+ 

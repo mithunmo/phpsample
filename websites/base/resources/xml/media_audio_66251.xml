@@ -1,0 +1,6 @@
+<moviemasher>
+	<media type="audio" id="38fec137d423f0a2ae86353cc97a0326" label="A Gentle Touch (Full Mix) Adi Goldstein" group="audio" audio="http://ftmedia.s3.amazonaws.com/adigoldstein/adigoldsteincorporateandupliftingvol1/agentletouch-fullmix.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="62"/>
+	<media type="audio" id="8eef58c08d8b15445527be8ab0928de5" label="Believe In Your Dreams (Full Mix Adi Goldstein" group="audio" audio="http://ftmedia.s3.amazonaws.com/adigoldstein/cinematicandepic/believeinyourdreams-fullmix.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="73"/>
+	<media type="audio" id="4482efdfa1be7d920a7d8a73365e411d" label="Believe In Your Dreams (Piano Ve Adi Goldstein" group="audio" audio="http://ftmedia.s3.amazonaws.com/adigoldstein/cinematicandepic/believeinyourdreams-pianoversion.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="60"/>
+	<media type="audio" id="3ba41becc38927edde344b136498da94" label="Glory Days Kerry Muzzey " group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/560000/565051_Glory+Days.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="167"/>
+</moviemasher>

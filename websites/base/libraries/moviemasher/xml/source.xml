@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<moviemasher>
+	
+	<source id='media' url='/music/media?group={group}&amp;label={terms}&amp;index={index}&amp;count={count}' symbol='/libraries/moviemasher/com/moviemasher/source/RemoteSource/stable.swf@RemoteSource' />
+	<!--source id='video' config='edia/xml/media_video1.xml' />
+	<source id='audio' config='media/xml/media_audio.xml' /-->
+
+</moviemasher>
+

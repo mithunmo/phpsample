@@ -1,0 +1,7 @@
+<moviemasher>
+	<media type="audio" id="516cc3a561a1dc2ed74a97c250d140e7" label="Dixie Drag - No Banjo Brian Wayy" group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/320000/327815_Dixie+Drag+No+Ban.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="94"/>
+	<media type="audio" id="9d46ee7b26aa988aaeef872ab68b7751" label="sunny mandolin Pete Min of Travis Pickle" group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/330000/334847_sunny+mandolin.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="76"/>
+	<media type="audio" id="7b77b03fa1b59e634d6829aeb27a92ae" label="sunny mandolin Pete Min of Travis Pickle" group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/330000/334847_sunny+mandolin.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="76"/>
+	<media type="audio" id="bbd60e151245e89e7fe81dfab5a53115" label="Blujazz Doug Michael" group="audio" audio="http://ftmedia.s3.amazonaws.com/dougmichael/dougmichaelcd1/blujazz.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="109"/>
+	<media type="audio" id="650aedefa73d6040d4f8fbb7cb463e85" label="Teresa De Avila Gary Valentine" group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/250000/251037_Teresa+De+Avila.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="145"/>
+</moviemasher>

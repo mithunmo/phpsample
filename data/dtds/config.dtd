@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT config ( section+ ) >
+
+<!ELEMENT option EMPTY >
+<!ATTLIST option name CDATA #REQUIRED >
+<!ATTLIST option override CDATA #IMPLIED >
+<!ATTLIST option value CDATA #REQUIRED >
+
+<!ELEMENT section ( option+ ) >
+<!ATTLIST section name CDATA #REQUIRED >
+<!ATTLIST section override CDATA #REQUIRED >

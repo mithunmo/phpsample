@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="video" id="033a1c878241a1541c7713d99fdd20aa" label="VO-Edit Copy 02.mp4" group="video" url="/resources/video/momusic/e71db60b482ad4dd18439ed879e30251.flv" audio="/resources/video/momusic/e71db60b482ad4dd18439ed879e30251.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="e71db60b482ad4dd18439ed879e30251" label="Edit Copy 02.mp4" group="video" url="/resources/video/momusic/e71db60b482ad4dd18439ed879e30251.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

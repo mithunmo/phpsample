@@ -1,0 +1,33 @@
+<!DOCTYPE controllers SYSTEM "../../data/dtds/controllerMap.dtd">
+<controllers>
+	<controller name="home" />
+	<!--<controller name="search" />-->
+	<controller name="track" />
+	<controller name="account">
+		<controllers>
+			<controller name="upload" path="/account/uploadController.class.php" />
+			<controller name="pm" description="Private Messages" path="/account/pmController.class.php" />
+			<controller name="review" description="Movie Review"/>
+			<controller name="myVideo" description ="My Video"/>
+		</controllers>
+	</controller>
+	
+	<controller name="xml" />
+	<controller name="video" />
+	<controller name="watch" path="/video/videoController.class.php" />
+	
+	<controller name="user" />
+	<controller name="u" path="/user/userController.class.php" />
+	
+	<!--<controller name="group" />
+	<controller name="g" path="/group/groupController.class.php" />-->
+	
+	<controller name="download" />
+	<controller name="dl" path="/download/downloadController.class.php" />
+	<controller name="momusic" path="/momusic/momusicController.class.php" />
+	<controller name="videoPlatform" description="platform" />
+	<controller name="music" description="music" />
+	<controller name="list" description="list" />
+	<controller name="cart" description="cart" />	
+	<controller name="uploadMusic" description="Upload Music" />	
+</controllers>

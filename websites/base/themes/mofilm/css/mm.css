@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+.borderfirstrow {width:900px; color:white; border-bottom-color:#999;height:30px; background-image: url(/themes/mofilm/images/mm/r1_back.gif); border:thin; border:#999; }
+
+.bordersecondrow {width:900px; height:31px; padding-top: 10px; background-image: url(/themes/mofilm/images/mm/ro_1.gif) ; border:thin; border:#999; background-repeat:no-repeat; }
+
+.borderthirdrow {width:900px; height:31px;  padding-top: 10px; background-image: url(/themes/mofilm/images/mm/ro_2.gif) ; border:thin; border:#999; background-repeat: no-repeat;}
+
+.textproperties1{float:right; height:26px; padding-top:8px; width:80px; background-color:#f2f2f2; text-align:center}
+
+.textproperties2 {float:right; height:26px; padding-top:8px; width:90px; background-color:#f2f2f2;  text-align:center}
+
+.textproperties3 {float:right; height:26px; padding-top:8px; width:50px; background-color:#f2f2f2;  text-align:center }
+
+.textproperties4 {float:right; height:26px; padding-top:8px; width:240px; background-color:#f2f2f2;  text-align:center }
+
+.textproperties5 {float:left; height:26px; padding-top:8px; width:466px; background-color:#f2f2f2;  text-align:left; padding-left: 10px}
+
+.textproperties6 {float:right; height:26px; padding-top:8px; width:59px; background-color:#f2f2f2;  text-align:center }
+
+
+.seperater {width:900px;}
+
+
+label.filebutton {
+    width:60px;
+    height:32px;
+    overflow:hidden;
+    position:relative;
+}
+
+label span input {
+    z-index: 999;
+    line-height: 0;
+    font-size: 50px;
+    position: absolute;
+    top: -2px;
+    left: -700px;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+    -ms-filter: "alpha(opacity=0)";
+    cursor: pointer;
+    _cursor: hand;
+    margin: 0;
+    padding:0;
+}
+
+
+hr {
+	border:none;
+	border-top:1px solid #CCCCCC;
+	height:1px;
+	margin-bottom:25px;
+	}
+
+#stylefive{
+	position:relative;
+	display:block;
+	height:30px;
+	font-size:11px;
+	font-weight:bold;
+	font-family:Arial,Verdana,Helvitica,sans-serif;
+	}
+
+#stylefive ul{
+	margin:0px;
+	padding:0;
+	list-style-type:none;
+	width:auto;
+	}
+
+#stylefive ul li{
+	display:block;
+	float:left;
+	margin:0;
+	}
+
+#stylefive ul li a{
+	display:block;
+	float:left;
+	color:#fff;
+	text-decoration:none;
+	padding:7px 20px 0 20px;
+	height:19px;
+	background:transparent url(/themes/mofilm/images/momusic/bgDIVIDER.gif) no-repeat top right;
+	}
+
+#stylefive ul li a:hover,#stylefive ul li a.current{
+	color:#fff;
+	background:#131546 url(/themes/mofilm/images/momusic/bgDIVIDER.gif) no-repeat top right;
+	}
+	
+	
+.uploadbutton
+{
+	background-color: #505050;
+	background-image: linear-gradient(bottom, #505050 0%, #707070 100%);
+	background-image: -o-linear-gradient(bottom, #505050 0%, #707070 100%);
+	background-image: -moz-linear-gradient(bottom, #505050 0%, #707070 100%);
+	background-image: -webkit-linear-gradient(bottom, #505050 0%, #707070 100%);
+	background-image: -ms-linear-gradient(bottom, #505050 0%, #707070 100%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #505050),
+		color-stop(1, #707070)
+	);
+	background-position: center top;
+	background-repeat: no-repeat;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	/* border: 2px solid #808080; */
+	color: #FFF;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	text-align: center;
+	width: 100%;
+	height:35px;
+	position: relative;
+	margin-bottom: 0em;
+	
+}
+
+input[type="text"], input[type="password"] { outline: none; }
+
+
+
+	div.tooltips span {
+		    display:none;
+		    position:absolute;
+		    z-index:1000;
+		    -moz-border-radius:4px;
+		    -webkit-border-radius:4px;
+			color: blue;
+			width: 400px;
+			font-weight:bold;
+			background-color: white;
+		}
+
+	.tooltip-style2 {
+			background:red url(/themes/mofilm/images/mm/info.png) 10px center no-repeat;
+			color:red;
+			min-height:30px;
+			padding:10px 20px 10px 65px;
+			opacity:0.9;
+	}
+

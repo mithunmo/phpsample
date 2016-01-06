@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<moviemasher>
+
+	<control symbol='/libraries/moviemasher/com/moviemasher/control/Player/stable.swf@Icon' width="*" />
+		
+	<!-- ONLY REMOVE IF YOU PROVIDE SOME OTHER OBVIOUS LINK TO MOVIEMASHER.COM -->
+	<control tooltip='Momusic' id='logo'
+		symbol="/libraries/moviemasher/com/moviemasher/control/Player/stable.swf@CGI" 
+		icon='/libraries/moviemasher/com/moviemasher/skin/Liquid/stable.swf#MovieMasher' 
+	/>			
+
+</moviemasher>

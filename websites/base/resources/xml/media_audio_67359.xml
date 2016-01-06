@@ -1,0 +1,6 @@
+<moviemasher>
+	<media type="audio" id="f80bf0dd4fd72cf0a7f84653912daa24" label="Morning Light (Instrumental) Shew-Creative" group="audio" audio="http://ftmedia.s3.amazonaws.com/shewcreative/kyvenretro/morninglight-instrumental.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="250"/>
+	<media type="audio" id="ecfeda18b379671a013afeac8b3c7cc5" label="128 Electro Poppy Robert W. Larow" group="audio" audio="http://ftmedia.s3.amazonaws.com/robertwlarow/robertwlarowcd1/128electropoppy.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="221"/>
+	<media type="audio" id="ffacf0ba623e99ee7e2a7a342cf833ea" label="Chloris As Dawn - Bouzouki And G Brian Wayy" group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/510000/512085_Chloris+As+Dawn+Bou.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="129"/>
+	<media type="audio" id="52dc61522a84e36de8db5405d185971c" label="Chloris As Dawn - Bouzouki And G Brian Wayy" group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/510000/512085_Chloris+As+Dawn+Bou.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="129"/>
+</moviemasher>

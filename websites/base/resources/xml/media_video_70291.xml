@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="video" id="7d2427f23ce494c20c3e13474cb644c0" label="VO-sample test.mp4" group="video" url="/resources/video/momusic/cdee072abf9b2d08e496d3a8dee5b99b.flv" audio="/resources/video/momusic/cdee072abf9b2d08e496d3a8dee5b99b.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="cdee072abf9b2d08e496d3a8dee5b99b" label="sample test.mp4" group="video" url="/resources/video/momusic/cdee072abf9b2d08e496d3a8dee5b99b.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

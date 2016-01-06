@@ -1,0 +1,6 @@
+<moviemasher>
+	<media type="video" id="940c1890d9cd471df82013bcae7ddc7a" label="VO-gt reference output smaller.mov" group="video" url="/resources/video/momusic/4d34f7d201cfe51db50bf8cfbd924e0d.flv" audio="/resources/video/momusic/4d34f7d201cfe51db50bf8cfbd924e0d.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="4d34f7d201cfe51db50bf8cfbd924e0d" label="gt reference output smaller.mov" group="video" url="/resources/video/momusic/4d34f7d201cfe51db50bf8cfbd924e0d.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="59dfe0ac5bb1cdf3cc00172961b2a4ed" label="VO-gt reference output smaller.mov" group="video" url="/resources/video/momusic/6fac6bbb8cb2de806bfab9026f24a45b.flv" audio="/resources/video/momusic/6fac6bbb8cb2de806bfab9026f24a45b.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="6fac6bbb8cb2de806bfab9026f24a45b" label="gt reference output smaller.mov" group="video" url="/resources/video/momusic/6fac6bbb8cb2de806bfab9026f24a45b.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

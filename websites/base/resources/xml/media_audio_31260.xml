@@ -1,0 +1,5 @@
+<moviemasher>
+	<media type="audio" id="0a7e4e21e9a83578d394a978bbed5a99" label="Real Deal Bruce H Zimmerman" group="audio" audio="http://ftmedia.s3.amazonaws.com/brucehzimmerman/positiveenergy3/realdeal1min.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="62"/>
+	<media type="audio" id="a00e069caf3d5b8c0de86ac182ab5a92" label="Little Star Alex Khaskin" group="audio" audio="http://ftmedia.s3.amazonaws.com/alexkhaskin/romanticunderscorewav/littlestar.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="75"/>
+	<media type="audio" id="e05afebe4351b622e9f91b79d3ea81bb" label="Life Path Alex Khaskin" group="audio" audio="http://ftmedia.s3.amazonaws.com/alexkhaskin/romanticunderscorewav/lifepath.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="183"/>
+</moviemasher>

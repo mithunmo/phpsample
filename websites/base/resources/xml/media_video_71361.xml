@@ -1,0 +1,8 @@
+<moviemasher>
+	<media type="video" id="009ea7257d0b9e8bff350b618e55cc11" label="VO-Edit Copy 02_1.mp4" group="video" url="/resources/video/momusic/0f1c1ba3d2452e33ebf7cbe704ff7faf.flv" audio="/resources/video/momusic/0f1c1ba3d2452e33ebf7cbe704ff7faf.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="0f1c1ba3d2452e33ebf7cbe704ff7faf" label="Edit Copy 02_1.mp4" group="video" url="/resources/video/momusic/0f1c1ba3d2452e33ebf7cbe704ff7faf.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="c25c59c5f35e787894d3c58c180aee3c" label="VO-Edit Copy 02_1.mp4" group="video" url="/resources/video/momusic/9e0d66e72b8fbbc94537fedb621d2716.flv" audio="/resources/video/momusic/9e0d66e72b8fbbc94537fedb621d2716.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="9e0d66e72b8fbbc94537fedb621d2716" label="Edit Copy 02_1.mp4" group="video" url="/resources/video/momusic/9e0d66e72b8fbbc94537fedb621d2716.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="88e66be6e4d3b26a6aac749781817970" label="VO-Edit Copy 01.mp4" group="video" url="/resources/video/momusic/ca09221184ec87c77c8f826d7a03ef79.flv" audio="/resources/video/momusic/ca09221184ec87c77c8f826d7a03ef79.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="ca09221184ec87c77c8f826d7a03ef79" label="Edit Copy 01.mp4" group="video" url="/resources/video/momusic/ca09221184ec87c77c8f826d7a03ef79.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

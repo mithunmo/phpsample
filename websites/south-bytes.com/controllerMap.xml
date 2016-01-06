@@ -1,0 +1,11 @@
+<!DOCTYPE controllers SYSTEM "../../data/dtds/controllerMap.dtd">
+<controllers>
+	<controller name="static" description="Static Pages" />
+
+	<controller name="home" />
+	<controller name="gallery" />
+	
+	<controller name="xml" />
+	<controller name="video" />
+	<controller name="watch" path="/video/videoController.class.php" />
+</controllers>

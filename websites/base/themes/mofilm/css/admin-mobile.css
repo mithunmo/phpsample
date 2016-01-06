@@ -1,0 +1,70 @@
+/**
+ * Custom styles for the admin system
+ *
+ * @author Dave Redfern
+ * @copyright Mofilm Ltd. (c) 2010
+ * @package websites
+ * @subpackage admin.mofilm.com
+ * @version $Rev: 11 $
+ */
+
+.link { font-size: 14px; color: #00b3f1; text-decoration: none; cursor: pointer; }
+.hover { color: #00b3f1; text-decoration: underline; }
+
+div.event.collapsed { cursor: pointer; }
+div.event.collapsed .ui-icon { float: right; margin-top: 0; }
+.event {
+	background: #F0F0F0 url(../images/body/background-content-box.png) repeat-x;
+	border-color: #EEE #EEE #DDD #EEE; clear: both; color: #333; line-height: 1.5;
+	margin: 5px 5px; padding: 8px; min-height: 40px;
+	-webkit-border-radius: 10px;
+}
+.event .eventIcon { float: left; margin-right: 10px; margin-bottom: 10px; }
+.event .eventIcon img { border: 1px solid #000; width: 70px; height: 35px; }
+.eventDetails h3 { margin: 0; font-size: 14px; }
+.eventDetails p { font-weight: normal; font-size: 10px; margin: 0; }
+.sourceStats { width: 100%; }
+ul.stats { list-style: none; margin: 0; padding: 0; }
+ul.stats li { font-size: 11px; }
+ul.stats li li { font-size: 10px; }
+ul.stats ul { list-style: none; margin: 0; padding: 0; }
+
+table.data { width: 100%; font-size: 11px; }
+table.data th { font-size: 12px; border-bottom: 1px solid #aaa; }
+table.data thead tr { background-color: #fff; }
+table.data thead th { border-bottom: 2px solid #000; text-align: left; padding: 3px; }
+table.data thead th.title:first-child { width: 60%; }
+table.data thead th.alignCenter { text-align: center; }
+table.data tbody th { text-align: left; font-weight: bold; }
+table.data tbody tr.alt { background-color: #dedede; }
+table.data tbody tr.selected { background-color: #CCEBFF; }
+table.data tbody td { border-bottom: 1px solid #aaa; padding-left: 3px; }
+table.data tfoot td { border-bottom: 1px solid #000; }
+table.data tbody tr:hover, table.data tbody tr.alt:hover, table.data tbody tr.alt:hover { background-color: #CCEBFF; }
+
+.sourceStatsContainer {
+	background-color: #fff;
+	border-color: #ccc #ccc #DDD #ccc; clear: both; color: #333; line-height: 1.5;
+	margin: 2px; padding: 5px; -webkit-border-radius: 10px;
+}
+
+/*
+ * Message boxes for alerts / info messages
+ */
+.messageBox { border: 0; }
+.messageBox p, .messageBox p.textbox { margin: 0; padding: 10px 10px 10px 36px; border: 0; }
+
+.success { background: #E6EFC2 url(../images/messagebox/highlight-line.gif) repeat-x scroll 0 0; border-color: #C6D881; }
+.success p { background:transparent url(../images/messagebox/success.png) no-repeat scroll 7px 8px; }
+
+.warning { background:#FFF6BF url(../images/messagebox/highlight-line.gif) repeat-x scroll 0 0; border-color:#FDD845; }
+.warning p { background:transparent url(../images/messagebox/warning.png) no-repeat scroll 7px 8px; }
+
+.error { background:#FBE3E4 url(../images/messagebox/highlight-line.gif) repeat-x scroll 0 0; border-color:#FBC7C9; }
+.error p { background:transparent url(../images/messagebox/error.png) no-repeat scroll 7px 8px; }
+
+.critical { background:#FBE3E4 url(../images/messagebox/highlight-line.gif) repeat-x scroll 0 0; border-color:#FBC7C9; }
+.critical p { background:transparent url(../images/messagebox/critical.png) no-repeat scroll 7px 8px; }
+
+.info { background:#A8B2C5 url(../images/messagebox/highlight-line.gif) repeat-x scroll 0 0; border-color:#8497BF; }
+.info p { background:transparent url(../images/messagebox/information.png) no-repeat scroll 7px 8px; }

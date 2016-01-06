@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<moviemasher>
+	
+	<media type="video" id="980fe6b0025d1255187f06b04e73dee7" label="Edit_5_1.mov" group="video" url="/resources/video/momusic/980fe6b0025d1255187f06b04e73dee7.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="b9a6f1cca1604fead6c7975e09faeb8a" label="VO-Edit_5_1.mov" group="video" url="/resources/video/momusic/78158a0658bf0a266b835969efe2bded.flv" audio="/resources/video/momusic/78158a0658bf0a266b835969efe2bded.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="78158a0658bf0a266b835969efe2bded" label="Edit_5_1.mov" group="video" url="/resources/video/momusic/78158a0658bf0a266b835969efe2bded.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

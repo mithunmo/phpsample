@@ -1,0 +1,49 @@
+<FilesMatch "\.(conf|ini|inc|tpl)$">
+        Order allow,deny
+        Deny from all
+</FilesMatch>
+<Files "error_log">
+        Deny from all
+</Files>
+<Files "as.xml">
+        Allow from all
+</Files>
+<FilesMatch "\.(ico|pdf|flv|jpg|png|gif|js|css|swf|mp3|php|mp4)(\.gz)?$">
+        Header unset ETag
+        FileETag None
+</FilesMatch>
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|mp3|mp4)(\.gz)?$">
+        ExpiresActive On
+        ExpiresDefault "access plus 4 weeks"
+</FilesMatch>
+<IfModule mod_deflate.c>
+	AddOutputFilterByType DEFLATE text/javascript text/xml text/html application/javascript application/x-javascript text/plain text/css text/text
+</IfModule>
+
+RewriteEngine on
+RewriteRule ^p/([a-zA-Z0-9]+)$ /video/$1?type=min [L]
+RewriteRule ^pop/([a-zA-Z0-9]+)$ /video/$1?type=popup [L]
+RewriteRule ^std/([a-zA-Z0-9]+)$ /video/$1?type=std [L]
+RewriteRule !(\.js|\.ico|\.gif|\.jpg|\.css|\.png|\.swf|\.htm|\.html|robots1\.txt|robots\.txt|\.ttf|\.otf|\.mp3|\.flv|\.php|\.mp4)$ index.php
+php_flag apc.cache_by_default Off
+
+#RedirectMatch 301 /video/(.*) http://www.mofilm.com/video/$1
+#RedirectMatch 301 /user/(.*) http://www.mofilm.com/users/profile/$1
+#Redirect 301 /user https://www.mofilm.com/users/current
+#Redirect 301 /users/profile https://www.mofilm.com/users/current
+
+
+
+#RewriteEngine on
+#RewriteCond %{HTTP_HOST} ^my.*$ [NC]
+#RewriteRule /user/(.*) https://www.mofilm.com/users/profile/$1 [R=301,L]
+
+
+#Redirect 301 my.mofilm.com mofilm.com
+
+#RewriteCond %{HTTP_HOST} ^my\.com$ [NC]
+#RewriteRule ^(.*)$ http://www.mofilm.com [L,R=301]
+
+#Redirect 301 / https://www.mofilm.com/users/login
+#RewriteCond %{HTTP_HOST} ^(my\.)?mofilm\.com$
+#RewriteRule ^(.*)$ https://www.mofilm.comn$1 [R=301,L]

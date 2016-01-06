@@ -1,0 +1,5 @@
+<moviemasher>
+	<media type="audio" id="85b6998c833c87fd7440a5cbc7783fef" label="Obsession Kerry Muzzey" group="audio" audio="http://momusic.s3.amazonaws.com/getty/kerrymuzzey/kerrymuzzey/obsession.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="110"/>
+	<media type="audio" id="5928b7ef078517411d64b6d55777d2c0" label="Lethal Assault Mirror Man" group="audio" audio="http://momusic.s3.amazonaws.com/getty/mirrorman/mirrorman/lethalassault.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="101"/>
+	<media type="audio" id="c4770a73a9938202711a0f9f573129de" label="Battle Plans Nightraid" group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/560000/566098_Battle+Plans.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="244"/>
+</moviemasher>

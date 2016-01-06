@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="video" id="ce9033998e7f2698e7fc357f11285114" label="VO-MASTER_PEEL_1080P_web.mp4" group="video" url="/resources/video/momusic/abd9368bb55adc34eadef9bdaf66e168.flv" audio="/resources/video/momusic/abd9368bb55adc34eadef9bdaf66e168.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="abd9368bb55adc34eadef9bdaf66e168" label="MASTER_PEEL_1080P_web.mp4" group="video" url="/resources/video/momusic/abd9368bb55adc34eadef9bdaf66e168.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

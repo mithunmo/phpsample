@@ -1,0 +1,6 @@
+<moviemasher>
+	<media type="audio" id="3dae90573eb24980d949770a231f7c3b" label="Bitch of a Memory Colors of the Dark" group="audio" audio="http://ftmedia.s3.amazonaws.com/colorsofthedark/thousandships/bitchofamemory.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="32"/>
+	<media type="audio" id="25e9c18aec48ca2911bacf1f49c7bcaf" label="Hand Over Heel Revalver" group="audio" audio="http://ftmedia.s3.amazonaws.com/revalver/experimentaldrumandbass/handoverheel.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="88"/>
+	<media type="audio" id="f08ed1c7cb585a33daeeab2c5b0c047f" label="The Edge Revalver" group="audio" audio="http://ftmedia.s3.amazonaws.com/revalver/electronica/theedge.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="255"/>
+	<media type="audio" id="c99c1f68a0ed208adbad0e06e38d55fe" label="Bazzilla Revalver" group="audio" audio="http://ftmedia.s3.amazonaws.com/revalver/dnb/bazzilla.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="170"/>
+</moviemasher>

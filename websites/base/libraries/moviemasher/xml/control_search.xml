@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<moviemasher>
+
+
+	<control pattern='Clear Video Workspace' 
+				tie="player.mash" id='saver'
+				url="/music/clear" 
+				media="1" mash="1" 
+				symbol="/libraries/moviemasher/com/moviemasher/control/Player/stable.swf@CGI" 
+				icon="/libraries/moviemasher/com/moviemasher/skin/Liquid/stable.swf@BtnOff"
+				overicon="/libraries/moviemasher/com/moviemasher/skin/Liquid/stable.swf@BtnOn"
+				disicon="/libraries/moviemasher/com/moviemasher/skin/Liquid/stable.swf@BtnDis"
+				fill='stretch' width='155' x="500" y="200" textalign='center' textsize="11" textcolor='333333'
+	/>
+				
+	<control width='4' symbol='/libraries/moviemasher/com/moviemasher/control/Player/stable.swf@Icon' />
+	
+	<control pattern='Clear Audio Workspace' 
+		tie="player.mash" id='saver'
+		url="/music/clearAudio" 
+		media="1" mash="1" 
+		symbol="/libraries/moviemasher/com/moviemasher/control/Player/stable.swf@CGI" 
+		icon="/libraries/moviemasher/com/moviemasher/skin/Liquid/stable.swf@BtnOff"
+		overicon="/libraries/moviemasher/com/moviemasher/skin/Liquid/stable.swf@BtnOn"
+		disicon="/libraries/moviemasher/com/moviemasher/skin/Liquid/stable.swf@BtnDis"
+		fill='stretch' width='150' textalign='center' textsize="11" textcolor='333333'
+	/>
+				
+
+	<!--control id="downloader" symbol="/libraries/moviemasher/com/moviemasher/control/Player/stable.swf@CGI" 
+		tooltip="Download Selected Media" 
+		download="{browser.selection.source}" 
+		disable="browser.selection.type=null|browser.selection.type=effect|browser.selection.type=transition|browser.selection.type=theme" 
+		icon="/libraries/moviemasher/com/moviemasher/skin/Liquid/stable.swf@BtnOff"
+		overicon="/libraries/moviemasher/com/moviemasher/skin/Liquid/stable.swf@BtnOn"
+		disicon="/libraries/moviemasher/com/moviemasher/skin/Liquid/stable.swf@BtnDis"
+		fill='stretch' pattern='Remove' 
+		width='0' textalign='center' textsize="11" textcolor='333333'
+	/>
+	<control width='4' symbol='/libraries/moviemasher/com/moviemasher/control/Player/stable.swf@Icon' /-->
+	<!--control id="uploader" symbol="/libraries/moviemasher/com/moviemasher/control/Player/stable.swf@CGI" 
+		tooltip="Transfer and Encode Your Media" upload="/music/upload" 
+		disable="uploader.progress!=null" 
+		icon="/libraries/moviemasher/com/moviemasher/skin/Liquid/stable.swf@BtnOff"
+		overicon="/libraries/moviemasher/com/moviemasher/skin/Liquid/stable.swf@BtnOn"
+		disicon="/libraries/moviemasher/com/moviemasher/skin/Liquid/stable.swf@BtnDis"
+		fill='stretch' pattern='Upload Video' 
+		width='85' textalign='center' textsize="11" textcolor='333333'
+	>
+		<filetype description="Image files" extension="*.mp4;*.flv;*.mov;*.gif;*.ping;*.png" />
+	</control-->
+	<!--control width='4' symbol='/libraries/moviemasher/com/moviemasher/control/Player/stable.swf@Icon' /-->
+	
+	<!--control tie="uploader.progress" hide="uploader.progress=null" width='200' symbol="/libraries/moviemasher/com/moviemasher/control/Player/stable.swf@Slider" back='/libraries/moviemasher/com/moviemasher/skin/Liquid/stable.swf@ScrubBackOff' reveal='/libraries/moviemasher/com/moviemasher/skin/Liquid/stable.swf@ScrubBackOn' />
+	<control width='4' symbol='/libraries/moviemasher/com/moviemasher/control/Player/stable.swf@Icon' />
+	<control pattern="{status}" bind="uploader.status" symbol="/libraries/moviemasher/com/moviemasher/control/Player/stable.swf@Text" forecolor='FFFFFF' textalign="left" textsize="11" wrap="0" width="*" /-->
+
+	<!-- MEDIA SEARCH ICON AND FIELD -->
+	<!--control height='18' icon='/libraries/moviemasher/com/moviemasher/skin/Liquid/stable.swf#SearchLeft' symbol='/libraries/moviemasher/com/moviemasher/control/Player/stable.swf@Icon' />
+	<control height='18' 
+		color='FFFFFF' 
+		textsize='11'
+		width='64' 
+		forecolor='000000' 
+		bind='browser.parameters.terms' 
+		symbol='/libraries/moviemasher/com/moviemasher/control/Editor/stable.swf@Field' 
+	/-->
+	
+	<!-- CLEAR FIELD CONTROL -->
+	<!--control height='18' hide='browser.parameters.terms=empty' bind='browser.parameters.terms' value='' icon='/libraries/moviemasher/com/moviemasher/skin/Liquid/stable.swf#SearchRightX' symbol='/libraries/moviemasher/com/moviemasher/control/Player/stable.swf@Icon' />
+	<control height='18' hide='browser.parameters.terms!=empty' icon='/libraries/moviemasher/com/moviemasher/skin/Liquid/stable.swf#SearchRight' symbol='/libraries/moviemasher/com/moviemasher/control/Player/stable.swf@Icon' /-->
+
+	
+</moviemasher>

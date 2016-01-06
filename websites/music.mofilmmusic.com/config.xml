@@ -1,0 +1,24 @@
+<!DOCTYPE config SYSTEM "../../data/dtds/config.dtd">
+<config>
+	<section name="site" override="1">
+		<option name="parent" value="mofilmmusic.com" override="1" />
+		<option name="active" value="1" override="1" />
+		<option name="theme" value="mofilm" override="1" />
+		<!-- Controls the individual sites log level, (integer) -->
+		<option name="logLevel" value="16" override="1" />
+		<option name="defaultController" value="music" override="1" />		
+	</section>
+	<!-- If useCache is set to false (0), preloadSiteClasses MUST BE enabled -->
+	<section name="autoload" override="1">
+		<option name="useCache" value="1" override="1" />
+		<option name="autoSave" value="1" override="1" />
+		<option name="preloadSiteClasses" value="1" override="1" />
+	</section>
+	<section name="i18n" override="1">
+		<option name="active" value="true" override="1" />
+		<option name="identifier" value="t" override="1" />
+		<option name="defaultLanguage" value="en" override="1" />
+		<option name="adaptor" value="qt" override="1" />
+		<option name="adaptorOptions" value="disableNotices=true|scan=directory" override="1" />
+	</section>
+</config>

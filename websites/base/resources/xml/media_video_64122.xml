@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="video" id="ace60741c15d5da8914239acadcbdea3" label="VO-Kroatien Mofilm Emirates Feinschnitt3.mp4" group="video" url="/resources/video/momusic/9b35c8ac23ed2691ac6e9347c2ae05c9.flv" audio="/resources/video/momusic/9b35c8ac23ed2691ac6e9347c2ae05c9.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="9b35c8ac23ed2691ac6e9347c2ae05c9" label="Kroatien Mofilm Emirates Feinschnitt3.mp4" group="video" url="/resources/video/momusic/9b35c8ac23ed2691ac6e9347c2ae05c9.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

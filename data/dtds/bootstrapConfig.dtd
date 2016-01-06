@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT bootstrap ( application, filename, fileLocation, classes ) >
+
+<!ELEMENT application ( #PCDATA ) >
+<!ELEMENT fileLocation ( #PCDATA ) >
+<!ELEMENT filename ( #PCDATA ) >
+
+<!ELEMENT classes ( class+ ) >
+<!ELEMENT class ( #PCDATA ) >

@@ -1,0 +1,1 @@
+{include file=$oView->getTemplateFile('controllerListPage', 'shared') pageTitle=$oMap->getDescription()}

@@ -1,0 +1,5 @@
+<moviemasher>
+	<media type="audio" id="d21ba520345e7a25ae695d329bd092d8" label="My Priority Inst Paul Glover " group="audio" audio="http://ftmedia.s3.amazonaws.com/paulglover/paulglovercd2/mypriorityinst.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="245"/>
+	<media type="audio" id="d9cc0344f2638781894e0f231765fd7b" label="Uke Pop Doug Michael" group="audio" audio="http://ftmedia.s3.amazonaws.com/dougmichael/dougmichaelcd1/ukepop.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="109"/>
+	<media type="audio" id="9642b0abc7ab1968f40e07368ebdee35" label="Ada Rose Doug Michael" group="audio" audio="http://ftmedia.s3.amazonaws.com/dougmichael/dougmichaelcd1/adarose.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="102"/>
+</moviemasher>

@@ -1,0 +1,6 @@
+<moviemasher>
+	<media type="video" id="e7b76b2e27579bbcab3979c0763f543c" label="VO-REEBOKROUGH1.mp4" group="video" url="/resources/video/momusic/76c8c856c738601155e3bd146a677c24.flv" audio="/resources/video/momusic/76c8c856c738601155e3bd146a677c24.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="76c8c856c738601155e3bd146a677c24" label="REEBOKROUGH1.mp4" group="video" url="/resources/video/momusic/76c8c856c738601155e3bd146a677c24.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="d5ad2410248023f1a3f7d7510864caa4" label="VO-REEBOKROUGH1.mp4" group="video" url="/resources/video/momusic/f34cba0ca2e43da2f5424d65ac8c6a96.flv" audio="/resources/video/momusic/f34cba0ca2e43da2f5424d65ac8c6a96.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="f34cba0ca2e43da2f5424d65ac8c6a96" label="REEBOKROUGH1.mp4" group="video" url="/resources/video/momusic/f34cba0ca2e43da2f5424d65ac8c6a96.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

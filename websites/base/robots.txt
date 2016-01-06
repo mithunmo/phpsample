@@ -1,0 +1,2 @@
+Sitemap: http://www.mofilm.com/sitemap/active_profile.xml
+Sitemap: http://www.mofilm.com/sitemap/award_winning_videos.xml

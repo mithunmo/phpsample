@@ -1,0 +1,7 @@
+<moviemasher>
+	<media type="audio" id="7ea62711ebd4fef125e2c5488189fc98" label="Broadway At The Disco Bill Thompson" group="audio" audio="http://momusic.s3.amazonaws.com/getty/billthompson/billthompson/broadwayatthedisco.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="385"/>
+	<media type="audio" id="1f06d247e6a173c683224993c9261c89" label="Hard Times Robert LaRow" group="audio" audio="http://momusic.s3.amazonaws.com/getty/robertlarow/robertlarow/hardtimes.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="164"/>
+	<media type="audio" id="a9a4cf52a7fa7b5c837a5483cc718867" label="Parking Lot Robert LaRow" group="audio" audio="http://momusic.s3.amazonaws.com/getty/robertlarow/robertlarow/parkinglot.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="171"/>
+	<media type="audio" id="e09c8d447833409b92b8f53d8ed0fc17" label="Rhythm Of Life Children Of Dub" group="audio" audio="http://momusic.s3.amazonaws.com/childrenofdub/esp/rhythmoflife.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="91"/>
+	<media type="audio" id="a902c28a5e7ccd66f92e44f712e95f24" label="The Drop Louis Yoelin " group="audio" audio="http://ftmedia.s3.amazonaws.com/louisyoelin/dubstepelectrodance/thedrop.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="134"/>
+</moviemasher>

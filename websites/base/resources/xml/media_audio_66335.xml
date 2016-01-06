@@ -1,0 +1,6 @@
+<moviemasher>
+	<media type="audio" id="113a9b4c72467e3e0eae23aaa5a9dd6e" label="Feeling Fine 2 Bruce Zimmerman " group="audio" audio="http://ftmedia.s3.amazonaws.com/brucezimmerman/guitarandukesongs/feelingfine2.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="144"/>
+	<media type="audio" id="9744c69b645e194438aaad58a054d634" label="Happy Days Enrique Molano J " group="audio" audio="http://ftmedia.s3.amazonaws.com/enriquemolanoj/enriquemolanojcd2/happydays.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="145"/>
+	<media type="audio" id="f48ec59dca26be8f18f742cf643d3d13" label="Strongest Feelings Bruce H Zimmerman" group="audio" audio="http://ftmedia.s3.amazonaws.com/brucehzimmerman/pianoworks/strongestfeelings.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="219"/>
+	<media type="audio" id="a9267ee218ef19a116ddd150e82b93f4" label="What would you do Gil Small" group="audio" audio="http://ftmedia.s3.amazonaws.com/gilsmall/groovecityent/whatwouldyoudo.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="254"/>
+</moviemasher>

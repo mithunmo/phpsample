@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="video" id="65c6ef0565cbde4b4acea1346f086fe2" label="VO-Audioslave - Cochise.mp4" group="video" url="/resources/video/momusic/933a6ed4cd1d022572c3f061beee2313.flv" audio="/resources/video/momusic/933a6ed4cd1d022572c3f061beee2313.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="933a6ed4cd1d022572c3f061beee2313" label="Audioslave - Cochise.mp4" group="video" url="/resources/video/momusic/933a6ed4cd1d022572c3f061beee2313.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

@@ -1,0 +1,272 @@
+/**
+ * Custom styles for the admin system
+ *
+ * @author Dave Redfern
+ * @copyright Mofilm Ltd. (c) 2010
+ * @package websites
+ * @subpackage admin.mofilm.com
+ * @version $Rev: 284 $
+ */
+
+/*
+ * Account and login
+ */
+#body .accountInfo { margin-left: 120px; width: 300px; margin-right: 50px; }
+#body .accountForm {  }
+#body .accountDetails { width: 650px; }
+#body .accountStats { width: 250px; margin-left: 25px; }
+
+/*
+ * Movie Editor 
+ */
+#body .movieDetails { width: 700px; }
+#body .movieSidebar { width: 200px; margin-left: 25px; }
+
+/*
+ * Main content area and sidebar
+ */
+#body .sideBar { margin-top: 7px; margin-right: 10px; width: 210px; }
+#body .main { width: 720px; }
+
+#body .sideBarReview { margin-top: 7px; margin-right: 10px; width: 290px; border-right: 1px solid #666; border-bottom: 2px solid #000; }
+#body .sideBarReview h3 { background-color: #999; color: #fff; margin: 0px; padding: 4px; font-weight: normal; }
+#body .mainReview { width: 620px; }
+
+#loginForm {  }
+#loginForm label, #profileForm label { width: 250px; display: block; margin-top: 3px; }
+#loginForm label.error, #profileForm label.error { background-color: #fff; color: #f00; }
+input.error { background: transparent; border-left: 4px solid #3366FF; border-right: 1px solid #f00; border-top: 1px solid #f00; border-bottom: 1px solid #f00; }
+
+table.data { width: 100%; }
+table.data.smallText { font-size: 11px; }
+table.data thead tr { background-color: #fff; }
+table.data thead th { border-bottom: 2px solid #000; text-align: left; padding: 3px; }
+table.data thead th.first { width: 80px; }
+table.data thead th.last, table.data tbody td.last { width: 80px; }
+table.data thead th.alignCenter { text-align: center; }
+table.data tbody th { text-align: left; font-weight: bold; }
+table.data tbody tr.alt { background-color: #dedede; }
+table.data tbody tr.selected { background-color: #CCEBFF; }
+table.data tbody td { border-bottom: 1px solid #aaa; padding-left: 3px; }
+table.data tbody td.actions { text-align: center; }
+table.data tfoot td { border-bottom: 1px solid #000; }
+table.data tbody tr:hover, table.data tbody tr.alt:hover, table.data tbody tr.alt.unrated:hover { background-color: #CCEBFF; }
+
+table.navigation td.alignLeft, table.navigation td.alignRight { min-width: 80px; }
+
+/*
+ * Admin Mofilm Player
+ */
+.mofilmMovieFrame { border: 2px solid #999; width: 604px; height: 338px; margin: 0 auto; margin-bottom: 10px; }
+#mofilmMoviePlayer { width: 604px; height: 338px; }
+
+.mofilmPhotoFrame { height: 338px; margin: 0 auto; margin-bottom: 10px;	overflow: auto; }
+#mofilmPhotoPlayer { height: 338px; }
+
+/*
+ * Custom classes and styles
+ */
+input, select, textarea { font-size: 12px; font-family: Verdana, Arial, sans-serif; }
+img.smallIcon { width: 16px; height: 16px; border: 0px; vertical-align: middle; }
+img.msgIcon { width: 24px; height: 24px; border: 0px; vertical-align: middle; margin-right: 5px; }
+img.icon { width: 32px; height: 32px; border: 0px; vertical-align: middle; margin-right: 5px; }
+img.mediumIcon { width: 64px; height: 64px; border: 0px; vertical-align: middle; }
+img.largeIcon { width: 96px; height: 96px; border: 0px; vertical-align: middle; }
+.controller a { vertical-align: middle; }
+.daoAction { float: right; margin-left: 10px; }
+.daoAction a { text-decoration: none; }
+.daoAction button { cursor: pointer; }
+.filters { background: #F0F0F0 url(../images/body/background-content-box.png) repeat-x; border: 1px solid #EEE; border-color: #EEE #EEE #DDD #EEE; padding: 5px; margin-bottom: 5px; }
+.noMargin { margin: 0px; }
+.status { font-style: normal; font-weight: bold; }
+.statusApproved { color: #090; border-color: #090; }
+.statusRejected, .statusRemoved { color: #c00; border-color: #c00; }
+.statusPending, .statusEncoding { color: #ccc; border-color: #ccc; }
+.statusFailedEncoding, .statusDisputed { color: #EBA31E; border-color: #EBA31E; }
+.unrated, .alt.unrated, table.data tbody tr.alt.unrated { background-color: #FFF6BF; }
+.third { width: 30%; }
+.addToFavourites, .removeFromFavourites { margin: 0px; padding: 0px; }
+.addToFavourites .smallIcon, .removeFromFavourites .smallIcon { vertical-align: top; }
+.motd { background: #F0F0F0 url(../images/body/background-content-box.png) repeat-x; border: 1px solid #EEE; border-color: #EEE #EEE #DDD #EEE; clear: both; color: #333; line-height: 1.5; margin: 6px 3px; padding: 10px; }
+.motd .label { float: right; font-style: italic; font-size: 12px; margin: 0px 22px 5px 5px; color: #6699cc; text-align: right; }
+.motd h3 { margin-top: 0px; }
+.motd a.markAsRead {
+	right: 2px; top: 2px; display: block; position: absolute; cursor: pointer; height: 16px; width: 16px; z-index: 1000;
+}
+img.eventLogo, img.sourceLogo { border: 0; line-height: 10px; font-size: 10px; width: 50px; height: 28px; overflow: hidden; }
+td.enabled, td.disabled { font-weight: bold; color: #000; }
+td.enabled { background-color: #C6D881; }
+td.disabled { background-color: #FBC7C9; }
+.noEditDialogue { vertical-align: middle; height: 400px; width: 640px; margin-left: auto; margin-right: auto; }
+.noEditDialogue p { font-size: 20px; padding-top: 100px; text-align: center; }
+.finalistIcon { display: inline-block; background: url(/themes/shared/icons/medal_gold_3.png) no-repeat 0 0; width: 16px; height: 16px; padding-left: 0px; padding-top: 1px; margin: 5px 0px 0px 0px; font-size: 9px; text-align: center; }
+.finalistIcon span { padding-left: 1px; }
+.imgWrap { width: 50px; height: 28px; display: inline-block; overflow: hidden; vertical-align: middle; border: 1px solid #000; padding: 0; margin: 0; }
+
+.editTitle { margin: 3px; }
+.editTitle h2 { display: inline; vertical-align: middle; padding-left: 5px; }
+.editTitle img { border: 0; padding: 0; margin: 0; }
+.moderationControls { border-bottom: 2px solid #000; text-align: center; line-height: 32px; }
+.movieEvent img { border: 1px solid #000; }
+#reviewSearch { display: inline; }
+.movieTools { margin-bottom: 10px; }
+.statusUpdate, .reviewButton { display: block; min-width: 90px; padding: 3px; border: 1px solid #999; text-align: center; vertical-align: middle; float: left; margin-right: 2px; font-weight: bold; }
+.statusUpdate.approve { color: #060; border-color: #060; background-color: #E6EFC2; }
+.statusUpdate.reject { color: #f00; border-color: #f00; background-color: #FBE3E4; }
+.statusUpdate.pending, a.reviewButton { color: #666; border-color: #999; background-color: #dedede; }
+.subject { font-style: italic; font-size: 10px; }
+
+dl.userProfile { list-style: none; margin: 0px; padding: 0px; }
+dl.userProfile dt { float: left; width: 16px; margin-right: 10px; }
+dl.userProfile dd { margin: 0px; padding: 0px; }
+
+dl.profileVideos { list-style: none; margin: 0; padding: 0; }
+dl.profileVideos dt { margin: 0; padding: 0; }
+dl.profileVideos dt a { display: block; width: 150px; height: 84px; margin: 0; }
+dl.profileVideos dd { margin: 0 0 15px 0; padding: 0; border-bottom: 1px solid #999; }
+dl.profileVideos dt a.statusApproved { border: 2px solid #060; }
+dl.profileVideos dt a.statusRejected { border: 2px solid #f00; }
+dl.profileVideos dt a.statusPending { border: 2px solid #ccc; }
+
+div.content, div.sideBar .title {
+	background: #F0F0F0 url(../images/body/background-content-box.png) repeat-x; border: 1px solid #EEE; border-color: #EEE #EEE #DDD #EEE; clear: both; color: #333; line-height: 1.5; margin: 6px 3px; padding: 10px;
+}
+div.sideBar .title { margin-top: 10px; margin: 0px; padding: 3px; }
+div.sideBar .module { padding: 0px 5px; }
+div.content .title { color: #0066CC; font-weight: bold; font-size: 110%; padding: 3px 0px; }
+div.content .title img.icon, div.content .body .controller img.icon {
+	width: 32px; height: 32px; border: 0px; vertical-align: middle; padding-right: 5px;	margin: 0;
+}
+div.content .body { text-align: justify; }
+div.controller { display: block; float: left; margin: 3px; padding: 3px; }
+
+#trackData input { font-size: 10px; }
+#trackData .trackArtist { width: 190px; }
+#trackData .trackTitle { width: 200px; }
+#trackData .trackSupplier { width: 120px; }
+
+.data td.permissionTitle { background-color: #fff; color: #00b3f1; }
+.data td.level0 {  }
+.data td.level1 { padding-left: 20px; }
+.data td.level2 { padding-left: 40px; }
+.data td.level3 { padding-left: 60px; }
+
+.videoGrid { margin: auto; margin-top: 30px; }
+.videoGrid .video { float: left; width: 185px; height: 200px; padding: 10px; margin-bottom: 20px; cursor: pointer; border: 1px solid #ccc; margin-left: 20px; overflow:hidden; }
+.videoGrid .video:hover { background:#eee; cursor: pointer; }
+.videoGrid .thumbnail img { border: 1px solid #303030; }
+.videoGrid .idHolder { vertical-align: middle; }
+.videoGrid .idHolder .movieID { font-weight: bold; vertical-align: middle; line-height: 20px; }
+.videoGrid .title { font-size: 14px; line-height: 15px; margin: 0px; color: #000; }
+.videoGrid .description { font-size: 11px; line-height: 13px; margin: 0px; margin-top: 3px; text-align: right; color: #000; }
+.videoGrid .director { font-size: 11px; line-height: 13px; margin: 0px; text-align: right; color: #000; }
+.videoGrid .flags {  }
+.videoGrid .flags img { border: 1px solid #303030; }
+
+.pmDate { width: 160px; }
+.pmSender { width: 200px; }
+.pmSubject {  }
+.pmStatus { width: 50px; text-align: center; }
+.pmMessage { width: 500px; }
+.pmSubject a.new { font-weight: bold; }
+
+dl.movieSummary dt { font-weight: bold; float: left; width: 100px; margin-right: 15px; }
+dl.movieSummary dd { font-style: italic; }
+
+.event, .report, .addChangeAwardForm {
+	background: #F0F0F0 url(../images/body/background-content-box.png) repeat-x; border: 1px solid #EEE; border-color: #EEE #EEE #DDD #EEE; clear: both; color: #333; line-height: 1.5; margin: 6px 3px; padding: 10px;
+}
+
+.event .eventIcon { float: left; margin-right: 10px; margin-bottom: 10px; }
+.event .eventIcon img { border: 1px solid #000; width: 100px; height: 52px; }
+.event .eventTitle h3 { margin: 0px; }
+.event .eventTitle h3 em { font-weight: normal; font-size: 14px; padding-left: 25px; }
+.report { width: 200px; clear: none; min-height: 170px; }
+.report h4, .report p { margin: 0px; }
+ul.stats { list-style: none; margin: 0px; padding: 0px; }
+ul.stats li { font-size: 14px; }
+ul.stats li li { font-size: 12px; }
+ul.stats ul { list-style: none; margin: 0px; padding: 0px; }
+
+.comment .from { font-weight: bold; border-bottom: 1px solid #000; }
+.comment .date { float: right; margin-top: -18px; font-style: italic; width: 200px; text-align: right; }
+
+
+div.event.collapsed .ui-icon { float: right; margin-top: 0px; cursor: pointer; }
+
+#actions .prev, #actions .next { color: #00b3f1; text-decoration: none; cursor: pointer; }
+#actions .prev:hover, #actions .next:hover { color: #00b3f1; text-decoration: underline; }
+.scrollable { position: relative; overflow: hidden; height: 465px; width: 210px; border: 1px solid #000; }
+.scrollable .items { position: absolute; margin: 0px auto; height: 600px; }
+.scrollable .items div { text-align: center; width: 178px; margin: 5px; }
+
+
+.addChangeFormOptions { border: 0px; }
+
+div .firstdiv {padding-bottom: 1em;}
+.labelsize {float:left;width:700px}
+
+/*
+ * Help Pages
+ */
+#help .sideBar { margin-top: 7px; width: 230px; }
+#help .main { margin: 0; width: 600px; margin-right: 10px; }
+
+/*
+ * Tags
+ */
+ .adminTags {
+    display: inline-block;
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid #D3D3D3;
+    color: #555555;
+    font-weight: normal;
+    padding: 0.5em;
+    margin: 0 0 4px 0;
+ }
+ 
+ .adminAssets {
+    display: inline-block;
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid #D3D3D3;
+    color: #555555;
+    font-weight: normal;
+    padding: 0.5em;
+    margin: 0 0 4px 0;
+ }
+ 
+ .ui-widget-content table {
+     width: 100% !important;
+     padding: 3px
+ }
+ 
+ /*
+  * Grants
+  */
+  
+ .spanred {
+    color: #FF0000;
+    display: inline;
+    font-size: 12px;
+    font-style: italic;
+ }
+  
+ .grantsview { padding: 20px;}
+ 
+ .note {
+     border-bottom: 1px solid #AAA;
+ }
+ 
+.grantsviewMessage { 
+    padding: 20px;
+    height: 300px;
+    overflow: scroll;
+}
+    .ui-dialog .ui-dialog-title {
+          width: 100%;
+          text-align: center;
+    }
+    
+.flowplayer { width: 604px; height: 338px; }
+@media all and (-webkit-min-device-pixel-ratio:0){ .options ul{ margin-top:0px;}  }
+    

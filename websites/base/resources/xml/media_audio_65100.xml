@@ -1,0 +1,5 @@
+<moviemasher>
+	<media type="audio" id="e15ed8ea679c7cab45cfaac0bbe8732e" label="just for love Elle Ven" group="audio" audio="http://ftmedia.s3.amazonaws.com/elleeven/cd2/justforlove.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="258"/>
+	<media type="audio" id="0b47d491add17b9408043da4ac4fb282" label="Cold Trane PSP" group="audio" audio="http://momusic.s3.amazonaws.com/psp/psp1/coldtrane.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="87"/>
+	<media type="audio" id="4fda21d8489f86a6e736a5f531817c7c" label="American Velocity Marc Soucy" group="audio" audio="http://ftmedia.s3.amazonaws.com/marcsoucy/marcsoucynew/americanvelocity.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="206"/>
+</moviemasher>

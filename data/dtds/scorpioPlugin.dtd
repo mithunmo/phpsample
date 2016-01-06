@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT admin ( controller ) >
+
+<!ELEMENT author ( #PCDATA ) >
+
+<!ELEMENT componentID ( #PCDATA ) >
+
+<!ELEMENT controller ( controllers? ) >
+<!ATTLIST controller path CDATA #IMPLIED >
+<!ATTLIST controller description CDATA #IMPLIED >
+<!ATTLIST controller name ID #REQUIRED >
+
+<!ELEMENT controllers ( admin | controller | site )* >
+
+<!ELEMENT copyright ( #PCDATA ) >
+
+<!ELEMENT defaultAdminSite ( #PCDATA ) >
+
+<!ELEMENT defaultBaseSite ( #PCDATA ) >
+
+<!ELEMENT description ( #PCDATA ) >
+
+<!ELEMENT minScorpioVersion ( #PCDATA ) >
+
+<!ELEMENT plugin ( author, copyright, version, minScorpioVersion, componentID, description, summary, defaultBaseSite, defaultAdminSite ) >
+
+<!ELEMENT scorpioPlugin ( plugin, controllers ) >
+
+<!ELEMENT site ( controller+ ) >
+
+<!ELEMENT summary ( #PCDATA ) >
+
+<!ELEMENT version ( #PCDATA ) >

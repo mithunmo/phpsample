@@ -1,0 +1,5 @@
+<moviemasher>
+	<media type="audio" id="0e662a831022327b443243e374151f8e" label="CANT STOP THIS FEELING Louis Yoelin" group="audio" audio="http://ftmedia.s3.amazonaws.com/louisyoelin/dubstepelectrodance/cantstopthisfeeling.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="152"/>
+	<media type="audio" id="c863284f050b1252e1913c08b559b716" label="CANT STOP THIS FEELING Louis Yoelin" group="audio" audio="http://ftmedia.s3.amazonaws.com/louisyoelin/dubstepelectrodance/cantstopthisfeeling.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="152"/>
+	<media type="audio" id="4833b42d2135eaa3b780e0747e05767f" label="BaggageBachelor Red" group="audio" audio="http://momusic.s3.amazonaws.com/getty/bachelorred/bachelorred/baggage.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="192"/>
+</moviemasher>

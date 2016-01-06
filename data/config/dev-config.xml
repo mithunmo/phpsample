@@ -1,0 +1,71 @@
+<!DOCTYPE config SYSTEM "../dtds/config.dtd">
+<config>
+	<section name="app" override="1">
+		<option name="author" value="Dave Redfern" override="1" />
+		<option name="copyright" value="Mofilm (c) 2009-2010" override="" />
+		<option name="version" value="3.0" override="" />
+		<option name="company" value="MOFILM" override="" />
+		<option name="title" value="MOFILM" override="1" />
+	</section>
+	<section name="database" override="1">
+		<option name="dsn" value="%TYPE%://%USER%:%PASSWORD%@%HOST%/%DATABASE%" override="1" />
+		<option name="userWeb" value="mofilm" override="1" />
+		<option name="userScript" value="mofilm" override="1" />
+		<option name="userDaemon" value="mofilm" override="1" />
+		<option name="userPassword" value="EWITN348723lasd123vbv" override="1" />
+		<option name="default" value="mofilm_system" override="1" />
+
+		<option name="logging" value="mofilm_logging" override="1" />
+		<option name="system" value="mofilm_system" override="1" />
+		<option name="wurfl" value="mofilm_wurfl" override="1" />
+
+		<option name="mofilm_content" value="mofilm_content" override="1" />
+		<option name="mofilm_comms" value="mofilm_comms" override="1" />
+		<option name="mofilm_crm" value="mofilm_crm" override="1" />
+		<option name="comms" value="mofilm_messages" override="1" />
+		<option name="reports" value="mofilm_reports" override="1" />
+		<option name="mofilm_stats" value="mofilm_stats" override="1" />
+	</section>
+	<section name="system" override="1">
+		<option name="fromAddress" value="no-reply@mofilm.com" override="1" />
+		<option name="hostname" value="dev.www.mofilm.com" override="1" />
+		<option name="user" value="mofilm" override="1" />
+		<option name="group" value="mofilm" override="1" />
+		<option name="logType" value="systemLogWriterFile" override="1" />
+		<option name="logLevel" value="64" override="1" />
+		<option name="logUseExtendedExceptionData" value="0" override="1" />
+		<option name="isProduction" value="0" override="1" />
+		<option name="checkFolderPermissions" value="1" override="1" />
+		<option name="registerDefaultDatabaseDsn" value="1" override="1" />
+		<option name="registerExceptionHandler" value="1" override="1" />
+		<option name="registerErrorHandler" value="1" override="1" />
+	</section>
+	<section name="mofilm" override="1">
+		<option name="ftpBasePath" value="/home/mofilmftp" override="1" />
+		<option name="originQueuePath" value="/home/mofilmftp/_platform/_originQueue" override="1" />
+		<option name="originCustomerID" value="1139" override="1" />
+		<option name="dailyReports" value="BriefDownloads" override="1" />
+		<option name="screeningUrl" value="http://mofilm.com/p" override="1" />
+		<option name="wwwMofilmUri" value="http://dev.mofilm.com" override="1" />
+		<option name="myMofilmUri" value="http://dev.my.mofilm.com" override="1" />
+	</section>
+	<section name="reports" override="1">
+		<option name="useCache" value="0" override="1" />
+		<option name="cacheTTL" value="43200" override="1" />
+		<option name="cacheFolderPermissions" value="0777" override="1" />
+		<option name="cacheFilePermissions" value="0666" override="1" />
+	</section>
+	<section name="maxmind" override="1">
+		<option name="server" value="geoip1.maxmind.com" override="1" />
+		<option name="license" value="pZlVkwRZFfMf" override="1" />
+	</section>
+	<section name="amazonses" override="1">
+		<option name="accesskey" value="AKIAJ2BVKYYHHMXARDDQ" override="1" />
+		<option name="secretkey" value="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" override="1" />
+	</section>
+	<section name="mofilmmusic" override="1">
+		<option name="server" value="https://mofilmmusic.com" override="1" />
+		<option name="publickey" value="5e8489b562485a390368e251212532499f0776fa" override="1" />
+		<option name="privatekey" value="18c9063a849682ade655f3b82f92895575eeaf48c9f3715c0a16650b650fc95bb64d5f1bf1f255ddcc07b8c585f1592f0eefe49aa7f0683623f185291192d88c" override="1" />		
+	</section>
+</config>

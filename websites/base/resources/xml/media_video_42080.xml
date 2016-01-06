@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="video" id="adaf4228cde8e31f583b747ab2e4533d" label="VO-arla.recut21.9.14.mov" group="video" url="/resources/video/momusic/f7da3003c66d6fa024b1c4179b57ca0b.flv" audio="/resources/video/momusic/f7da3003c66d6fa024b1c4179b57ca0b.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="f7da3003c66d6fa024b1c4179b57ca0b" label="arla.recut21.9.14.mov" group="video" url="/resources/video/momusic/f7da3003c66d6fa024b1c4179b57ca0b.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT controller ( controllers? ) >
+<!ATTLIST controller description CDATA #IMPLIED >
+<!ATTLIST controller path CDATA #IMPLIED >
+<!ATTLIST controller name CDATA #REQUIRED >
+
+<!ELEMENT controllers ( controller+ ) >

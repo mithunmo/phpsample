@@ -1,0 +1,7 @@
+<moviemasher>
+	<media type="audio" id="6081e5aba2fc09bd35c798142ded4786" label="Dragons ride 60sec Ionics Music " group="audio" audio="http://momusic.s3.amazonaws.com/ionicsmusic/album-ionicsmusic/dragonsride60sec.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="60"/>
+	<media type="audio" id="b1649fd9c6cbcd75552693580d24208f" label="Dragons ride full Ionics Music " group="audio" audio="http://momusic.s3.amazonaws.com/ionicsmusic/album-ionicsmusic/dragonsridefull.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="122"/>
+	<media type="audio" id="a1656cbdef6a197d934cf474005d12b2" label="Riptide inst Numa" group="audio" audio="http://ftmedia.s3.amazonaws.com/numa/numainstrumental/riptideinst.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="253"/>
+	<media type="audio" id="39b25f6ead4b1640caa6704ab65dda3d" label="That was then Chris Winham" group="audio" audio="http://ftmedia.s3.amazonaws.com/chriswinham/fliktraxinhouse/thatwasthen.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="78"/>
+	<media type="audio" id="fbccb174a9c3de51328ab2247bb98d39" label="Intelligence Talib Jafri" group="audio" audio="http://ftmedia.s3.amazonaws.com/talibjafri/aiff1of2/intelligence_ft.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="142"/>
+</moviemasher>

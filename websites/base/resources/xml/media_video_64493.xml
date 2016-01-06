@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="video" id="51c5d875bf2e26bc5b094f66bf04db18" label="VO-MOV_4172.MOV.mov" group="video" url="/resources/video/momusic/eb70857c754b2c88127419109cee19b8.flv" audio="/resources/video/momusic/eb70857c754b2c88127419109cee19b8.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="eb70857c754b2c88127419109cee19b8" label="MOV_4172.MOV.mov" group="video" url="/resources/video/momusic/eb70857c754b2c88127419109cee19b8.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

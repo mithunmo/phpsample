@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="audio" id="15a9410eb380c7a7f75124782f7913c0" label="Rollin Matt Baamonde" group="audio" audio="http://ftmedia.s3.amazonaws.com/mattbaamonde/instrumentalmusic/rollin.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="67"/>
+	<media type="audio" id="afa908425b1099bc31672a6883c428f3" label="Caroline Tenpenny Joke" group="audio" audio="http://ftmedia.s3.amazonaws.com/tenpennyjoke/ambushonallsides/caroline.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="240"/>
+</moviemasher>

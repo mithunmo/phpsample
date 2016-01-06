@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="video" id="7f23eadd756e6a6a2e9b41fa76b85337" label="VO-Music Is My Rhythm - Bare.mp4" group="video" url="/resources/video/momusic/1dcad3cdb7e417b29d977b19889d2ee2.flv" audio="/resources/video/momusic/1dcad3cdb7e417b29d977b19889d2ee2.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="1dcad3cdb7e417b29d977b19889d2ee2" label="Music Is My Rhythm - Bare.mp4" group="video" url="/resources/video/momusic/1dcad3cdb7e417b29d977b19889d2ee2.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

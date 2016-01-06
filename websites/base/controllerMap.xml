@@ -1,0 +1,8 @@
+<!DOCTYPE controllers SYSTEM "../../data/dtds/controllerMap.dtd">
+<controllers>
+	<controller name="home" />
+	<controller name="static" description="Static Pages" />
+	<controller name="track" />
+	<controller name="tinymceAction" />
+	<controller name="video" />
+</controllers>

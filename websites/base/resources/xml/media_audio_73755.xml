@@ -1,0 +1,6 @@
+<moviemasher>
+	<media type="audio" id="82ebf85656b33889ac12377b1140aa3b" label="Reminiscence  Sam O'Neill" group="audio" audio="http://momusic.s3.amazonaws.com/samo39neill/samo39neill/reminiscence.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="0"/>
+	<media type="audio" id="d17b8151357c4b5d3d6a3ec5d1f6169b" label="Gentle Gestures Bruce H Zimmerman" group="audio" audio="http://ftmedia.s3.amazonaws.com/brucehzimmerman/quirkynature/gentlegestures.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="124"/>
+	<media type="audio" id="4a00ff038d4d58fd485a1c79c2697c30" label="Little drama queen 60sec Ionics Music" group="audio" audio="http://momusic.s3.amazonaws.com/ionicsmusic/album-ionicsmusic/littledramaqueen60sec.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="60"/>
+	<media type="audio" id="70d410428f5845980e2331935f8041d8" label="White and Blue Randy Parsons" group="audio" audio="http://ftmedia.s3.amazonaws.com/randyparsons/goaheadandlovesomeone/whiteandblue.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="95"/>
+</moviemasher>

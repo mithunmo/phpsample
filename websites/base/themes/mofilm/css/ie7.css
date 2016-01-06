@@ -1,0 +1,29 @@
+/**
+ * Custom styles for IE7
+ *
+ * @author Dave Redfern
+ * @copyright Mofilm Ltd. (c) 2010
+ * @package websites
+ * @subpackage my.mofilm.com
+ * @version $Rev: 128 $
+ */
+#body .registerBar { margin-top: 25px; }
+#body .registerBar hr { margin: 0; }
+.registrationNotes { margin: 10px 0 20px 0; padding-bottom: 20px; }
+
+#nav ul.secondary { margin-left: -70px; }
+#social div.social { margin-top: 20px; padding: 10px; padding-top: 20px; height: 40px; }
+#social div.social div { float: left; width: 250px; margin: 0px 20px; }
+#footer ul.col { margin-left: 20px; width: 250px; margin-right: 30px; }
+
+
+/**
+ * Fixes for IE7 rendering of profiles
+ */
+#profilelanding .header span {
+	display: block; height: 45px; line-height: 45px; padding: 0; padding-top: 20px;
+}
+#leaderboard .entry.alt { background-color: #DFF2EE; border: 1px solid #BDE4DC; }
+#leaderboard .entry div {
+	float: left;
+}

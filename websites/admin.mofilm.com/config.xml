@@ -1,0 +1,23 @@
+<!DOCTYPE config SYSTEM "../../data/dtds/config.dtd">
+<config>
+	<section name="site" override="1">
+		<option name="parent" value="baseAdminSite" override="1" />
+		<option name="active" value="1" override="1" />
+		<!-- Controls the individual sites log level, (integer) -->
+		<option name="logLevel" value="16" override="1" />
+		<option name="requireSSL" value="1" override="1" />
+	</section>
+	<section name="i18n" override="1">
+		<option name="active" value="true" override="1" />
+		<option name="identifier" value="t" override="1" />
+		<option name="defaultLanguage" value="en" override="1" />
+		<option name="adaptor" value="qt" override="1" />
+		<option name="adaptorOptions" value="disableNotices=true|scan=directory" override="1" />
+	</section>
+	<section name="permissions" override="1">
+		<!-- namespace: maps permissions to a particular site  -->
+		<option name="namespace" value="admin" override="1" />
+		<!-- userNamespace: should the namespace be used when building permissions -->
+		<option name="useNamespace" value="1" override="1" />
+	</section>
+</config>

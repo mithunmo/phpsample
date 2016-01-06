@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="video" id="3d8af5be6c8a48c0943bac67e4590d05" label="VO-Chevrolet.mp4" group="video" url="/resources/video/momusic/7eae69dd2e99e76365b3666496d297cd.flv" audio="/resources/video/momusic/7eae69dd2e99e76365b3666496d297cd.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="7eae69dd2e99e76365b3666496d297cd" label="Chevrolet.mp4" group="video" url="/resources/video/momusic/7eae69dd2e99e76365b3666496d297cd.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="audio" id="860c693f1fb659eabc1cbfb58c1a3b14" label="Our Lady Of Rogers Park James Curley" group="audio" audio="http://momusic.s3.amazonaws.com/getty/jamescurley/jamescurley/ourladyofrogerspark.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="231"/>
+	<media type="audio" id="d7542118b609decf165792c17afa4afd" label="Stop And Listen Kiko" group="audio" audio="http://ftmedia.s3.amazonaws.com/kiko/kikocatalog/stopandlisten.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="215"/>
+</moviemasher>

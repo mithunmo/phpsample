@@ -1,0 +1,1582 @@
+<?xml version="1.0"?>
+<!DOCTYPE TS>
+<TS>
+  <context>
+    <name>my.mofilm.cn</name>
+    <message>
+      <source>Resend Activation Email</source>
+      <translation>重新发送激活邮件</translation>
+    </message>
+    <message>
+      <source>Please enter the email address you registered with MOFILM.</source>
+      <translation>请输入您与MOFILM注册的邮件地址.</translation>
+    </message>
+    <message>
+      <source>Email Address:</source>
+      <translation>邮箱地址:</translation>
+    </message>
+    <message>
+      <source>Submit</source>
+      <translation>提交</translation>
+    </message>
+    <message>
+      <source>&#x91CD;&#x65B0;&#x53D1;&#x9001;&#x6FC0;&#x6D3B;&#x90AE;&#x4EF6;</source>
+      <translation>&#x91CD;&#x65B0;&#x53D1;&#x9001;&#x6FC0;&#x6D3B;&#x90AE;&#x4EF6;</translation>
+    </message>
+    <message>
+      <source>&#x8BF7;&#x8F93;&#x5165;&#x60A8;&#x4E0E;MOFILM&#x6CE8;&#x518C;&#x7684;&#x90AE;&#x7BB1;.</source>
+      <translation>&#x8BF7;&#x8F93;&#x5165;&#x60A8;&#x4E0E;MOFILM&#x6CE8;&#x518C;&#x7684;&#x90AE;&#x7BB1;.</translation>
+    </message>
+    <message>
+      <source>&#x90AE;&#x7BB1;&#x540D;:</source>
+      <translation>&#x90AE;&#x7BB1;&#x540D;:</translation>
+    </message>
+    <message>
+      <source>Logged In</source>
+      <translation>已登陆</translation>
+    </message>
+    <message>
+      <source>Welcome back {$oUser-&gt;getFirstname()}</source>
+      <translation>欢迎回来{$oUser-&gt;getFirstname()}</translation>
+    </message>
+    <message>
+      <source>You have successfully logged in to Mofilm.</source>
+      <translation>已经成功登陆Mofilm.</translation>
+    </message>
+    <message>
+      <source>Go to &lt;a href="/account/profile" title="Your Profile"&gt;your profile&lt;/a&gt;.</source>
+      <translation>前往 &lt;a href="/account/profile" title="Your Profile"&gt;您的账户&lt;/a&gt;.</translation>
+    </message>
+    <message>
+      <source>Logged Out</source>
+      <translation>登出</translation>
+    </message>
+    <message>
+      <source>Logout Successful</source>
+      <translation>成功登出</translation>
+    </message>
+    <message>
+      <source>You have been successfully logged out. Please wait to be redirected.</source>
+      <translation>您已成功登出. 请稍等我们转换到其他页面.</translation>
+    </message>
+    <message>
+      <source>If you are not re-directed, &lt;a href="{$metaRedirect}"&gt;please click to continue&lt;/a&gt;.</source>
+      <translation>如果您的页面没有刷新, &lt;a href="{$metaRedirect}"&gt;请点击这里继续&lt;/a&gt;.</translation>
+    </message>
+    <message>
+      <source>Login</source>
+      <translation>登陆</translation>
+    </message>
+    <message>
+      <source>User Login</source>
+      <translation>用户登陆</translation>
+    </message>
+    <message>
+      <source>Password:</source>
+      <translation>密码:</translation>
+    </message>
+    <message>
+      <source>Forgotten your password?</source>
+      <translation>忘记密码？</translation>
+    </message>
+    <message>
+      <source>Not received your activation email?</source>
+      <translation>没有收到激活邮件？</translation>
+    </message>
+    <message>
+      <source>REGISTER&lt;br /&gt;HERE</source>
+      <translation>在这里&lt;br /&gt;注册</translation>
+    </message>
+    <message>
+      <source>Benefits of Registration</source>
+      <translation>注册益处</translation>
+    </message>
+    <message>
+      <source>Access to the MOFILM Community</source>
+      <translation>进入MOFILM社区</translation>
+    </message>
+    <message>
+      <source>Exclusive News</source>
+      <translation>独家新闻Exclusive News</translation>
+    </message>
+    <message>
+      <source>Access to Downloads</source>
+      <translation>进入下载</translation>
+    </message>
+    <message>
+      <source>&#x7528;&#x6237;&#x767B;&#x5F55;</source>
+      <translation>&#x7528;&#x6237;&#x767B;&#x5F55;</translation>
+    </message>
+    <message>
+      <source>&#x90AE;&#x7BB1;&#x5730;&#x5740;</source>
+      <translation>&#x90AE;&#x7BB1;&#x5730;&#x5740;</translation>
+    </message>
+    <message>
+      <source>&#x5BC6;&#x7801;</source>
+      <translation>&#x5BC6;&#x7801;</translation>
+    </message>
+    <message>
+      <source>&#x767B;&#x5F55;</source>
+      <translation>&#x767B;&#x5F55;</translation>
+    </message>
+    <message>
+      <source>&#x5FD8;&#x8BB0;&#x4E86;&#x5BC6;&#x7801;?</source>
+      <translation>&#x5FD8;&#x8BB0;&#x4E86;&#x5BC6;&#x7801;?</translation>
+    </message>
+    <message>
+      <source>&#x6CA1;&#x6536;&#x5230;&#x6FC0;&#x6D3B;&#x90AE;&#x4EF6;?</source>
+      <translation>&#x6CA1;&#x6536;&#x5230;&#x6FC0;&#x6D3B;&#x90AE;&#x4EF6;?</translation>
+    </message>
+    <message>
+      <source>&#x6CE8;&#x518C;&#x5E10;&#x6237;</source>
+      <translation>&#x6CE8;&#x518C;&#x5E10;&#x6237;</translation>
+    </message>
+    <message>
+      <source>&#x6CE8;&#x518C;&#x4F18;&#x52BF;</source>
+      <translation>&#x6CE8;&#x518C;&#x4F18;&#x52BF;</translation>
+    </message>
+    <message>
+      <source>&#x4E0E;MOFILM&#x793E;&#x533A;&#x7D27;&#x5BC6;&#x8054;&#x7CFB;</source>
+      <translation>&#x4E0E;MOFILM&#x793E;&#x533A;&#x7D27;&#x5BC6;&#x8054;&#x7CFB;</translation>
+    </message>
+    <message>
+      <source>&#x72EC;&#x6709;&#x65B0;&#x95FB;</source>
+      <translation>&#x72EC;&#x6709;&#x65B0;&#x95FB;</translation>
+    </message>
+    <message>
+      <source>&#x4E0B;&#x8F7D;&#x7ADE;&#x8D5B;&#x8D44;&#x6E90;</source>
+      <translation>&#x4E0B;&#x8F7D;&#x7ADE;&#x8D5B;&#x8D44;&#x6E90;</translation>
+    </message>
+    <message>
+      <source>Logout</source>
+      <translation>登出</translation>
+    </message>
+    <message>
+      <source>Are you sure you wish to logout?</source>
+      <translation>确定登出账户?</translation>
+    </message>
+    <message>
+      <source>Yes</source>
+      <translation>是</translation>
+    </message>
+    <message>
+      <source>Reset Password</source>
+      <translation>重设密码</translation>
+    </message>
+    <message>
+      <source>&#x5FD8;&#x8BB0;&#x5BC6;&#x7801;</source>
+      <translation>&#x5FD8;&#x8BB0;&#x5BC6;&#x7801;</translation>
+    </message>
+    <message>
+      <source>&#x8BF7;&#x8F93;&#x5165;&#x60A8;&#x4E0E;MOFILM&#x6CE8;&#x518C;&#x7684;&#x90AE;&#x7BB1;&#x5730;&#x5740;</source>
+      <translation>&#x8BF7;&#x8F93;&#x5165;&#x60A8;&#x4E0E;MOFILM&#x6CE8;&#x518C;&#x7684;&#x90AE;&#x7BB1;&#x5730;&#x5740;</translation>
+    </message>
+    <message>
+      <source>Lost Password</source>
+      <translation>丢失密码</translation>
+    </message>
+    <message>
+      <source>You have &lt;strong&gt;{$messageCount}&lt;/strong&gt; new private message{if $messageCount &gt; 1}s{/if}.</source>
+      <translation>你有&lt;strong&gt;{$messageCount}&lt;/strong&gt;条新私信{if $messageCount &gt; 1}s{/if}.</translation>
+    </message>
+    <message>
+      <source>Read your messages</source>
+      <translation>阅读信息</translation>
+    </message>
+    <message>
+      <source>Your Inbox</source>
+      <translation>收件箱</translation>
+    </message>
+    <message>
+      <source>Received</source>
+      <translation>已收</translation>
+    </message>
+    <message>
+      <source>From</source>
+      <translation>从</translation>
+    </message>
+    <message>
+      <source>Status</source>
+      <translation>状态</translation>
+    </message>
+    <message>
+      <source>Subject</source>
+      <translation>主题</translation>
+    </message>
+    <message>
+      <source>Unread New</source>
+      <translation>未阅读新邮件</translation>
+    </message>
+    <message>
+      <source>Unread</source>
+      <translation>未阅读</translation>
+    </message>
+    <message>
+      <source>Replied</source>
+      <translation>已回复</translation>
+    </message>
+    <message>
+      <source>Read</source>
+      <translation>阅读</translation>
+    </message>
+    <message>
+      <source>Delete</source>
+      <translation>删除</translation>
+    </message>
+    <message>
+      <source>There are no messages in your inbox.</source>
+      <translation>收件箱无邮件.</translation>
+    </message>
+    <message>
+      <source>Reading Message - </source>
+      <translation>阅读信息 - </translation>
+    </message>
+    <message>
+      <source>Message</source>
+      <translation>信息</translation>
+    </message>
+    <message>
+      <source>Reply to Message - </source>
+      <translation>回复信息 - </translation>
+    </message>
+    <message>
+      <source>Reply to - </source>
+      <translation>回复至 - </translation>
+    </message>
+    <message>
+      <source>To</source>
+      <translation>至</translation>
+    </message>
+    <message>
+      <source>Your Message</source>
+      <translation>你的信息</translation>
+    </message>
+    <message>
+      <source>HTML is not allowed and will be stripped. Carriage returns will be left intact.</source>
+      <translation>不允许HTML格式. 此操作将返回.</translation>
+    </message>
+    <message>
+      <source>Original Message</source>
+      <translation>原信息</translation>
+    </message>
+    <message>
+      <source>On {$oModel-&gt;getMessage()-&gt;getCreateDate()|date_format:'%d-%m-%Y'}, {$oModel-&gt;getMessage()-&gt;getSender()-&gt;getFullname()} wrote:</source>
+      <translation>On {$oModel-&gt;getMessage()-&gt;getCreateDate()|date_format:'%d-%m-%Y'}, {$oModel-&gt;getMessage()-&gt;getSender()-&gt;getFullname()} wrote:</translation>
+    </message>
+    <message>
+      <source>Sent Message - </source>
+      <translation>已发送信息 - </translation>
+    </message>
+    <message>
+      <source>Sent</source>
+      <translation>已发送</translation>
+    </message>
+    <message>
+      <source>Sent Items</source>
+      <translation>已发送文件</translation>
+    </message>
+    <message>
+      <source>There are no messages in your sent items.</source>
+      <translation>发件箱无信息.</translation>
+    </message>
+    <message>
+      <source>Access Denied</source>
+      <translation>禁止访问</translation>
+    </message>
+    <message>
+      <source>Sorry, but you are not authorised to access this resource.</source>
+      <translation>对不起，您没有权限访问此资源.</translation>
+    </message>
+    <message>
+      <source>Back to Dashboard</source>
+      <translation>回到控制面板</translation>
+    </message>
+    <message>
+      <source>Your Profile</source>
+      <translation>您的账户</translation>
+    </message>
+    <message>
+      <source>Click to upload a new profile image</source>
+      <translation>点击上传新头像</translation>
+    </message>
+    <message>
+      <source>Upload a profile image</source>
+      <translation>上传头像</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>取消</translation>
+    </message>
+    <message>
+      <source>Oops, you must have javascript and Flash to upload images.</source>
+      <translation>必须开启javascript或Flash来上传图片.</translation>
+    </message>
+    <message>
+      <source>Update Your Profile</source>
+      <translation>更新账户</translation>
+    </message>
+    <message>
+      <source>Here you can edit your user profile.</source>
+      <translation>在这里你可以编辑你的账户信息.</translation>
+    </message>
+    <message>
+      <source>Click this icon</source>
+      <translation>点击这个图标</translation>
+    </message>
+    <message>
+      <source>to get additional help.</source>
+      <translation>来获取更多帮助.</translation>
+    </message>
+    <message>
+      <source>You can upload a profile image and we will resize it to 200x200px.</source>
+      <translation>你可以上传一个账户图片，我们将压缩至200x200px.</translation>
+    </message>
+    <message>
+      <source>Smaller images will be centred on a white background.</source>
+      <translation>小图片将会白色背景居中.</translation>
+    </message>
+    <message>
+      <source>You can upload GIF, JPG and PNG files up to 1MB in size.</source>
+      <translation>可以上传最大不超过1MB的GIF,JPG和PNG文件.</translation>
+    </message>
+    <message>
+      <source>To submit a video you must enter your phone number and full postal address so we can contact you if your video is shortlisted.</source>
+      <translation>在您上传视频时，请务必留下您的电话号码和联络地址，以便我们在您的作品入围时及时联络您.</translation>
+    </message>
+    <message>
+      <source>Reset Changes</source>
+      <translation>重置更改</translation>
+    </message>
+    <message>
+      <source>Save</source>
+      <translation>保存</translation>
+    </message>
+    <message>
+      <source>Save Changes</source>
+      <translation>保存更改</translation>
+    </message>
+    <message>
+      <source>As a registered user you can download competition briefs, assets, resources and upload your videos.</source>
+      <translation>身为注册用户您可以下载竞赛摘要，资料，素材和上传视频.</translation>
+    </message>
+    <message>
+      <source>Registered on {$oUser-&gt;getRegistered()|date_format:"%d/%m/%y"}</source>
+      <translation>注册于 {$oUser-&gt;getRegistered()|date_format:"%d/%m/%y"}</translation>
+    </message>
+    <message>
+      <source>Contact Details</source>
+      <translation>联系信息</translation>
+    </message>
+    <message>
+      <source>Phone Number</source>
+      <translation>电话号码</translation>
+    </message>
+    <message>
+      <source>help</source>
+      <translation>帮助</translation>
+    </message>
+    <message>
+      <source>We need your phone number in case you are short-listed or win a competition. In fact you cannot enter competitions without this.</source>
+      <translation>我们需要您的电话信息以便我们在您影片入围或者赢得优胜时及时联系您.如果不提供此信息您将无法参赛.</translation>
+    </message>
+    <message>
+      <source>Mobile Phone Number</source>
+      <translation>移动电话</translation>
+    </message>
+    <message>
+      <source>You don't have to give your mobile number, but it helps us if we need to contact you.</source>
+      <translation>移动电话号码不是必填选项，但其会帮助我们及时联系您.</translation>
+    </message>
+    <message>
+      <source>Skype</source>
+      <translation>Skype</translation>
+    </message>
+    <message>
+      <source>Address</source>
+      <translation>地址</translation>
+    </message>
+    <message>
+      <source>Some of our competitions are limited to specific countries, or require us to send you additional information. We need a current address where we can send you important documents.</source>
+      <translation>我们的一些活动限制国际地区参赛，或者需要我们给您提供额外参赛信息.我们需要您的最新住址以便我们发送给您相关重要文件.</translation>
+    </message>
+    <message>
+      <source>City</source>
+      <translation>城市</translation>
+    </message>
+    <message>
+      <source>County / State</source>
+      <translation>市 / 省</translation>
+    </message>
+    <message>
+      <source>For people in the USA and Canada with javascript enabled there is auto-complete of the Provinces and States.</source>
+      <translation>如果你是美国和加拿大地区，区和洲的选项将会自动填写.</translation>
+    </message>
+    <message>
+      <source>Postcode / ZIP</source>
+      <translation>邮编</translation>
+    </message>
+    <message>
+      <source>Country</source>
+      <translation>国家</translation>
+    </message>
+    <message>
+      <source>We need to know where you are from because sometimes our competitions are only open to certain countries. It also helps us send important documents to the right place!</source>
+      <translation>我们需要知道您来自于哪个国家/地区因为我们的竞赛有些时候只在一些国家地区举办. 这也帮助我们发送重要文件到正确的地点.</translation>
+    </message>
+    <message>
+      <source>Login using Facebook</source>
+      <translation>使用Facebook登陆</translation>
+    </message>
+    <message>
+      <source>Login using your Facebook account : </source>
+      <translation>使用Facebook账户登陆: </translation>
+    </message>
+    <message>
+      <source>Login Details</source>
+      <translation>登陆信息</translation>
+    </message>
+    <message>
+      <source>Email Address</source>
+      <translation>邮件地址</translation>
+    </message>
+    <message>
+      <source>Current Password</source>
+      <translation>现有密码</translation>
+    </message>
+    <message>
+      <source>New Password (leave blank to keep existing password) - min 8 chars</source>
+      <translation>新密码 (留白保留现有密码) - 最少8位字体</translation>
+    </message>
+    <message>
+      <source>Confirm Password</source>
+      <translation>确认密码</translation>
+    </message>
+    <message>
+      <source>My.MOFILM.cn Profile Settings</source>
+      <translation>My.MOFILM.cn账户设置</translation>
+    </message>
+    <message>
+      <source>Here you can control your my.mofilm.com profile, including any active information!</source>
+      <translation>在这里可以控制您的账户，包括任何已激活信息. 您可以在任何时候设置您的账户失效不可访问. 您不会损失您的账户名并且可以在任何时间重新激活.</translation>
+    </message>
+    <message>
+      <source>You can block access to your profile at any time by marking it unavailable.</source>
+      <translation>您可以在任何时候设置您的账户失效不可访问.</translation>
+    </message>
+    <message>
+      <source>You won't lose your profile name and this can be re-activated at any time.</source>
+      <translation>您不会损失您的账户名并且可以在任何时间重新激活.</translation>
+    </message>
+    <message>
+      <source>&lt;strong&gt;Important:&lt;/strong&gt; you can change your profile name at any time BUT you cannot revert to a previous name.</source>
+      <translation>&lt;strong&gt;重要:&lt;/strong&gt; 您可以在任何时间更换账户名但其不能是之前使用过的账户名.</translation>
+    </message>
+    <message>
+      <source>Your profile is active</source>
+      <translation>您的账户已激活</translation>
+    </message>
+    <message>
+      <source>Your profile is currently active. While it is active you cannot change your profile name.</source>
+      <translation>您的账户目前是激活状态.Your profile is currently active. While it is active you cannot change your profile name.</translation>
+    </message>
+    <message>
+      <source>Your Profile Name (must be unique and will be checked).</source>
+      <translation>您的账户名(必须是独特的并将被系统检测).</translation>
+    </message>
+    <message>
+      <source>You can only use: A-Z, a-z, 0-9, - (hyphen / dash) and _ (underscore). Max length: 50 characters. It is recommended to use lowercase characters and numbers, separate words with a - or _.</source>
+      <translation>您只可使用: A-Z, a-z, 0-9, - (连字号/中划符) 和 _ (下划线). 最大长度:50字. 我们建议使用小写字体和数字，使用-或者_区分字体.</translation>  
+    </message>
+    <message>
+      <source>Make your profile available?</source>
+      <translation>使您的账户激活？</translation>
+    </message>
+    <message>
+      <source>Tell us about yourself</source>
+      <translation>简单介绍自己</translation>
+    </message>
+    <message>
+      <source>Max length, {mofilmConstants::PROFILE_TEXT_LENGTH} characters.</source>
+      <translation>最大长度, {mofilmConstants::PROFILE_TEXT_LENGTH} 字体.</translation>
+    </message>
+    <message>
+      <source>Here you can write a few sentences that will be displayed below your profile picture.</source>
+      <translation>在这里您可以写下一些句子显示在您的账户头像下.</translation>
+    </message>
+    <message>
+      <source>Please, &lt;strong&gt;NO&lt;/strong&gt; HTML, BBCode or other markups - they are not supported.</source>
+      <translation>请注意, &lt;strong&gt;NO&lt;/strong&gt; HTML, 论坛代码或者其他语言将不会支持.</translation>
+    </message>
+    <message>
+      <source>Remember: keep it clean - this is a family friendly site. Max length, {mofilmConstants::PROFILE_TEXT_LENGTH} characters.</source>
+      <translation>请记住: 保持简介 - 这是一个社区友好的网站. 最大长度{mofilmConstants::PROFILE_TEXT_LENGTH}字.</translation>
+    </message>
+    <message>
+      <source>Select your best or favourite movies (up to 5 total).</source>
+      <translation>选择你最喜欢的电影（最多5个).</translation>
+    </message>
+    <message>
+      <source>Left click and drag the movies to / from the active area.</source>
+      <translation>视频可从激活区域左击并拽出.</translation>
+    </message>
+    <message>
+      <source>You can change the movie title by clicking on it when in the active area.</source>
+      <translation>当视频在激活区域时可点击改变标题.</translation>
+    </message>
+    <message>
+      <source>Your titles will be kept even if you change the movie order.</source>
+      <translation>当改变视频顺序时任何标题改变也会自动保存.</translation>
+    </message>
+    <message>
+      <source>To remove a movie, drag and drop it out of the active area.</source>
+      <translation>将视频拽出激活区域移除视频.</translation>
+    </message>
+    <message>
+      <source>Changes to the movies will automatically save any changes to your profile.</source>
+      <translation>任何影片改变将自动保存到账户中.</translation>
+    </message>
+    <message>
+      <source>At the moment you can only select from your approved, active movies.</source>
+      <translation>目前只可以从激活认证影片中选择.</translation>
+    </message>
+    <message>
+      <source>We automatically show your award winning movies.</source>
+      <translation>我们将自动显示您的得奖影片.</translation>
+    </message>
+    <message>
+      <source>Remember: keep your movie titles clean!</source>
+      <translation>重要:请保持影片标题简洁!</translation>
+    </message>
+    <message>
+      <source>Your available movies:</source>
+      <translation>有效影片:</translation>
+    </message>
+    <message>
+      <source>Preferences</source>
+      <translation>设置</translation>
+    </message>
+    <message>
+      <source>Language</source>
+      <translation>语言</translation>
+    </message>
+    <message>
+      <source>At MOFILM we try to translate our messages and websites, this option allows you to receive messages in an alternative language. If we don't have a translation, you will still receive English.</source>
+      <translation>在MOFILM我们尝试翻译我们的信息和网站，这个选项允许您接受一个不同语言的信息. 如果我们没有相关翻译，您将仍收到英语.</translation>
+    </message>
+    <message>
+      <source>Receive Private Message Alerts</source>
+      <translation>收到私信提醒</translation>
+    </message>
+    <message>
+      <source>We use private messages to contact you about issues with your uploaded films. By default we send an email to you when you receive a new message. Set this to 'No' to not receive these messages.</source>
+      <translation>我们使用私信来联系您关于已上传视频的任何问题. 默认情况下当你接收到一个新私信的时候我们也会发送一个邮件至您邮箱.设置选项为'不要发送'来阻止这些信息.</translation>
+    </message>
+    <message>
+      <source>Enable review step before submitting the video to competition</source>
+      <translation>在上传视频至比赛前激活审查步骤</translation>
+    </message>
+    <message>
+      <source>This flag shall signify whether the user wishes their submitted videos to be automatically committed to the moderation &amp; judging phase </source>
+      <translation>这个旗表示用户是否希望将他们上传视频自动递交到评委&amp;审查阶段</translation>
+    </message>
+    <message>
+      <source>About You</source>
+      <translation>自我介绍</translation>
+    </message>
+    <message>
+      <source>Firstname</source>
+      <translation>名</translation>
+    </message>
+    <message>
+      <source>Surname</source>
+      <translation>姓</translation>
+    </message>
+    <message>
+      <source>Date of Birth</source>
+      <translation>生日</translation>
+    </message>
+    <message>
+      <source>We need your date of birth because MOFILM competitions are only open to people aged 16 or over.</source>
+      <translation>我们需要您提供生日信息因为MOFILM竞赛只允许16岁以上的选手参加.</translation>
+    </message>
+    <message>
+      <source>What are you doing?</source>
+      <translation>最新项目</translation>
+    </message>
+    <message>
+      <source>Here you can let your fellow filmmakers know what you are working on. Keep it clean and short!</source>
+      <translation>这里可让关注你的电影人知道你正在做什么项目. 请保持简洁！</translation>
+    </message>
+    <message>
+      <source>Occupation</source>
+      <translation>职业</translation>
+    </message>
+    <message>
+      <source>What is your day job? Student? Filmmaker? Designer? Let us know, and anyone visiting your profile.</source>
+      <translation>你的主业是什么？学生？电影制作人？设计师？请让我们以及任何访问您账户的用户了解.</translation>
+    </message>
+    <message>
+      <source>Company</source>
+      <translation>公司</translation>
+    </message>
+    <message>
+      <source>Whether you have your own company or work for someone else, tell your fellow MOFILMers</source>
+      <translation>Whether you have your own company or work for someone else, tell your fellow MOFILMers</translation>
+    </message>
+    <message>
+      <source>Website</source>
+      <translation>网站</translation>
+    </message>
+    <message>
+      <source>Have your own website or videos somewhere else? Why not share that with the rest of MOFILM.</source>
+      <translation>Have your own website or videos somewhere else? Why not share that with the rest of MOFILM.</translation>
+    </message>
+    <message>
+      <source>Edit User Details</source>
+      <translation>编辑用户信息</translation>
+    </message>
+    <message>
+      <source>Send a message</source>
+      <translation>发送信息</translation>
+    </message>
+    <message>
+      <source>Send a message to this user</source>
+      <translation>发送信息到此用户</translation>
+    </message>
+    <message>
+      <source>Your Stats</source>
+      <translation>账户状态</translation>
+    </message>
+    <message>
+      <source>Movies Uploaded</source>
+      <translation>已上传视频</translation>
+    </message>
+    <message>
+      <source>Your 5 Most Recent Videos</source>
+      <translation>您的最近5个视频</translation>
+    </message>
+    <message>
+      <source>Watch </source>
+      <translation>观看</translation>
+    </message>
+    <message>
+      <source>You have not uploaded any videos yet.</source>
+      <translation>You have not uploaded any videos yet.</translation>
+    </message>
+    <message>
+      <source>Register New User</source>
+      <translation>注册新用户</translation>
+    </message>
+    <message>
+      <source>Sign Up to MOFILM</source>
+      <translation>注册到MOFILM</translation>
+    </message>
+    <message>
+      <source>You need to register with MOFILM to continue.</source>
+      <translation>您需要与MOFILM注册来继续.</translation>
+    </message>
+    <message>
+      <source>Password</source>
+      <translation>密码</translation>
+    </message>
+    <message>
+      <source>How did you hear about us ?</source>
+      <translation>你是怎么知道我们的?</translation>
+    </message>
+    <message>
+      <source>MOFILM Live! Code</source>
+      <translation>MOFILM Live!代码</translation>
+    </message>
+    <message>
+      <source>Receive News and Events</source>
+      <translation>接受新闻和活动信息</translation>
+    </message>
+    <message>
+      <source>Sign Me Up!</source>
+      <translation>注册!</translation>
+    </message>
+    <message>
+      <source>You must be 16 or older to enter MOFILM competitions</source>
+      <translation>您必须在16岁或以上来参加MOFILM竞赛</translation>
+    </message>
+    <message>
+      <source>Attended a MOFILM Live Event? Enter the code you received from the day to be eligible for future special promotions and events.</source>
+      <translation>参加过MOFILM Live活动? 填入你当日收到的代码来参与我们的专属推广与活动.</translation>
+    </message>
+    <message>
+      <source>From time to time MOFILM would like to send you emails about upcoming competitions, MOFILM Live Events and relevant news from the MOFILM world. Untick the box if you do not want to receive these emails.</source>
+      <translation> MOFILM时不时的发送给你关于最新活动的邮件, MOFILM Live活动以及相关MOFILM社区的新闻。取消勾选框如果您不愿意收到这些邮件。</translation>
+    </message>
+    <message>
+      <source>User Registration</source>
+      <translation>用户注册</translation>
+    </message>
+    <message>
+      <source>In order to get full access to the MOFILM website you need to register with us.</source>
+      <translation>您需要与我们MOFILM网站注册来获取全部信息。</translation>
+    </message>
+    <message>
+      <source>MOFILM respects your privacy and will not sell your information to third parties or send you spam emails you don't want.</source>
+      <translation>MOFILM尊重隐私权并且我们保证不会将你的个人信息提供给任何第三方或者发送给你无关的垃圾邮件.</translation>
+    </message>
+    <message>
+      <source>You should read our &lt;a href="{$mofilmWwwUri}/info/userAgreement.html" title="MOFILM: Registered User Agreement"&gt;Registered User Agreement&lt;/a&gt; before signing up.</source>
+      <translation> 在您与我们注册前请仔细阅读我们注册用户须知，阅读注册用户须知请点击 &lt;a href="http://www.mofilm.cn/terms-conditions/" title="MOFILM: Registered User Agreement"&gt;链接&lt;/a&gt; </translation>
+    </message>
+    <message>
+      <source>MOFILM: Open Competitions</source>
+      <translation>MOFILM:最新竞赛</translation>
+    </message>
+    <message>
+      <source>MOFILM: Past Competitions</source>
+      <translation>MOFILM:过往竞赛</translation>
+    </message>
+    <message>
+      <source>&#x4E0E;MOFILM&#x6CE8;&#x518C;</source>
+      <translation>&#x4E0E;MOFILM&#x6CE8;&#x518C;</translation>
+    </message>
+    <message>
+      <source>&#x8BF7;&#x586B;&#x5199;&#x4EE5;&#x4E0B;&#x8868;&#x5355;&#x6CE8;&#x518C;MOFILM&#x5E10;&#x6237;</source>
+      <translation>&#x8BF7;&#x586B;&#x5199;&#x4EE5;&#x4E0B;&#x8868;&#x5355;&#x6CE8;&#x518C;MOFILM&#x5E10;&#x6237;</translation>
+    </message>
+    <message>
+      <source>&#x59D3;</source>
+      <translation>&#x59D3;</translation>
+    </message>
+    <message>
+      <source>&#x540D;</source>
+      <translation>&#x540D;</translation>
+    </message>
+    <message>
+      <source>&#x786E;&#x8BA4;&#x5BC6;&#x7801;</source>
+      <translation>&#x786E;&#x8BA4;&#x5BC6;&#x7801;</translation>
+    </message>
+    <message>
+      <source>&#x56FD;&#x5BB6;/&#x5730;&#x533A;</source>
+      <translation>&#x56FD;&#x5BB6;/&#x5730;&#x533A;</translation>
+    </message>
+    <message>
+      <source>&#x60A8;&#x662F;&#x600E;&#x4E48;&#x77E5;&#x9053;MOFILM&#x7684;?</source>
+      <translation>&#x60A8;&#x662F;&#x600E;&#x4E48;&#x77E5;&#x9053;MOFILM&#x7684;?</translation>
+    </message>
+    <message>
+      <source>&#x751F;&#x65E5;</source>
+      <translation>&#x751F;&#x65E5;</translation>
+    </message>
+    <message>
+      <source>&#x63A5;&#x6536;&#x65B0;&#x95FB;&#x4E0E;&#x6D3B;&#x52A8;&#x901A;&#x77E5;</source>
+      <translation>&#x63A5;&#x6536;&#x65B0;&#x95FB;&#x4E0E;&#x6D3B;&#x52A8;&#x901A;&#x77E5;</translation>
+    </message>
+    <message>
+      <source>&#x7528;&#x6237;&#x6CE8;&#x518C;</source>
+      <translation>&#x7528;&#x6237;&#x6CE8;&#x518C;</translation>
+    </message>
+    <message>
+      <source>&#x6CA1;&#x6709;&#x6536;&#x5230;&#x6FC0;&#x6D3B;&#x90AE;&#x4EF6;?</source>
+      <translation>&#x6CA1;&#x6709;&#x6536;&#x5230;&#x6FC0;&#x6D3B;&#x90AE;&#x4EF6;?</translation>
+    </message>
+    <message>
+      <source>Registration Email Sent</source>
+      <translation>已发送注册邮件</translation>
+    </message>
+    <message>
+      <source>&#x6CE8;&#x518C;&#x90AE;&#x4EF6;&#x5DF2;&#x53D1;&#x9001;</source>
+      <translation>&#x6CE8;&#x518C;&#x90AE;&#x4EF6;&#x5DF2;&#x53D1;&#x9001;</translation>
+    </message>
+    <message>
+      <source>&#x611F;&#x8C22;&#x60A8;&#x4E0E;MOFILM&#x6CE8;&#x518C;</source>
+      <translation>&#x611F;&#x8C22;&#x60A8;&#x4E0E;MOFILM&#x6CE8;&#x518C;</translation>
+    </message>
+    <message>
+      <source>&#x6211;&#x4EEC;&#x5DF2;&#x7ECF;&#x53D1;&#x9001;&#x4E00;&#x5C01;&#x5E26;&#x6709;&#x6FC0;&#x6D3B;&#x60A8;&#x5E10;&#x6237;&#x94FE;&#x63A5;&#x7684;email&#x5230;&lt;strong&gt;{$email}&lt;/strong&gt; &#x8BF7;&#x70B9;&#x51FB;&#x6B64;&#x94FE;&#x63A5;&#x6765;&#x6FC0;&#x6D3B;&#x60A8;&#x7684;&#x5E10;&#x6237;.</source>
+      <translation>&#x6211;&#x4EEC;&#x5DF2;&#x7ECF;&#x53D1;&#x9001;&#x4E00;&#x5C01;&#x5E26;&#x6709;&#x6FC0;&#x6D3B;&#x60A8;&#x5E10;&#x6237;&#x94FE;&#x63A5;&#x7684;email&#x5230;&lt;strong&gt;{$email}&lt;/strong&gt; &#x8BF7;&#x70B9;&#x51FB;&#x6B64;&#x94FE;&#x63A5;&#x6765;&#x6FC0;&#x6D3B;&#x60A8;&#x7684;&#x5E10;&#x6237;.</translation>
+    </message>
+    <message>
+      <source>&#x60A8;&#x5E94;&#x8BE5;&#x5F88;&#x5FEB;&#x6536;&#x5230;&#x6B64;email, &#x5982;&#x679C;&#x6CA1;&#x6709;&#x8BF7;&lt;a href="{$activationcnUri}"&gt;&#x70B9;&#x51FB;&#x8FD9;&#x91CC;&#x91CD;&#x65B0;&#x53D1;&#x9001;&lt;/a&gt;.</source>
+      <translation>&#x60A8;&#x5E94;&#x8BE5;&#x5F88;&#x5FEB;&#x6536;&#x5230;&#x6B64;email, &#x5982;&#x679C;&#x6CA1;&#x6709;&#x8BF7;&lt;a href="{$activationcnUri}"&gt;&#x70B9;&#x51FB;&#x8FD9;&#x91CC;&#x91CD;&#x65B0;&#x53D1;&#x9001;&lt;/a&gt;.</translation>
+    </message>
+    <message>
+      <source>&#x4E3A;&#x4EC0;&#x4E48;&#x4E0D;&#x52A0;&#x5165;&#x6211;&#x4EEC;&#x7684;&#x793E;&#x533A;&#x5462;? &#x5173;&#x6CE8;&lt;a href="http://www.weibo.com/mofilm" target="_blank"&gt;MOFILM&#x7684;&#x5FAE;&#x535A;&lt;/a&gt;
+						&#x6216;&#x8005;&#x52A0;&#x5165;&lt;a href="http://www.douban.com/group/mofilm/" target="_blank"&gt;&#x8C46;&#x74E3;&#x5C0F;&#x7EC4;&lt;/a&gt;&#x4EE5;&#x4FBF;&#x60A8;&#x65F6;&#x4E0D;&#x65F6;&#x4E86;&#x89E3;&#x6211;&#x4EEC;&#x6700;&#x65B0;&#x6D3B;&#x52A8;&#x7684;&#x66F4;&#x65B0;.</source>
+      <translation>&#x4E3A;&#x4EC0;&#x4E48;&#x4E0D;&#x52A0;&#x5165;&#x6211;&#x4EEC;&#x7684;&#x793E;&#x533A;&#x5462;? &#x5173;&#x6CE8;&lt;a href="http://www.weibo.com/mofilm" target="_blank"&gt;MOFILM&#x7684;&#x5FAE;&#x535A;&lt;/a&gt;
+						&#x6216;&#x8005;&#x52A0;&#x5165;&lt;a href="http://www.douban.com/group/mofilm/" target="_blank"&gt;&#x8C46;&#x74E3;&#x5C0F;&#x7EC4;&lt;/a&gt;&#x4EE5;&#x4FBF;&#x60A8;&#x65F6;&#x4E0D;&#x65F6;&#x4E86;&#x89E3;&#x6211;&#x4EEC;&#x6700;&#x65B0;&#x6D3B;&#x52A8;&#x7684;&#x66F4;&#x65B0;.</translation>
+    </message>
+    <message>
+      <source>&lt;a href="{$logincnUri}"&gt;&#x8FD4;&#x56DE;&#x767B;&#x5F55;&#x9875;&#x9762;&lt;/a&gt;</source>
+      <translation>&lt;a href="{$logincnUri}"&gt;&#x8FD4;&#x56DE;&#x767B;&#x5F55;&#x9875;&#x9762;&lt;/a&gt;</translation>
+    </message>
+    <message>
+      <source>Thanks for taking the time to register with MOFILM.</source>
+      <translation>感谢您与MOFILM注册.</translation>
+    </message>
+    <message>
+      <source>We've sent you an email to &lt;strong&gt;{$email}&lt;/strong&gt; with a link to activate your account.</source>
+      <translation>我们已发送邮件到&lt;strong&gt;{$email}&lt;/strong&gt; 其带有一个链接来激活您的账户.</translation>
+    </message>
+    <message>
+      <source>You should receive the email shortly, if not &lt;a href="{$activationUri}"&gt;click here to resend the email&lt;/a&gt;.</source>
+      <translation>你将很快收到一封邮件，如果没有你没有收到 &lt;a href="{$activationUri}"&gt;请点击这里重新发送&lt;/a&gt;.</translation>
+    </message>
+    <message>
+      <source>Why not sign up to our &lt;a href="http://www.facebook.com/pages/MOFILM/123362452780" target="_blank"&gt;Facebook&lt;/a&gt;
+						or &lt;a href="http://www.twitter.com/MOFILMugc" target="_blank"&gt;Twitter&lt;/a&gt; communities while you are here.</source>
+      <translation>获得并了解最新MOFILM活动信息请关注我们 &lt;a href="http://www.weibo.com/mofilm" target="_blank"&gt;微博&lt;/a&gt;
+                       或者 &lt;a href="http://www.douban.com/group/mofilm/" target="_blank"&gt;豆瓣r&lt;/a&gt; 社区</translation>
+    </message>
+    <message>
+      <source>&lt;a href="{$loginUri}"&gt;Return to login&lt;/a&gt;</source>
+      <translation>&lt;a href="{$loginUri}"&gt;Return to login&lt;/a&gt;</translation>
+    </message>
+    <message>
+      <source>Upload a Movie</source>
+      <translation>上传影片</translation>
+    </message>
+    <message>
+      <source>Choose the event you are submitting your video to:</source>
+      <translation>选择将你的视频上传到制定活动:</translation>
+    </message>
+    <message>
+      <source>Upload the video</source>
+      <translation>上传视频</translation>
+    </message>
+    <message>
+      <source>Movie Details</source>
+      <translation>影片信息</translation>
+    </message>
+    <message>
+      <source>Title</source>
+      <translation>标题</translation>
+    </message>
+    <message>
+      <source>Description</source>
+      <translation>描述</translation>
+    </message>
+    <message>
+      <source>Short Credit</source>
+      <translation>简短演职员名单</translation>
+    </message>
+    <message>
+      <source>Duration</source>
+      <translation>长度</translation>
+    </message>
+    <message>
+      <source>Mofilmmusic License (Pre-cleared)</source>
+      <translation>Mofilmmusic音乐证书(预授权)</translation>
+    </message>
+    <message>
+      <source>License ID</source>
+      <translation>证书ID</translation>
+    </message>
+    <message>
+      <source>Track Name</source>
+      <translation>曲名</translation>
+    </message>
+    <message>
+      <source>Select</source>
+      <translation>选择</translation>
+    </message>
+    <message>
+      <source>Alternate selection / Original Composition / Others</source>
+      <translation>其他选项 / 原创编曲 / 其他</translation>
+    </message>
+    <message>
+      <source>Describe your license</source>
+      <translation>描述你的证书</translation>
+    </message>
+    <message>
+      <source>Give credit to your creative team !</source>
+      <translation>创意团队信息.</translation>
+    </message>
+    <message>
+      <source>Thanks for uploading your video, by entering a contest you're becoming a true member of the MOFILM community </source>
+      <translation>感谢上传您的视频，参与到竞赛中来意味着您是MOFILM社区中真正的一员</translation>
+    </message>
+    <message>
+      <source>Uploading your video may take several minutes, depending on file size and your Internet connection. A 5MB video will take at least 5 minutes to upload using a 512 kbps ADSL connection. Please be patient!</source>
+      <translation>上传可能需要几分钟，其是由您上传文件的大小和当前网络速度决定的. 一个5MB大小的视频当使用512kbps的ADSL宽带连接时将需要最少5分钟来上传.请耐心等待!</translation>
+    </message>
+    <message>
+      <source>After the movie is uploaded it takes up to 24hrs for the video to get encoded .Kindly wait for the confirmation email.</source>
+      <translation>在视频上传完成后，其将有24小时来进行视频格式转换. 请耐心等待确认邮件.</translation>
+    </message>
+    <message>
+      <source>If you have any questions please email &lt;a href="mailto:support@mofilm.com"&gt;support@mofilm.com&lt;/a&gt;</source>
+      <translation>如果您有任何问题请邮件至 &lt;a href="mailto:support@mofilm.com"&gt;support@mofilm.com&lt;/a&gt;</translation>
+    </message>
+    <message>
+      <source>&lt;b&gt;Good Luck!&lt;/b&gt;</source>
+      <translation>&lt;b&gt;祝你好运!&lt;/b&gt;</translation>
+    </message>
+    <message>
+      <source>Javascript is not enabled .For better experience please enable javascript.We are working on the non js version.</source>
+      <translation>Javascript没有开启. 为了更好的体验请开启javascript.我们正在开发无需js的版本.</translation>
+    </message>
+    <message>
+      <source>Registration Complete</source>
+      <translation>注册完成</translation>
+    </message>
+    <message>
+      <source>Welcome to the MOFILM world.</source>
+      <translation>欢迎来到MOFILM的世界.</translation>
+    </message>
+    <message>
+      <source>Thanks for confirming your registration.</source>
+      <translation>感谢确认您的注册.</translation>
+    </message>
+    <message>
+      <source>We just need you to choose a password for your login or you won't be able to login again!</source>
+      <translation>我们只需您为登陆选择一个密码或者你将不能再次登陆！</translation>
+    </message>
+    <message>
+      <source>Set your password now via the profile page.</source>
+      <translation>现在通过账户页面设置您的密码.</translation>
+    </message>
+    <message>
+      <source>More from MOFILM</source>
+      <translation>更多来自MOFILM</translation>
+    </message>
+    <message>
+      <source>Why not sign up to our &lt;a href="http://www.facebook.com/pages/MOFILM/123362452780" target="_blank"&gt;Facebook&lt;/a&gt;
+						or &lt;a href="http://www.twitter.com/MOFILMugc" target="_blank"&gt;Twitter&lt;/a&gt; communities while you are here, or use the menu above to navigate.</source>
+      <translation>为什么不注册我们的 &lt;a href="http://www.facebook.com/pages/MOFILM/123362452780" target="_blank"&gt;Facebook&lt;/a&gt;
+						或者 &lt;a href="http://www.twitter.com/MOFILMugc" target="_blank"&gt;Twitter&lt;/a&gt;当你加入MOFILM社区的时候，或者使用以上的菜单来导航.</translation>
+    </message>
+    <message>
+      <source>As an admin user you can login at:</source>
+      <translation>作为管理员用户你可以登陆于:</translation>
+    </message>
+    <message>
+      <source>You must set a password before you can login to the admin system.</source>
+      <translation>你必须在你登陆管理后台之前设置一个密码.</translation>
+    </message>
+    <message>
+      <source>Set one now</source>
+      <translation>现在设置</translation>
+    </message>
+    <message>
+      <source>Continue to profile</source>
+      <translation>继续前往账户</translation>
+    </message>
+    <message>
+      <source>THIS SITE REQUIRES THE ADOBE FLASH PLAYER</source>
+      <translation>THIS SITE REQUIRES THE ADOBE FLASH PLAYER</translation>
+    </message>
+    <message>
+      <source>CLICK THE IMAGE BELOW TO DOWNLOAD</source>
+      <translation>CLICK THE IMAGE BELOW TO DOWNLOAD</translation>
+    </message>
+    <message>
+      <source>Get Adobe Flash Player</source>
+      <translation>取得Adobe Flash播放器</translation>
+    </message>
+    <message>
+      <source>Get Adobe Flash player</source>
+      <translation>取得Adobe Flash播放器</translation>
+    </message>
+    <message>
+      <source>Top Filmmakers of All Time</source>
+      <translation>始终活跃电影制作人</translation>
+    </message>
+    <message>
+      <source>Top Filmmakers in {$oTerritory-&gt;getCountry()|ucwords|truncate:30:''}</source>
+      <translation>活跃电影制作人来自 {$oTerritory-&gt;getCountry()|ucwords|truncate:30:''}</translation>
+    </message>
+    <message>
+      <source>Top Filmmakers by Country</source>
+      <translation>活跃电影制作人按国家</translation>
+    </message>
+    <message>
+      <source>Back to Country List</source>
+      <translation>返回到国家列表</translation>
+    </message>
+    <message>
+      <source>Click to view the top filmmakers in {$oCountry-&gt;getCountry()}</source>
+      <translation>点击查看活跃电影制作人国家为{$oCountry-&gt;getCountry()}</translation>
+    </message>
+    <message>
+      <source>Top Filmmakers Last 12 Months</source>
+      <translation>上12个月活跃电影制作人</translation>
+    </message>
+    <message>
+      <source>Rank</source>
+      <translation>排名</translation>
+    </message>
+    <message>
+      <source>Name</source>
+      <translation>姓名</translation>
+    </message>
+    <message>
+      <source>Score</source>
+      <translation>得分</translation>
+    </message>
+    <message>
+      <source>View Profile</source>
+      <translation>查看账户</translation>
+    </message>
+    <message>
+      <source>Previous</source>
+      <translation>前一个</translation>
+    </message>
+    <message>
+      <source>Next</source>
+      <translation>下一个</translation>
+    </message>
+    <message>
+      <source>Search Results</source>
+      <translation>搜索结果</translation>
+    </message>
+    <message>
+      <source>Back to Winners</source>
+      <translation>返回到优胜者</translation>
+    </message>
+    <message>
+      <source>Last 12 Months</source>
+      <translation>上12个月</translation>
+    </message>
+    <message>
+      <source>Rank:</source>
+      <translation>排行:</translation>
+    </message>
+    <message>
+      <source>Score:</source>
+      <translation>得分:</translation>
+    </message>
+    <message>
+      <source>All Time</source>
+      <translation>所有时间</translation>
+    </message>
+    <message>
+      <source>Won</source>
+      <translation>优胜</translation>
+    </message>
+    <message>
+      <source>Awards</source>
+      <translation>得奖</translation>
+    </message>
+    <message>
+      <source>Shortlisted</source>
+      <translation>入围</translation>
+    </message>
+    <message>
+      <source>Times</source>
+      <translation>次数</translation>
+    </message>
+    <message>
+      <source>Entered</source>
+      <translation>参加过</translation>
+    </message>
+    <message>
+      <source>Competitions</source>
+      <translation>竞赛</translation>
+    </message>
+    <message>
+      <source>MOFILM is not responsible for the content of external Internet sites.</source>
+      <translation>MOFILM对外链互联网站内容不负任何法律责任.</translation>
+    </message>
+    <message>
+      <source>MOFILM Profile:</source>
+      <translation>MOFILM账户:</translation>
+    </message>
+    <message>
+      <source>Working On</source>
+      <translation>工作在</translation>
+    </message>
+    <message>
+      <source>Location</source>
+      <translation>地点</translation>
+    </message>
+    <message>
+      <source>Chosen Videos by</source>
+      <translation>选择视频</translation>
+    </message>
+    <message>
+      <source>Award Winning Videos by</source>
+      <translation>优胜视频颁奖</translation>
+    </message>
+    <message>
+      <source>Overall Event Winner</source>
+      <translation>综合竞赛得奖者</translation>
+    </message>
+    <message>
+      <source>File Not Found</source>
+      <translation>文件没找到</translation>
+    </message>
+    <message>
+      <source>Sorry we could not find the requested download file.</source>
+      <translation>对不起我们不能找到请求下载的文件.</translation>
+    </message>
+    <message>
+      <source>Downloading...</source>
+      <translation>下载中...</translation>
+    </message>
+    <message>
+      <source>Your download will begin shortly.</source>
+      <translation>您的下载即将开始.</translation>
+    </message>
+    <message>
+      <source>File No Longer Available</source>
+      <translation>文件不可访问</translation>
+    </message>
+    <message>
+      <source>The event this file is for has closed and is therefore no longer available.</source>
+      <translation>竞赛已结束,此文件不可访问.</translation>
+    </message>
+    <message>
+      <source>Filename:</source>
+      <translation>文件名:</translation>
+    </message>
+    <message>
+      <source>Description:</source>
+      <translation>描述:</translation>
+    </message>
+    <message>
+      <source>Filesize:</source>
+      <translation>文件大小:</translation>
+    </message>
+    <message>
+      <source>If your download does not start automatically, then download your file by &lt;a href="{$oObject-&gt;getFileUri()}"&gt;clicking here&lt;/a&gt;.</source>
+      <translation>如果您的下载没有自动开始，那么请点击&lt;a href="{$oObject-&gt;getFileUri()}"&gt;手动下载&lt;/a&gt;.</translation>
+    </message>
+    <message>
+      <source>File Not Available</source>
+      <translation>文件不可访问</translation>
+    </message>
+    <message>
+      <source>The requested file is currently not available.</source>
+      <translation>请求的文件目前不可访问.</translation>
+    </message>
+    <message>
+      <source>My Messages</source>
+      <translation>我的信息</translation>
+    </message>
+    <message>
+      <source>My Videos</source>
+      <translation>我的视频</translation>
+    </message>
+    <message>
+      <source>Upload Video</source>
+      <translation>上传视频</translation>
+    </message>
+    <message>
+      <source>Event/Brand Details</source>
+      <translation>活动/品牌细节</translation>
+    </message>
+    <message>
+      <source>Upload the Video</source>
+      <translation>上传视频</translation>
+    </message>
+    <message>
+      <source>Video Details</source>
+      <translation>视频信息</translation>
+    </message>
+    <message>
+      <source>Choose the Event/Brand</source>
+      <translation>选择活动/品牌</translation>
+    </message>
+    <message>
+      <source>Choose the Event</source>
+      <translation>选择活动</translation>
+    </message>
+    <message>
+      <source>Choose the Brand</source>
+      <translation>选择品牌</translation>
+    </message>
+    <message>
+      <source>Agree to Mofilm</source>
+      <translation>上传视频表示我已同意MOFILM所有</translation>
+    </message>
+    <message>
+      <source>Terms and Conditions</source>
+      <translation>条款合约 </translation>
+    </message>
+    <message>
+      <source>Maximum Size : 500MB, Supported formats : mov,wmv,avi,mp4,mpg,m4v</source>
+      <translation>最大体积：500MB，支持文件格式 : mov,wmv,avi,mp4,mpg,m4v</translation>
+    </message>
+    <message>
+      <source>HELP</source>
+      <translation>帮助</translation>
+    </message>
+    <message>
+      <source>No licenses found from your mofilmmusic account</source>
+      <translation>没有在mofilm音乐账户里发现版权信息</translation>
+    </message>
+    <message>
+      <source>Contributor Name</source>
+      <translation>投稿人名</translation>
+    </message>
+    <message>
+      <source>Role</source>
+      <translation>角色</translation>
+    </message>
+    <message>
+      <source>You need to fill Username, FirstName, Surname before you can upload Video</source>
+      <translation>在上传视频前请填写用户名, 名, 姓</translation>
+    </message>
+    <message>
+      <source>Please complete your Profile information</source>
+      <translation>请完善您的账户信息</translation>
+    </message>
+    <message>
+      <source>Continue to Profile</source>
+      <translation>继续到账户</translation>
+    </message>
+    <message>
+      <source>Only registered mofilm user can be added as Credit/Contributors.</source>
+      <translation>只有mofilm注册用才可以作为贡献人/投稿人加入</translation>
+    </message>
+    <message>
+      <source>If you need to add a person who is not a mofilm user then enter the email address in contributor name and we shall invite for you.</source>
+      <translation>如果您需要加入一个不是MOFILM注册用户的人，那么请在贡献人名字一栏填写邮箱信息，我们会帮您发出邀请。</translation>
+    </message>
+    <message>
+      <source>Choose from the predefined list of roles . Enter the first charcter and choose from the list of options.If you don't find your role email support@mofilm.com</source>
+      <translation>从已定义角色表单中选择。选择第一个字母并且在选项中选择。如果您没有找到您的角色请邮件联系我们 support@mofilm.com</translation>
+    </message>
+    <message>
+      <source>Username</source>
+      <translation>用户名</translation>
+    </message>
+    <message>
+      <source>My.MOFILM.com Profile Settings</source>
+      <translation>My.MOFILM.cn 账户设置</translation>
+    </message>
+    <message>
+      <source>Whether you have your own company or work for someone else, tell your fellow MOFILMers</source>
+      <translation>如果您有自己的公司或者正在某公司工作，请让关注您的MOFILM用户了解</translation>
+    </message>
+    <message>
+      <source>Have your own website or videos somewhere else? Why not share that with the rest of MOFILM.</source>
+      <translation>拥有个人网站或者其他地方有视频作品？ 请与MOFILM社区分享.</translation>
+    </message>
+    <message>
+      <source>MovieID</source>
+      <translation>影片ID</translation>
+    </message>
+    <message>
+      <source>Event</source>
+      <translation>活动</translation>
+    </message>
+    <message>
+      <source>Source</source>
+      <translation>出处</translation>
+    </message>
+    <message>
+      <source>Thumb</source>
+      <translation>缩略图</translation>
+    </message>
+    <message>
+      <source>Action</source>
+      <translation>动作</translation>
+    </message>
+    <message>
+      <source>EDIT</source>
+      <translation>编辑</translation>
+    </message>
+    <message>
+    <message>
+      <source>Add Tags</source>
+      <translation>添加标签</translation>
+    </message>
+    <message>
+      <source>Select event</source>
+      <translation>选择活动</translation>
+    </message>
+    <message>
+      <source>Tags</source>
+      <translation>标签</translation>
+    </message>
+    <message>
+      <source>Enter Comma delimited list of Tags</source>
+      <translation>输入逗号分隔不同标签</translation>
+    </message>
+    <message>
+      <source>Credit Help</source>
+      <translation>帮助</translation>
+    </message>
+    <message>
+      <source>Check to Delete</source>
+      <translation>选择删除</translation>
+    </message>
+    <message>
+      <source>http://www.mofilm.com/info/uploadTerms.html</source>
+      <translation>http://www.mofilm.cn/terms-conditions/</translation>
+    </message>
+    <message>
+      <source>http://mofilm.com/competitions/faq.html</source>
+      <translation>http://www.mofilm.cn/about/faq</translation>
+    </message>
+    <message>
+      <source>Step</source>
+      <translation>步骤</translation>
+    </message>
+    <message>
+      <source>Apply For Grants</source>
+      <translation>申请制作金</translation>
+    </message>
+    <message>
+      <source>Apply Grants For</source>
+      <translation>申请制作金给</translation>
+    </message>
+    <message>
+      <source>Apply before</source>
+      <translation>在此日期前申请</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>取消</translation>
+    </message>
+    <message>
+      <source>Reset</source>
+      <translation>重置</translation>
+    </message>
+    <message>
+      <source>Save Changes</source>
+      <translation>保存修改</translation>
+    </message>
+    <message>
+      <source>Please describe the concept of your film</source>
+      <translation>请描述您影片的创意</translation>
+    </message>
+    <message>
+      <source>Title of your working film</source>
+      <translation>影片标题</translation>
+    </message>
+    <message>
+      <source>Proposed use of grant funding</source>
+      <translation>如何使用制作经费</translation>
+    </message>
+    <message>
+      <source>Requested Amount</source>
+      <translation>申请制作经费金额</translation>
+    </message>
+    <message>
+      <source>Requested amount</source>
+      <translation>申请制作经费金额</translation>
+    </message>
+    <message>
+      <source>Minimum amount to request is USD 500</source>
+      <translation>最少申请额度为500美金</translation>
+    </message>
+    <message>
+      <source>If you have a script or other supporting information then please include it here, or</source>
+      <translation>如果您已有脚本或者其他支持材料请包括至此，或者</translation>
+    </message>
+    <message>
+      <source>you can send through additional material to</source>
+      <translation>您可以将支持材料发送到</translation>
+    </message>
+    <message>
+      <source>We are sorry!  Grants application for the selected MOFILM Competition is closed. Please see our current open competitions Here</source>
+      <translation>很抱歉！ 该MOFILM竞赛制作经费申请已经截止。请访问我们正在进行的竞赛页面</translation>
+    </message>
+    <message>
+      <source>Upload Document</source>
+      <translation>上传文件</translation>
+    </message>
+     <message>
+      <source>Selected Event/Brand</source>
+      <translation>选择短片竞赛单元／品牌</translation>
+    </message>
+    <message>
+      <source>Upload Type</source>
+      <translation>上传文件类型</translation>
+    </message>
+     <message>
+      <source>Select File to Upload</source>
+      <translation>选择文件开始上传</translation>
+    </message>
+    <message>
+      <source>Upload</source>
+      <translation>上传</translation>
+    </message>
+     <message>
+      <source>Problem occured while saving, please try again</source>
+      <translation>保存时出错，请重试</translation>
+    </message>
+    <message>
+      <source>File uploaded successfully</source>
+      <translation>上传成功</translation>
+    </message>
+     <message>
+      <source>Problem occured while uploading, please try again</source>
+      <translation>上传时出错，请重试</translation>
+    </message>
+    <message>
+      <source>No files were uploaded</source>
+      <translation>没有文件被上传</translation>
+    </message>
+     <message>
+      <source>No Uploads are allowed after the competition is closed</source>
+      <translation>竞赛结束时将不可上传视频</translation>
+    </message>
+    <message>
+      <source>Script writer</source>
+      <translation>编剧</translation>
+    </message>
+    <message>
+      <source>Talent</source>
+      <translation>演员</translation>
+    </message>
+    <message>
+      <source>Talent Expenses</source>
+      <translation>演员花费</translation>
+    </message>
+    <message>
+      <source>Special Effects</source>
+      <translation>特效</translation>
+    </message>
+    <message>
+      <source>Camera rental</source>
+      <translation>摄影机租借</translation>
+    </message>
+    <message>
+      <source>Transportation</source>
+      <translation>交通</translation>
+    </message>
+    <message>
+      <source>Producer</source>
+      <translation>制片人</translation>
+    </message>
+    <message>
+      <source>DoP</source>
+      <translation>摄影导演</translation>
+    </message>
+    <message>
+      <source>Production Staff</source>
+      <translation>制片工作人员</translation>
+    </message>
+    <message>
+      <source>Wardrobe</source>
+      <translation>服装</translation>
+    </message>
+    <message>
+      <source>Sound</source>
+      <translation>声音</translation>
+    </message>
+    <message>
+      <source>Crew Expenses</source>
+      <translation>团队花费</translation>
+    </message>
+    <message>
+      <source>Director</source>
+      <translation>导演</translation>
+    </message>
+    <message>
+      <source>Editor</source>
+      <translation>编辑</translation>
+    </message>
+    <message>
+      <source>Props</source>
+      <translation>道具</translation>
+    </message>
+    <message>
+      <source>Lighting</source>
+      <translation>灯光</translation>
+    </message>
+    <message>
+      <source>Others</source>
+      <translation>其他</translation>
+    </message>
+    <message>
+      <source>Total</source>
+      <translation>总计</translation>
+    </message>
+    <message>
+      <source>Hair and Make-up</source>
+      <translation>化妆造型</translation>
+    </message>
+    <message>
+      <source>Requested Amount</source>
+      <translation>申请制作经费金额</translation>
+    </message>
+    <message>
+    <source>My Grants</source>
+      <translation>我的申请</translation>
+    </message>
+    <message>
+      <source>User Grants</source>
+      <translation>我的制作金申请</translation>
+    </message>
+    <message>
+      <source>Movie</source>
+      <translation>影片</translation>
+    </message>
+    <message>
+      <source>Working Title</source>
+      <translation>标题</translation>
+    </message>
+    <message>
+      <source>Granted Amount</source>
+      <translation>授予制作金金额 </translation>
+    </message>
+    <message>
+      <source>Actions</source>
+      <translation>动作</translation>
+    </message>
+    <message>
+      <source>View</source>
+      <translation>查看</translation>
+    </message>
+    <message>
+      <source>Approved</source>
+      <translation>批准</translation>
+    </message>
+    <message>
+      <source>Rejected</source>
+      <translation>拒绝</translation>
+    </message>
+    <message>
+      <source>Pending</source>
+      <translation>待批准</translation>
+    </message>
+    <message>
+      <source>Grant Details for</source>
+      <translation>制作金申请详情</translation>
+    </message>
+    <message>
+      <source>Moderation Details</source>
+      <translation>申请细节</translation>
+    </message>
+    <message>
+      <source>Film Concept</source>
+      <translation>影片创意</translation>
+    </message>
+    <message>
+      <source>Previous Page</source>
+      <translation>前一页</translation>
+    </message>
+    <message>
+      <source>Usage of Grants</source>
+      <translation>制作金用途</translation>
+    </message>
+    <message>
+      <source>Script</source>
+      <translation>剧本</translation>
+    </message>
+    <message>
+      <source>User Request Details</source>
+      <translation>用户申请细节</translation>
+    </message>
+    <message>
+      <source>Requested Amount</source>
+      <translation>申请金额</translation>
+    </message>
+    <message>
+      <source>Requested On</source>
+      <translation>申请于</translation>
+    </message>
+    <message>
+      <source>NOTE</source>
+      <translation>提示</translation>
+    </message>
+    <message>
+      <source>If you have multiple concepts, you can enter all of them in this form</source>
+      <translation>如果您拥有不同的创意，请全部在此表格提交</translation>
+    </message>
+    <message>
+      <source>Description Not available</source>
+      <translation>描述不可见</translation>
+    </message>
+  </context>
+</TS>

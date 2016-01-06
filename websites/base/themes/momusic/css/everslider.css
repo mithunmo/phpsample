@@ -1,0 +1,274 @@
+/** 
+ * Everslider - Responsive jQuery Carousel Plugin
+*/
+.everslider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 0 20px;
+}
+
+.everslider .es-slides {
+	position: relative;
+	width: 100000px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	-webkit-transform: translate3d(0,0,0);
+}
+
+.everslider .es-slides > li {
+	position: relative;
+	float: left;
+	padding: 0!important;
+    border: 0!important;
+	width: 500px;
+	height: 300px;
+    margin: 0 10px 0 0;
+    cursor: default; 
+	cursor: -webkit-grab; 
+	cursor: -moz-grab;
+	 -webkit-transform: translate3d(0,0,0);
+}
+
+.everslider.es-swipe-grab .es-slides > li {
+	cursor: default; 
+    cursor: -webkit-grabbing; 
+    cursor: -moz-grabbing; 
+}
+
+.everslider .es-slides img {
+	width: 100%;
+	height: auto;
+	max-width: none;
+}
+
+
+.everslider1 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 0 20px;
+}
+
+.everslider1 .es-slides {
+	position: relative;
+	width: 100000px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	-webkit-transform: translate3d(0,0,0);
+}
+
+.everslider1 .es-slides > li {
+	position: relative;
+	float: left;
+	padding: 0!important;
+    border: 0!important;
+	width: 500px;
+	height: 300px;
+    margin: 0 10px 0 0;
+    cursor: default; 
+	cursor: -webkit-grab; 
+	cursor: -moz-grab;
+	 -webkit-transform: translate3d(0,0,0);
+}
+
+.everslider1 .es-swipe-grab .es-slides > li {
+	cursor: default; 
+    cursor: -webkit-grabbing; 
+    cursor: -moz-grabbing; 
+}
+
+.everslider1 .es-slides img {
+	width: 100%;
+	height: auto;
+	max-width: none;
+}
+
+
+/* Preload */
+
+.everslider {
+	/* background: url(../images/preload.gif) no-repeat center; */
+}
+
+.everslider.es-slides-ready {
+	background: none;
+}
+
+.everslider1 {
+	/* background: url(../images/preload.gif) no-repeat center; */
+}
+
+.everslider1 .es-slides-ready {
+	background: none;
+}
+
+
+.es-slides {
+	visibility: hidden;
+}
+
+.es-slides-ready .es-slides {
+	visibility: visible;
+}
+
+
+/* Navigation */
+
+.es-navigation a {
+    position: absolute;
+    top:0;
+    margin-top: -17px;
+    padding: 7px;
+    /*background-color: #eee;*/
+}
+
+.es-navigation .es-prev { left: 0; }
+.es-navigation .es-next { right: 0; }
+
+.es-navigation .es-first,
+.es-navigation .es-last {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    cursor: default;
+}
+
+.es-navigation a span {
+	display: block;
+	width: 34px;
+	height: 34px;
+	text-indent: -9999px;
+	margin-top: 85px;
+}
+
+.es-navigation .es-prev span {
+	background: url(http://mofilm.com/carousel/v2/images/arrows.png) no-repeat 0 0;
+	opacity: 0.2;
+}
+
+.es-navigation .es-next span {
+	background: url(http://mofilm.com/carousel/v2/images/arrows.png) no-repeat -20px 0;
+	opacity: 0.2;
+}
+
+.es-navigation .es-prev span.alt-arrow {
+	background: url(http://mofilm.com/carousel/v2/images/arrows.png) no-repeat 0 -31px;
+	opacity: 0.2;
+}
+
+.es-navigation .es-next span.alt-arrow {
+	background: url(http://mofilm.com/carousel/v2/images/arrows.png) no-repeat -41px -31px;
+	opacity: 0.2;
+}
+
+/* Retina */
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) {
+	/* Navigation */
+	.es-navigation .es-prev span {
+	    background: url(../images/arrows@2x.png) no-repeat 0 0;
+	    background-size: 40px 40px;
+	}
+	.es-navigation .es-next span {
+	    background: url(../images/arrows@2x.png) no-repeat -20px 0;
+	    background-size: 40px 40px;
+	}
+	/* Pagination */
+	.es-pagination a {
+	    background: url(../images/bullets@2x.png) no-repeat 0 0;
+	    background-size: 26px 13px;
+	}
+	.es-pagination a.es-active {
+	    background: url(../images/bullets@2x.png) no-repeat -13px 0;
+	    background-size: 26px 13px;
+	}
+	/* Ticker */
+	.es-ticker .es-play span {
+	    background: url(../images/ticker@2x.png) no-repeat 0 0;
+	    background-size: 40px 20px;
+	}
+	.es-ticker .es-pause span {
+	    background: url(../images/ticker@2x.png) no-repeat -20px 0;
+	    background-size: 40px 20px;
+	}
+}
+
+
+/* CONTROL */
+
+
+.bx-wrapper .bx-prev {
+	left: -8px;
+	background: url(http://www.mofilm.com/img/mofilmnew/logotest/controls.png) no-repeat 0 -32px;
+	opacity: 0.2 ;
+	display: block;
+}
+
+.bx-wrapper .bx-next {
+	right: -8px;
+	background: url(http://www.mofilm.com/img/mofilmnew/logotest/controls.png) no-repeat -43px -32px;
+	opacity: 0.2 ;
+	display: block;
+}
+
+.bx-wrapper .bx-prev:hover {
+	background-position: 0 0;
+	opacity: 0.3;  
+}
+
+.bx-wrapper .bx-next:hover {
+	background-position: -43px 0;
+	opacity: 0.3;
+}
+
+
+
+.bx-wrapper .bx-prev1 {
+	left: -8px;
+	background: url(http://www.mofilm.com/img/mofilmnew/logotest/controls.png) no-repeat 0 -32px;
+	opacity: 0.8 ;
+	display: block;
+}
+
+.bx-wrapper .bx-next1 {
+	right: -8px;
+	background: url(http://www.mofilm.com/img/mofilmnew/logotest/controls.png) no-repeat -43px -32px;
+	opacity: 0.8 ;
+	display: block;
+}
+
+.bx-wrapper .bx-prev1:hover {
+	background-position: 0 0;
+	opacity: 0.3;  
+}
+
+.bx-wrapper .bx-next1:hover {
+	background-position: -43px 0;
+	opacity: 0.3;
+}
+
+.bx-wrapper .bx-prev2 {
+	left: -8px;
+	background: url(http://www.mofilm.com/img/mofilmnew/logotest/controls.png) no-repeat 0 -32px;
+	opacity: 0.8 ;
+	display: block;
+}
+
+.bx-wrapper .bx-next2 {
+	right: -8px;
+	background: url(http://www.mofilm.com/img/mofilmnew/logotest/controls.png) no-repeat -43px -32px;
+	opacity: 0.8 ;
+	display: block;
+}
+
+.bx-wrapper .bx-prev2:hover {
+	background-position: 0 0;
+	opacity: 0.3;  
+}
+
+.bx-wrapper .bx-next2:hover {
+	background-position: -43px 0;
+	opacity: 0.3;
+}

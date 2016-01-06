@@ -1,0 +1,7 @@
+<moviemasher>
+	<media type="audio" id="41fcb067430fa959a7ce3a7e11597c65" label="Tinkerbell RFM " group="audio" audio="http://momusic.s3.amazonaws.com/20032015/rfm/album-rfm/tinkerbell.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="147"/>
+	<media type="audio" id="29d4f20855252fcac37eed375f97d633" label="CLOUDS &amp; BEYOND PAPA WIZ" group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/230000/236397_CLOUDS+BEYOND.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="90"/>
+	<media type="audio" id="ef6ff151556b33d0c54a52c3e86146f5" label="Somehow Instrumental Kojo Linder " group="audio" audio="http://momusic.s3.amazonaws.com/getty/kojolinder/kojolinder/somehowinstrumental.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="241"/>
+	<media type="audio" id="a5a914b6ee25abf9eaa042e3a673ba9b" label="You Got Me instrumental kojo linder" group="audio" audio="http://momusic.s3.amazonaws.com/getty/kojolinder/kojolinder/yougotmeinstrumental.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="222"/>
+	<media type="audio" id="7d4e441106891ab5da3e8ee9c2593ded" label="Bach Concerto for Two Violins Ab Beano5" group="audio" audio="http://momusic.s3.amazonaws.com/20032015/beano5/album-beano5/bachconcertofortwoviolinsab.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="90"/>
+</moviemasher>

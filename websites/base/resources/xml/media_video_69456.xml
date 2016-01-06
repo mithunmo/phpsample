@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="video" id="2184569f3ea62d9acda6c91000187a02" label="VO-Chevy &amp; Baseball.mov" group="video" url="/resources/video/momusic/03a3ce727a0c1a9c1d7677c38b1c198a.flv" audio="/resources/video/momusic/03a3ce727a0c1a9c1d7677c38b1c198a.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="03a3ce727a0c1a9c1d7677c38b1c198a" label="Chevy &amp; Baseball.mov" group="video" url="/resources/video/momusic/03a3ce727a0c1a9c1d7677c38b1c198a.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

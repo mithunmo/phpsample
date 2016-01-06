@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="video" id="c540bb76eefdecd8c8b3c4b78c126ba9" label="VO-Chevy_Edit_05_NoMusic.mp4" group="video" url="/resources/video/momusic/d8b9c596fb9cf9e1ab9d495cc10c7077.flv" audio="/resources/video/momusic/d8b9c596fb9cf9e1ab9d495cc10c7077.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="d8b9c596fb9cf9e1ab9d495cc10c7077" label="Chevy_Edit_05_NoMusic.mp4" group="video" url="/resources/video/momusic/d8b9c596fb9cf9e1ab9d495cc10c7077.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

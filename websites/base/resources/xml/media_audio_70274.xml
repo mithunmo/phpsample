@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="audio" id="f820b04bfc1f81c9e750d88c3f149bf9" label="Friday Night Movies John B. deHaas" group="audio" audio="http://momusic.s3.amazonaws.com/getty/johnbdehaas/johnbdehaas/fridaynightmovies.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="187"/>
+	<media type="audio" id="5e95ef5ff23309f0692895f54778b3a0" label="Prelude - Piano Only 1 Brian Wayy" group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/360000/361277_Prelude+Piano+Onl.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="101"/>
+</moviemasher>

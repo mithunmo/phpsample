@@ -1,0 +1,6 @@
+<moviemasher>
+	<media type="video" id="8516c8fda26791c978d9e5cb5d6b2170" label="VO-20150531170921.mp4" group="video" url="/resources/video/momusic/a22a9883f7d16b84acc852372af797df.flv" audio="/resources/video/momusic/a22a9883f7d16b84acc852372af797df.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="a22a9883f7d16b84acc852372af797df" label="20150531170921.mp4" group="video" url="/resources/video/momusic/a22a9883f7d16b84acc852372af797df.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="eb54bf206de0f1725bcc3069451ea585" label="VO-20150531170921.mp4" group="video" url="/resources/video/momusic/c3b64cc74b65eec31b5d337e0de25b3a.flv" audio="/resources/video/momusic/c3b64cc74b65eec31b5d337e0de25b3a.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="c3b64cc74b65eec31b5d337e0de25b3a" label="20150531170921.mp4" group="video" url="/resources/video/momusic/c3b64cc74b65eec31b5d337e0de25b3a.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

@@ -1,0 +1,6 @@
+<moviemasher>
+	<media type="audio" id="4e3560e316ce5e918f4cdcba31ffbd57" label="Lisa's Lullaby Darin Leong" group="audio" audio="http://momusic.s3.amazonaws.com/getty/darinleong/darinleong/lisaslullaby.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="187"/>
+	<media type="audio" id="c605a8869d3ebef3aa996f292eb2f0e7" label="Farther Ways Home Instrumental Mark Rhodes" group="audio" audio="http://momusic.s3.amazonaws.com/getty/markrhodes/markrhodes/fartherwayshomeinstrumental.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="305"/>
+	<media type="audio" id="c606ac9964db9c56536fe2ab61900652" label="Lisa's Lullaby Darin Leong" group="audio" audio="http://momusic.s3.amazonaws.com/getty/darinleong/darinleong/lisaslullaby.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="187"/>
+	<media type="audio" id="3350197d01cdecb0cf8d19f67c505b53" label="Lisa's Lullaby Darin Leong" group="audio" audio="http://momusic.s3.amazonaws.com/getty/darinleong/darinleong/lisaslullaby.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="187"/>
+</moviemasher>

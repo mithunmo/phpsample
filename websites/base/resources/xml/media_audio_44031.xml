@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="audio" id="a0d59e678aa8e3d86eeb85a8f0664f95" label="Slow Motion Social Club" group="audio" audio="http://momusic.s3.amazonaws.com/socialclub/socialclub/slowmotion.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="175"/>
+	<media type="audio" id="4167afd5571475c88b4f01276dcfc3bd" label="Summer Banga JayMackBeatz" group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/580000/580484_Summer+Banga.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="246"/>
+</moviemasher>

@@ -1,0 +1,112 @@
+/**
+ * South Bytes Main Stylesheet
+ *
+ * @author Huang He
+ * @author Dave Redfern
+ * @copyright Mofilm Ltd. (c) 2010
+ * @package websites
+ * @subpackage mofilm.com
+ * @version $Rev: 11 $
+ */
+
+/*
+ * Basic HTML reset
+ */
+* html { margin: 0; padding: 0; }
+
+/*
+ * Main Elemental Styles
+ */
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 15px; margin: 0; padding: 0;
+	background: url(../images/mainbg.jpg) repeat; width: 100%; height: auto;
+}
+h1,h2,h3,h4,h5 { font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; color: #422400; }
+a { color: #440F00; }
+a img { border: none; }
+a:hover img { opacity: 0.8; }
+.clear { clear: both; }
+.movieTitle { margin-bottom: 0; }
+.movieUser { margin-top: 0; }
+
+/*
+ * Menu
+ */
+#menu { float: left; margin-left: -30px; width: 800px; height: 80px; }
+#menu ul li { float: left; margin-right: 40px; font-size: 20px; font-weight: bolder; text-align: center; display: block; padding-top: 15px; }
+#menu a { text-decoration: none; }
+#menu a:hover { color: #04A9B0; }
+#menu .current { background: transparent url(../images/menuhover.png) no-repeat; width: 150px; height: 40px; }
+#menu .current a { color: #fff; }
+
+/*
+ * Header
+ */
+#sbmain { background: transparent url(../images/headbg.jpg) repeat-x; width:100%; height:190px; }
+#sbsecond { background: transparent url(../images/hd2.png) repeat-x; width: 100%; height: 180px; padding-top: 35px; }
+#toplogo { text-align: right; height: 30px; padding: 21px 30px 0 0; position: relative; }
+#paintlogo { float:left; margin-left:0; margin-top:20px; width:500px; z-index: 100; }
+
+/*
+ * Content
+ */
+#secondcontent { width: 960px; margin: 0 auto 20px auto; height: auto; }
+#sbcontent { width: 960px; height: auto; min-height: 500px; margin: 100px auto 0 auto; padding: 30px 5px 25px 5px; }
+#sbcontentleft { float: left; }
+#sbcontentright { float: right; width: 270px; }
+#sbcontentright h2 { font-size: 18px; }
+
+.sbcontent {
+	margin: 10px 10px 0 0; padding: 5px 10px 0 20px; float: left; border: 4px solid #FFF; width: 610px;
+	height: auto; min-height: 500px; background: #F2E7C7;
+	-moz-box-shadow: 0 0 20px #999; -webkit-box-shadow: 0 0 20px #999; box-shadow: 0 0 20px #999;
+}
+.fullcontent {
+	margin: 10px 10px 0 0; padding: 5px 10px 0 20px; float: left; border: 4px solid #FFF;
+	height: auto; min-height: 500px; background: #F2E7C7; width: 800px; min-width: 800px;
+	-moz-box-shadow: 0 0 20px #999; -webkit-box-shadow: 0 0 20px #999; box-shadow: 0 0 20px #999;
+}
+
+#gallery { margin-top: 20px; clear: both; }
+.movie {
+	margin: 10px; padding: 5px; float: left; border: 4px solid #FFF; width: 150px; height: 84px; background: #F2E7C7;
+	-moz-box-shadow: 0 0 20px #999; -webkit-box-shadow: 0 0 20px #999; box-shadow: 0 0 20px #999;
+}
+.movieThumbnail { width: 150px; height: 84px; border: 0; }
+
+.teamphotos { width:640px; margin:auto; }
+.teamphotos .dude {
+	padding: 5px; border: 4px solid #FFF; width: 640px; height: 360px; background: #F2E7C7;
+	-moz-box-shadow: 0 0 20px #999; -webkit-box-shadow: 0 0 20px #999; box-shadow: 0 0 20px #999;
+	margin-bottom:40px;
+}
+.teamphotos .name { margin-top:8px; }
+
+.sbcontent1 {
+	margin: 10px 10px 0 0; padding: 5px 10px 0 20px; float: left; border: 4px solid #FFF; width: 610px;
+	height: auto; min-height: 500px; background: #F2E7C7 url(../images/contentbg.png) center bottom no-repeat;
+	-moz-box-shadow: 0 0 20px #999; -webkit-box-shadow: 0 0 20px #999; box-shadow: 0 0 20px #999;
+}
+.sbcontent1 .social { float: right; padding: 20px 10px 0 10px; }
+.sbcontent1 img { padding-bottom: 5px; }
+.sbcontent1 p { font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 16px; text-align: justify; }
+.sbcontent2 {
+	margin: 0px 10px 0 0; padding: 5px; border: 4px solid #FFF; background-color: #F2E7C7; width: 250px; height: auto;
+	min-height: 140px; -moz-box-shadow: 0 0 20px #999; -webkit-box-shadow: 0 0 20px #999; box-shadow: 0 0 20px #999;
+}
+
+/*
+ * Footer
+ */
+#footerTop { background: transparent url(../images/footer-bg-top.png) top left repeat-x; height: 43px; display: block; }
+#footer { background: #fff url(../images/footer-bg.jpg) top left repeat-x; width: 100%; margin: 0; padding-top: 10px; }
+#ftlogo { margin: 10px auto 0 auto; width: 800px; padding-bottom: 0; padding-top: 0; text-align: center; }
+#ftlogo h3 { margin: 10px 0 10px -70px; color: #fff; padding: 0; text-align: left; font-size: 26px; }
+#ftlogo img { padding: 10px; height: 63px; margin: 0 10px; }
+
+#coinfor { margin: 22px auto 0 auto; width: 800px; color: #322113; }
+#coinfor p.tag { text-align: center; }
+
+.footerelement { float: left; width: 100px; margin-right: 60px; margin-top: 5px; color: #341001; position: relative; }
+.footerelement ul, .footerelement li { text-align: left; padding: 0; list-style: none; line-height: 24px; }
+.footerelement a:hover { text-decoration: underline; color: #FFF; }

@@ -1,0 +1,132 @@
+<!DOCTYPE controllers SYSTEM "../../data/dtds/controllerMap.dtd">
+<controllers>
+	<controller name="home"/>
+	<controller name="index" path="homeController.class.php"/>
+	<controller name="xml"/>
+	<controller name="tinymceAction"/>
+	<controller name="account">
+		<controllers>
+			<controller name="pm" description="Private Messages" path="/account/pmController.class.php"/>
+		</controllers>
+	</controller>
+	<controller name="videos"/>
+	<controller name="video"/>
+	<controller name="users"/>
+	<controller name="reports"/>
+	<controller name="download" />
+	<controller name="grants" />
+	<controller name="help" description="Mofilm Help Center">
+		<controllers>
+			<controller name="helpPages" description="Help Pages" />
+			<controller name="helpTags" description="Help Tags" />
+		</controllers>
+	</controller>
+	<controller name="admin" description="Mofilm Admin Centre">
+		<controllers>
+			<controller name="useradmin" description="User Management Tools">
+				<controllers>
+					<controller name="userManager" description="Admin User Manager"/>
+					<controller name="groups" description="User Group Manager"/>
+					<controller name="permissions" description="Permissions Manager"/>
+					<controller name="clients" description="Clients Manager"/>
+					<controller name="userActivityLog" description="User Activity Log"/>
+					<controller name="userSignupCodes" description="User Signup Codes"/>
+					<controller name="affiliateBanners" description="Affiliate Banners" />
+				</controllers>
+			</controller>
+			<controller name="eventadmin" description="Event Management Tools">
+				<controllers>
+					<controller name="eventManager" description="Event Manager"/>
+					<controller name="sourceManager" description="Event Brand Manager"/>
+                                        <controller name="brand" description="Brand Manager"/>
+                                        <controller name="corporate" description="Corporate Manager"/>
+                                        <controller name="brand" description="Brand Manager"/>
+                                        <controller name="corporate" description="Corporate Manager"/>
+					<controller name="eventImages" description="Event Image Manager"/>
+					<controller name="termsManager" description="Terms Manager"/>
+					<controller name="suppliers" description="Suppliers"/>
+					<controller name="downloadFiles" description="File Manager"/>
+					<controller name="trackManager" description="Track Manager"/>
+                                        <controller name="userNotification" description="User Notification"/>
+				</controllers>
+			</controller>
+			<controller name="movieadmin" description="Movie Data Tools">
+				<controllers>
+					<controller name="movieAwards" description="Movie Awards"/>
+					<controller name="movieAssets" description="Movie Asset Viewer"/>
+					<controller name="categories" description="Movie Categories"/>
+					<controller name="datanames" description="Movie Data Parameters"/>
+					<controller name="roles" description="Contributor Roles"/>
+					<controller name="tags" description="Tag Management"/>
+					<controller name="musicLicense" description="Validate a music license"/>
+				</controllers>
+			</controller>
+			<controller name="commsCentre" description="Comms Centre">
+				<controllers>
+					<controller name="appMessages" description="App Messages"/>
+					<controller name="appMessageGroups" description="App Message Groups"/>
+					<controller name="gateways" description="Gateways"/>
+					<controller name="gatewayAccounts" description="Gateway Accounts"/>
+					<controller name="queueManager" description="Outbound Queue Manager"/>
+					<controller name="senderEmail" description="Manage SES users"/>
+					<controller name="imapServer" description="Manage IMAP info"/>
+					<controller name="newsLetterMofilm" description="Mofilm Newsletter">
+						<controllers>
+							<controller name="newslettertemplate" description="Manage Templates"/>
+							<controller name="newsletter" description="Manage Newsletters"/>
+							<controller name="sendnewsletter" description="Send a Newsletter"/>
+							<controller name="sendCCA" description="Send CCA forms"/>
+							<controller name="track" description="Track Newsletters"/>
+							<controller name="newsletterlink" description="Track Newsletters Links"/>
+							<controller name="newsletterunsubscription" description="Unsubscription List"/>
+							<controller name="bouncedEmail" description="Bounced Email"/>
+							<controller name="mailingList" description="Manage List"/>
+							<controller name="manageSubscription" description="Manage Subscription"/>
+						</controllers>
+					</controller>
+				</controllers>
+			</controller>
+			<controller name="reportCentre" description="Report Centre">
+				<controllers>
+					<controller name="reportQueue" description="Report Queue"/>
+					<controller name="reportDeliveryTypes" description="Report Delivery Types"/>
+					<controller name="reportTypes" description="Report Types"/>
+				</controllers>
+			</controller>
+			<controller name="other" description="Utilities / Other">
+				<controllers>
+					<controller name="territories" description="Territories"/>
+					<controller name="languages" description="Languages"/>
+					<controller name="currencies" description="Currencies"/>
+					<controller name="motd" description="Message of the Day"/>
+					<controller name="status" description="System Status Information"/>
+                                        <controller name="channel" description="channel"/>
+                                        <controller name="distribution" description="distribution"/>
+					<controller name="momusic" description="Mofilm Music">
+						<controllers>
+                                                        <controller name="featuredArtist" description="Featured Artist"/>
+                                                        <controller name="CoverImage" description="Cover Image"/>
+                                                        <controller name="HandpickedMusic" description="Handpicked Music"/>
+                                                        <controller name="brandMusic" description="Brand Music"/> 
+							<controller name="works" description="Music Works"/>
+							<controller name="type" description="Momusic Type"/>
+							<controller name="typeLeaf" description="momusic Type leaf"/>
+							<controller name="uploadTrack" description="Upload Track"/>
+							<controller name="downloads" description="User Downloads"/>
+						</controllers>
+					</controller>
+				</controllers>
+			</controller>
+			<controller name="apiAdmin" description="API Management">
+				<controllers>
+					<controller name="apiUser" description="Manage API users"/>
+					<controller name="apiKey" description="Manage API Keys"/>
+				</controllers>
+			</controller>
+                        <controller name="paymentDetails" description="payment" >    
+                        </controller>
+		</controllers>
+	</controller>
+	<controller name="static" description="Static Pages"/>
+	<controller name="captcha" description="Captcha Generator" path="mvcCaptchaController.class.php"/>
+</controllers>

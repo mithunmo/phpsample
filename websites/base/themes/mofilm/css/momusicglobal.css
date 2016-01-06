@@ -1,0 +1,185 @@
+/**
+ * Global stylesheet shared between Mofilm and Admin sites
+ *
+ * @author Mithun Mohan
+ * @copyright Mofilm Ltd. (c) 2010
+ * @package websites
+ * @subpackage momusic.com
+ * @version $Rev: 371 $
+ */
+
+/*
+ * CSS3 font import, for Safari 4+, Firefox 3.5+ and Opera 10.10+
+ *
+@font-face { font-family: "News Gothic MT"; src: url(fonts/nwgthc.ttf); }
+@font-face { font-family: "News Gothic Bold"; src: url(fonts/nwgthc-bold.otf); }
+*/
+/*
+ * Basic HTML reset
+ */
+* html { margin: 0; padding: 0; }
+
+/*
+ * Set global stuff
+ */
+html, body { padding: 0; margin: 0; background: #0d1029; font-family: "News Gothic MT", Helvetica, Arial, san-serif; color: #fff; font-size: 12px; line-height: 20px; }
+
+/*
+ * Define common tags
+ */
+strong { font-family: "News Gothic Bold", Helvetica, Arial, san-serif; font-weight: bold; }
+em { font-style: italic; }
+p { font-size: 12px; margin-bottom: 15px; }
+h1 { font-size: 24px; margin-bottom: 10px; line-height: 28px; }
+h2 { font-size: 20px; margin-bottom: 10px; line-height: 28px; }
+h3 { font-size: 16px; margin-bottom: 10px; }
+h4 { font-size: 12px; margin-bottom: 10px; }
+h5 { font-size: 10px; margin-bottom: 10px; }
+hr { margin: 15px 0px; padding: 0px; border: 0px; height: 1px; background-color: #ccc; color: #ccc; }
+
+/*
+ * Default form styles and classes
+ */
+fieldset { border: 1px solid #000; }
+fieldset legend { font-size: 14px; color: #0d1029; font-weight: bold; padding: 2px 10px; }
+input, select, textarea { font-size: 14px; padding: 3px; border: 1px solid #000000; border-left: 4px solid #3366FF; background-color: #fff; } 
+input[type=submit], input.submit { background-color: #0d1029; border: 1px solid #000; color: #fff; padding: 3px 5px; }
+input[type=reset], input.reset { background-color: #fff; border: 1px solid #000; color: #999; padding: 3px 5px; }
+input.cancel { background-color: #fff; border: 1px solid #f00; color: #f00; padding: 3px 5px; } 
+button { border: 0px; background: transparent; color: #00b3f1; margin: 0; padding: 0 5px; cursor: pointer; font-size: 12px; vertical-align: middle; cursor: pointer; }
+.formFieldContainer {  }
+.field {  }
+.date { width: 80px; }
+.datetime { width: 140px; }
+.number, .small { width: 100px; }
+.string, .medium { width: 300px; }
+.long { width: 450px; }
+.short { width: 50px; }
+.smallText { font-size: 10px; }
+
+/*
+ * Default link styles
+ */
+a:link, .link { color: #00b3f1; text-decoration: none; cursor: pointer; }
+a:hover, .hover { color: #00b3f1; text-decoration: underline; }
+a:visited { color: #0099cc; text-decoration: none; }
+a:active { color: #00b3f1; text-decoration: none; }
+a img { border: 0px; }
+
+/*
+ * Define some useful shared classes
+ */
+.clearBoth { clear: both; }
+.clearLeft { clear: left; }
+.clearRight { clear: right; }
+.floatLeft { float: left; }
+.floatRight { float: right; }
+.floatLeft.spacer { margin-right: 10px; margin-bottom: 10px; }
+.floatRight.spacer { margin-left: 10px; margin-bottom: 10px; }
+.alignLeft { text-align: left; }
+.alignRight { text-align: right; }
+.alignJustify { text-align: justify; }
+.alignCenter { text-align: center; }
+.valignMiddle { vertical-align: middle; }
+.valignTop { vertical-align: top; }
+.hidden { display: none; }
+.pointer:hover { cursor: pointer; }
+
+/*
+ * Main site header
+ */
+#header { background: #2c3160 url(../images/header/gradient.png); height: 50px; overflow: hidden; }
+#header .container { background: transparent url(../images/header/whale.png) 90px 0px no-repeat; width: 940px; height: 50px; margin: 0px auto; padding: 5px 0px 0px 0px; }
+#header .mofilmLogo { float: left; display: block; background: transparent url(../images/mofilm.png) no-repeat; width: 165px; height: 39px; }
+#header .momusicLogo { float: left; display: block; background: transparent url(../images/momusic.png) no-repeat; width: 165px; height: 39px; }
+#header .mofilmLogo span { display: none; }
+#header .userControls { float: right; text-align: right; margin-top: -4px; }
+#header .userControls span { display: block; padding: 0; margin: 0; }
+#header .userControls span.options { margin-top: -5px; }
+
+/*
+ * Main navigation bar
+ */
+#nav { background: #efefef ; height: 35px; font-size: 11px; }
+#nav .active a { background: #fefefe; }
+#nav ul.primary { width: 940px; margin: 0px auto; list-style: none; }
+#nav ul.primary a { color: #000; text-decoration: none; display: block; padding: 7px 0px 6px 0px; margin-top: 1px; }
+#nav li.primary { display: inline; float: left; font-weight: bold; text-transform: uppercase; border-right: 1px solid #ccc; width: 140px; text-align: center; }
+#nav li.primary:hover { background: #ddd; }
+#nav li.primary.start { border-left: 1px solid #ccc; margin-left: -20px; }
+#nav li.dropdown ul { display: none; }
+#nav li.dropdown:hover ul { display: block; z-index: 1000; }
+#nav ul.secondary { list-style: none; min-width: 160px; position: absolute; padding: 1px 0px 0px 0px; background: transparent; color: #fff; text-transform: capitalize; }
+#nav ul.secondary a { color: #efefef; text-decoration: none; display: block; padding: 0px; width: 100%; padding: 0px 50px 0px 0px; }
+#nav li.secondary { background-color: #565656; background: rgba(40, 40, 40, 0.75); font-weight: normal; font-size: 12px; padding: 6px 0px 6px 8px; text-align: left; }
+#nav ul.secondary li.start { border-left: 0; }
+#nav ul.secondary li.end { border-bottom: 0; }
+#nav ul.secondary li:hover { background-color: #333; background: rgba(20, 20, 20, 0.9); }
+#nav li.secondary img.navtab { position: absolute; margin:-18px 0px 0px -8px; }
+
+/*
+ * The main content body
+ */
+#body { background: #fff 0px 0px repeat-x; min-height: 450px; color: #333333; clear: both; }
+#body .container { width: 1000px; margin: 0 auto; overflow: hidden; }
+#body .containerV { width: 964px; margin: 0 auto; padding-bottom: 6px;}
+
+/*
+ * Footer and menu links
+ */
+#footer {  }
+#footer .container { width: 940px; margin: 0px auto; padding: 5px 0px; }
+#footer ul a:link, #footer ul a:visited { color: #c2c2c2; text-decoration: none; }
+#footer ul a:hover, #footer ul a:active { color: #fff; text-decoration: underline; }
+#footer li { display: inline; border-right: 1px solid #c2c2c2; padding-right: 5px; margin-right: 3px; }
+#footer li.noBorder { border-width: 0px; }
+#footer ul.col { border-right: 1px solid #fff; display: block; float: left; padding: 0; width: 250px; list-style-type: none; text-align:
+	left; margin: 0 35px 0 20px; }
+#footer ul.col li { display: block; width: 250px; border: 0px; }
+#footer ul.col.end { border: 0px; }
+
+#social { clear: both; background: transparent top left repeat-x; padding-top: 20px; font-size: 12px; color: #c2c2c2; background-color: #000; }
+#social .container { width: 940px; margin: 0px auto; padding: 5px 0px; }
+#social div.social { margin-top: 15px; padding: 10px; min-height: 40px; }
+#social div.social div { float: left; width: 250px; margin: 0px 20px; }
+#social div.social .iconLink { float: left; width: 30px; height: 30px; margin-right: 10px; margin-top: 5px; }
+
+/*
+ * Message boxes for alerts / info messages
+ */
+.messageBox { position: fixed; bottom: 10px; right: 10px; z-index: 1000; border: 1px solid; margin: 0px 0px 0px 0px; }
+.messageBox p { margin: 0; padding: 10px 10px 10px 36px; font-size: 12px; }
+
+.success { background: #E6EFC2 url(../images/messagebox/highlight-line.gif) repeat-x scroll 0 0; border-color: #C6D881; }
+.success p { background:transparent url(../images/messagebox/success.png) no-repeat scroll 7px 8px; }
+
+.warning { background:#FFF6BF url(../images/messagebox/highlight-line.gif) repeat-x scroll 0 0; border-color:#FDD845; }
+.warning p { background:transparent url(../images/messagebox/warning.png) no-repeat scroll 7px 8px; }
+
+.error { background:#FBE3E4 url(../images/messagebox/highlight-line.gif) repeat-x scroll 0 0; border-color:#FBC7C9; }
+.error p { background:transparent url(../images/messagebox/error.png) no-repeat scroll 7px 8px; }
+
+.critical { background:#FBE3E4 url(../images/messagebox/highlight-line.gif) repeat-x scroll 0 0; border-color:#FBC7C9; }
+.critical p { background:transparent url(../images/messagebox/critical.png) no-repeat scroll 7px 8px; }
+
+.info { background:#A8B2C5 url(../images/messagebox/highlight-line.gif) repeat-x scroll 0 0; border-color:#8497BF; }
+.info p { background:transparent url(../images/messagebox/information.png) no-repeat scroll 7px 8px; }
+
+.closeable { position: relative; }
+.click_to_close {
+	right: 2px; top: 2px; position: absolute; cursor: pointer; height: 16px; width: 16px;
+	background: transparent url(../images/messagebox/close.png) no-repeat scroll 0 0; z-index: 1000;
+}
+
+/*
+ * Download page
+ */
+.downloadContainer .image { float: left; padding-right: 80px; margin-right:20px; background-color: #FFFFFF; height: 300px; }
+.downloadContainer .details { padding-top: 20px; }
+.downloadContainer .fileDetails { margin-top: 10px; border-top: 1px solid #E0E0E0; border-bottom: 1px solid #E0E0E0; padding: 10px; }
+.downloadContainer .fileDetails .row { margin-bottom: 10px; }
+.downloadContainer .fileDetails .name { float: left; width: 120px; text-align: right; margin-right: 10px; }
+.downloadContainer .fileDetails .altDownloadLink { font-size: 13px; }
+.downloadContainer .fileDetails .altDownloadLink { margin-top: 20px; }
+
+

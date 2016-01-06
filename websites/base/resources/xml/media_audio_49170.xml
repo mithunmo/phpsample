@@ -1,0 +1,5 @@
+<moviemasher>
+	<media type="audio" id="730de456eb05c91ddd5a4506576b54f0" label="TRAX Too Little Too Late-Voc Makin Trax-FLIKTRAX" group="audio" audio="http://ftmedia.s3.amazonaws.com/makintrax-fliktrax/paulmclinden/traxtoolittletoolate-voc.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="275"/>
+	<media type="audio" id="9dbda2320688135c0d6fd5194d10e3b7" label="TRAX Too Little Too Late-Inst Makin Trax-FLIKTRAX" group="audio" audio="http://ftmedia.s3.amazonaws.com/makintrax-fliktrax/paulmclinden/traxtoolittletoolate-inst.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="276"/>
+	<media type="audio" id="006ba6b9a1ad0babe56b007eadae8685" label="Little Star Alex Khaskin" group="audio" audio="http://ftmedia.s3.amazonaws.com/alexkhaskin/romanticunderscorewav/littlestar.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="75"/>
+</moviemasher>

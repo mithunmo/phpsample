@@ -1,0 +1,5 @@
+<moviemasher>
+	<media type="audio" id="25a1718827b93f8c44ab6eae24d88e4d" label="I Will Follow Paul Glover " group="audio" audio="http://ftmedia.s3.amazonaws.com/paulglover/paulglovercd2/iwillfollow.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="256"/>
+	<media type="audio" id="4f9aa9ca29fa03a06ad306ebbfe1d0b8" label="Lonely Together Stagolee" group="audio" audio="http://ftmedia.s3.amazonaws.com/stagolee/takewhatyouwant/lonelytogether.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="207"/>
+	<media type="audio" id="cf11ab8e7e10a97afe34091ecefd8cf9" label="A Skeptical Mind Sam O'Neill" group="audio" audio="http://momusic.s3.amazonaws.com/samorao39;neill/samorao39;neill/askepticalmind.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="320"/>
+</moviemasher>

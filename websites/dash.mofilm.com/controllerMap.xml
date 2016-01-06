@@ -1,0 +1,14 @@
+<!DOCTYPE controllers SYSTEM "../../data/dtds/controllerMap.dtd">
+<controllers>
+	<controller name="home" />
+	<controller name="account" />
+	<controller name="admin">
+		<controllers>
+			<controller name="eventadmin">
+				<controllers>
+					<controller name="eventManager" />
+				</controllers>
+			</controller>
+		</controllers>
+	</controller>
+</controllers>

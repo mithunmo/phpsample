@@ -1,0 +1,8 @@
+<moviemasher>
+	<media type="audio" id="51ed909155f47769c8f6a6fb5bb8c7f1" label="GOTA Rich Tozzoli" group="audio" audio="http://ftmedia.s3.amazonaws.com/richtozzoli/uptempogroove/gota.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="43"/>
+	<media type="audio" id="fe14c028aabc1b43142829caf001e9a0" label="Magenta Bryan Steele" group="audio" audio="http://ftmedia.s3.amazonaws.com/bryansteele/catalog/magenta.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="120"/>
+	<media type="audio" id="22afde37626fb20016e5f273db0745b2" label="Take No Prisoners Bryan Steele" group="audio" audio="http://ftmedia.s3.amazonaws.com/bryansteele/catalog/takenoprisoners.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="64"/>
+	<media type="audio" id="3714b8aa1b3895c8f38ef8b96c410381" label="Sidewalk Sultan Bryan Steele" group="audio" audio="http://ftmedia.s3.amazonaws.com/bryansteele/catalog/sidewalksultan.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="62"/>
+	<media type="audio" id="a159338eafe5a3cd986169db39f398f0" label="Dreamin' Alt Mix 1 Bryan Steele" group="audio" audio="http://ftmedia.s3.amazonaws.com/bryansteele/catalog/dreaminaltmix1.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="198"/>
+	<media type="audio" id="5e3f18d07436ec7b7db8c66704c4e59c" label="Dreamin' Bryan Steele" group="audio" audio="http://ftmedia.s3.amazonaws.com/bryansteele/catalog/dreamin.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="198"/>
+</moviemasher>

@@ -1,0 +1,5 @@
+<moviemasher>
+	<media type="audio" id="7208f81583124ba9e474f68f5d75b7fb" label="Inner Smile Abbas Premjee" group="audio" audio="http://ftmedia.s3.amazonaws.com/abbaspremjee/abbaspremjeecd1/innersmile.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="183"/>
+	<media type="audio" id="84614ff4a1929ae32426b6906bd58afc" label="The Little Things Abbas Premjee" group="audio" audio="http://ftmedia.s3.amazonaws.com/abbaspremjee/abbaspremjeecd6/thelittlethings.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="134"/>
+	<media type="audio" id="a4b23b78733ca6272366805e94451764" label="Twilight Dance Abbas Premjee" group="audio" audio="http://ftmedia.s3.amazonaws.com/abbaspremjee/abbaspremjeecd7/twilightdance.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="130"/>
+</moviemasher>

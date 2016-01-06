@@ -1,0 +1,28 @@
+<FilesMatch "\.(conf|ini|inc|tpl)$">
+        Order allow,deny
+        Deny from all
+</FilesMatch>
+<Files "error_log">
+        Deny from all
+</Files>
+<Files "as.xml">
+        Allow from all
+</Files>
+<FilesMatch "\.(ico|pdf|flv|jpg|png|gif|js|css|swf|mp3|php|mp4)(\.gz)?$">
+        Header unset ETag
+        FileETag None
+</FilesMatch>
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|mp3|mp4)(\.gz)?$">
+        ExpiresActive On
+        ExpiresDefault "access plus 4 weeks"
+</FilesMatch>
+<IfModule mod_deflate.c>
+	AddOutputFilterByType DEFLATE text/javascript text/xml text/html application/javascript application/x-javascript text/plain text/css text/text
+</IfModule>
+
+RewriteEngine on
+RewriteRule ^p/([a-zA-Z0-9]+)$ /video/$1?type=min [L]
+RewriteRule ^pop/([a-zA-Z0-9]+)$ /video/$1?type=popup [L]
+RewriteRule ^std/([a-zA-Z0-9]+)$ /video/$1?type=std [L]
+RewriteRule !(\.js|\.ico|\.gif|\.jpg|\.css|\.png|\.swf|\.pdf|\.htm|\.html|robots\.txt|\.ttf|\.otf|\.mp3|\.flv|\.php|\.mp4)$ index.php
+php_flag apc.cache_by_default Off

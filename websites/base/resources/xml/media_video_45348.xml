@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="video" id="57f119314f1cbe7877f9e47e081054a8" label="VO-Claro_AE_V01-005.mp4" group="video" url="/resources/video/momusic/186f596d368b9b57d2f72b5e9e60e3de.flv" audio="/resources/video/momusic/186f596d368b9b57d2f72b5e9e60e3de.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="186f596d368b9b57d2f72b5e9e60e3de" label="Claro_AE_V01-005.mp4" group="video" url="/resources/video/momusic/186f596d368b9b57d2f72b5e9e60e3de.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

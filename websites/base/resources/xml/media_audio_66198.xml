@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="audio" id="2c28dfddf5a35d5ef0c8dfdde25ae4b8" label="Just A Little Hope (Cut C) Adi Goldstein" group="audio" audio="http://ftmedia.s3.amazonaws.com/adigoldstein/sentimentalandromantic/justalittlehope-cutc.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="54"/>
+	<media type="audio" id="17a0bb4c800c65107e3c8d4738fa102b" label="Like a walk in the park 60sec Ionics Music" group="audio" audio="http://momusic.s3.amazonaws.com/ionicsmusic/album-ionicsmusic/likeawalkinthepark60sec.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="60"/>
+</moviemasher>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<moviemasher>
+	
+	<media type="video" id="88c1c0ac7a689836ae4c030ef2dff350" label="TEST_1.mp4" group="video" url="/resources/video/momusic/88c1c0ac7a689836ae4c030ef2dff350.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

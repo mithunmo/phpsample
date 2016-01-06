@@ -1,0 +1,7 @@
+<moviemasher>
+	<media type="audio" id="b9641780a1ac516d476a3708203ce6c1" label="Easy Ukulele Soundroad " group="audio" audio="http://ftmedia.s3.amazonaws.com/soundroad/inspirational1/easy-ukulele.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="147"/>
+	<media type="audio" id="384da2d2d3930aa93d730efb4e470fe7" label="Quirky Uke Fun Bruce Zimmerman " group="audio" audio="http://ftmedia.s3.amazonaws.com/brucezimmerman/justfoolingaround/quirky-uke-fun.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="119"/>
+	<media type="audio" id="394a2c1229702b6bb7a731428a82693c" label="Shiny Happy World (15 Sec) Adi Goldstein" group="audio" audio="http://ftmedia.s3.amazonaws.com/adigoldstein/funandhappy/shinyhappyworld-15sec.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="19"/>
+	<media type="audio" id="52965c3c5251731fc6c8eb68f50ed157" label="Shiny Happy World (30 Sec) Adi Goldstein" group="audio" audio="http://ftmedia.s3.amazonaws.com/adigoldstein/funandhappy/shinyhappyworld-30sec.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="37"/>
+	<media type="audio" id="42b2e5e312b1067e8577fd99f085cd5b" label="Shiny Happy World (Full Mix) Adi Goldstein" group="audio" audio="http://ftmedia.s3.amazonaws.com/adigoldstein/funandhappy/shinyhappyworld-fullmix.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="82"/>
+</moviemasher>

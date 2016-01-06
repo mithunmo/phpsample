@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="video" id="d8fff8285938fc481bf2fe3b64da9cb4" label="VO-Isha09VO.mp4" group="video" url="/resources/video/momusic/2a0edca1fb135f29f75bffafd5fd1a5a.flv" audio="/resources/video/momusic/2a0edca1fb135f29f75bffafd5fd1a5a.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+	<media type="video" id="2a0edca1fb135f29f75bffafd5fd1a5a" label="Isha09VO.mp4" group="video" url="/resources/video/momusic/2a0edca1fb135f29f75bffafd5fd1a5a.flv" icon="/themes/mofilm/images/mm/video.png" duration="60"/>
+</moviemasher>

@@ -1,0 +1,6 @@
+<moviemasher>
+	<media type="audio" id="f87de998b2d15dd81a4dc29c02613541" label="Cut Loose Larry Collinsworth" group="audio" audio="http://momusic.s3.amazonaws.com/getty/larrycollinsworth/larrycollinsworth/cutloose.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="199"/>
+	<media type="audio" id="f4303d141adc18d1217a67dbe6fd2b90" label="Cut Loose Larry Collinsworth" group="audio" audio="http://momusic.s3.amazonaws.com/getty/larrycollinsworth/larrycollinsworth/cutloose.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="199"/>
+	<media type="audio" id="ba347045b51c0a116b29a651455cb67c" label="Cut Loose Larry Collinsworth" group="audio" audio="http://momusic.s3.amazonaws.com/getty/larrycollinsworth/larrycollinsworth/cutloose.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="199"/>
+	<media type="audio" id="ea94f9b0fbc08c5e80113efedc36d8e3" label="This Ring Jimmy Agnello" group="audio" audio="http://ftmedia.s3.amazonaws.com/jimmyagnello/jimmyagnello/thisring.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="155"/>
+</moviemasher>

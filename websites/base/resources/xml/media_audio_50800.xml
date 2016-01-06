@@ -1,0 +1,6 @@
+<moviemasher>
+	<media type="audio" id="37de3a857a6c4898f1f6fcd0e395d851" label="Over the Wire Jason Crigler" group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/430000/432841_Over+the+Wire.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="98"/>
+	<media type="audio" id="dfd6b65ffe8ac7173cca94354f19e0ae" label="Everything New (Instrumental) Daniel Nahmod" group="audio" audio="http://momusic.s3.amazonaws.com/getty/danielnahmod/danielnahmod/everythingnewinstrumental.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="229"/>
+	<media type="audio" id="2047aef70fce357e1297bed9f66a37ba" label="Everything New (Instrumental) Daniel Nahmod" group="audio" audio="http://momusic.s3.amazonaws.com/getty/danielnahmod/danielnahmod/everythingnewinstrumental.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="229"/>
+	<media type="audio" id="5dde846b1d9fb8d685af1fd91b001a92" label="Stadium E2 Jason Crigler " group="audio" audio="http://momusic.s3.amazonaws.com/getty/musictracks/400000/400401_Stadium+E2.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="145"/>
+</moviemasher>

@@ -1,0 +1,4 @@
+<moviemasher>
+	<media type="audio" id="bb40602e53176ef33c253e14484c9dd5" label="natural process full Ionics Music" group="audio" audio="http://momusic.s3.amazonaws.com/ionicsmusic/album-ionicsmusic/naturalprocessfull.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="101"/>
+	<media type="audio" id="08180ed83a9952b5bf3fe6a4417425ae" label="Bandits Passion full Ionics Music" group="audio" audio="http://momusic.s3.amazonaws.com/ionicsmusic/album-ionicsmusic/banditspassionfull.mp3" icon="/themes/mofilm/images/mm/audio.png" wave="../media/audio/Swing/audio.png" duration="44"/>
+</moviemasher>
