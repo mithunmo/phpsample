@@ -1,0 +1,14 @@
+/temp/*
+/logs/*
+/websites/base/resources/video/plupload/*
+/websites/base/resources/video/*
+/websites/base/resources/grantDocs/*
+/websites/base/resources/ccaDocs/*
+/websites/base/resources/uploadedFiles/*
+/websites/base/resources/profiles/*
+/websites/base/resources/_platform/*
+/websites/base/resources/invoiceDocs/*
+/websites/base/resources/exportPayments/*
+/websites/base/resources/downloads/*
+/websites/base/resources/momusic/*
+/data/config/config.xml
