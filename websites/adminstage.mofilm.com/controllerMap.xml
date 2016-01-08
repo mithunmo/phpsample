@@ -99,6 +99,8 @@
 					<controller name="currencies" description="Currencies"/>
 					<controller name="motd" description="Message of the Day"/>
 					<controller name="status" description="System Status Information"/>
+                                        <controller name="channel" description="channel"/>
+                                        <controller name="distribution" description="distribution"/>
 					<controller name="momusic" description="Mofilm Music">
 						<controllers>
                                                         <controller name="featuredArtist" description="Featured Artist"/>
@@ -120,7 +122,7 @@
 					<controller name="apiKey" description="Manage API Keys"/>
 				</controllers>
 			</controller>
-                        <controller name="payment" description="Payment Advice " >     
+                        <controller name="paymentDetails" description="payment" >     
                         </controller>
 		</controllers>
 	</controller>
