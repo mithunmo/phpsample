@@ -365,8 +365,9 @@ class accountController extends mvcController {
 	 * @return void
 	 */
 	protected function loggedInAction() {
-		$oView = new accountView($this);
-		$oView->showLoggedInPage();
+		$this->redirect(system::getConfig()->getParam('mofilm', 'platformUri')->getParamValue().'dashboard/?token='.$this->getRequest()->getSession()->getToken());		
+		//$oView = new accountView($this);
+		//$oView->showLoggedInPage();
 	}
 
 	/**
