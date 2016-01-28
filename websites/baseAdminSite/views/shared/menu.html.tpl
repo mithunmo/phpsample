@@ -47,7 +47,7 @@
                                             <a href="{system::getConfig()->getParam('mofilm', 'platformUri')->getParamValue()}{'dashboard/?token='}{$accessToken}" accesskey="2">{t}DASHBOARD{/t}</a>
                                             <ul class="secondary">
                                                 							
-                                                <li class="secondary start"><a href="/home" accesskey="7">{t}Legacy Dashboard{/t}</a></li>	
+                                                <li class="secondary start"><a href="/home/legacy" accesskey="7">{t}Legacy Dashboard{/t}</a></li>	
                                             </ul>
                                         </li>
 					{if $oUser->isAuthorised('admin.menuVideos')}

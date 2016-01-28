@@ -546,6 +546,15 @@ class sourceManagerController extends mvcDaoController {
 		$inModel->setName($inData['Name']);
 		$inModel->setHidden($inData['Hidden']);
 		$inModel->setCustom($inData['Custom']);
+		if($inData['Status']!='CLOSED'){
+			$inModel->setCloseDate('');
+		}else{
+			$inModel->setCloseDate(date('Y-m-d'));
+		}
+		if ( $this->getAction() == self::ACTION_DO_NEW ) {
+			$inModel->setCreatedDate(date('Y-m-d H:m:s'));
+		}
+		
 		//$inModel->setTermsID($inData['TermsID']);
 		$inModel->setInstructions(stripslashes(trim($_POST['Instructions'])));
 		$inModel->setBgcolor(trim($inData['SourceBgcolor']));

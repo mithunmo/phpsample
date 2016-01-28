@@ -67,7 +67,7 @@
 
 .btn-save { border-radius: 4px;  background:#0099cc; color: white; padding: 10px 20px;}
 
-.btn-cancel  { border-radius: 4px;  background:#b9b9b9; margin-right: 10px; color: white; padding: 10px 20px;}
+.btn-cancel  { border-radius: 4px;  background:#929596; margin-right: 10px; color: white; padding: 10px 20px;}
 
 .btn-approved  { border-radius: 4px;  background:#40c40c; margin-right: 60px; color: white; padding: 10px 20px;}
 
@@ -127,6 +127,16 @@
     font-size: 13px;
         font-weight: 100!important;
     font-family:'Open Sans';
+    -moz-appearance: none;
+appearance: none;
+background-image: url(../images/payment/selectbtn.png);
+background-position: right center;
+background-repeat: no-repeat;
+border: 1px solid #ccc;
+-webkit-appearance: none;
+-webkit-border-radius: 0px;
+
+ 
 
   }
 .paymenttxt {
@@ -155,11 +165,10 @@
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
+    -moz-appearance: none;
     background-color: #fff;
     background-image: none;
     border-bottom-color: #ccc;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-image-outset: 0 0 0 0;
@@ -174,8 +183,6 @@
     border-right-style: solid;
     border-right-width: 1px;
     border-top-color: #ccc;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
     border-top-style: solid;
     border-top-width: 1px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
@@ -184,7 +191,7 @@
     height: 34px;
     line-height: 1.42857;
     padding-bottom: 6px;
-    padding-left: 12px;
+    padding-left: 5px;
     padding-right: 12px;
     padding-top: 6px;
     transition-delay: 0s, 0s;
@@ -192,6 +199,16 @@
     transition-property: border-color, box-shadow;
     transition-timing-function: ease-in-out, ease-in-out;
     width: 100%;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    background-image: url(../images/payment/selectbtn.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+    margin: 10px 0px 0px 0px;
+        
+   
+    
 }
 
 .btn-modify { 
@@ -880,4 +897,9 @@ margin-bottom: 20px;
 
 .noinvoicewarning { color:#e26a10;}
 .moneybold{ text-align: right; font-weight: bold; margin-bottom: 4px;}
+
+input#payableAmount, input#tilldate{
+    border-left:none;
+    border: 1px solid #ccc;
+}
  
