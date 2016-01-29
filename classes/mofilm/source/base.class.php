@@ -177,6 +177,21 @@ class mofilmSourceBase implements systemDaoInterface, systemDaoValidatorInterfac
 	 */
 	protected $_SponsorID;
         
+        /**
+	 * Stores $_CloseDate
+	 * 
+	 * @var string
+	 * @access protected
+	 */
+	protected $_CloseDate;
+        
+        /**
+	 * Stores $_CreatedDate
+	 * 
+	 * @var string
+	 * @access protected
+	 */
+	protected $_CreatedDate;
         
 	/**
 	 * Stores $_MarkForDeletion
@@ -279,6 +294,8 @@ class mofilmSourceBase implements systemDaoInterface, systemDaoValidatorInterfac
 		$this->setStartDate($inArray['startDate']);
 		$this->setEndDate($inArray['endDate']);
                 $this->setSponsorID($inArray["sponsorID"]);
+                $this->setCloseDate($inArray["closeDate"]);
+                $this->setCreatedDate($inArray["createdDate"]);
 		$this->setTermsID((int)$inArray['termsID']);
 		$this->setInstructions($inArray['instructions']);
 		$this->setBgcolor($inArray['bgcolor']);
@@ -306,9 +323,9 @@ class mofilmSourceBase implements systemDaoInterface, systemDaoValidatorInterfac
 			if ( $this->_Modified ) {
 				$query = '
 				INSERT INTO '.system::getConfig()->getDatabase('mofilm_content').'.sources
-					( ID, eventID,brandID, name, hidden, custom, startDate, endDate, termsID, instructions, bgcolor, tripbudget, status, sponsorID)
+					( ID, eventID,brandID, name, hidden, custom, startDate, endDate, termsID, instructions, bgcolor, tripbudget, status, sponsorID,closeDate,createdDate)
 				VALUES 
-					(:ID, :EventID,:BrandID, :Name, :Hidden, :Custom, :StartDate, :EndDate, :TermsID, :Instructions, :Bgcolor, :Tripbudget, :Status, :sponsorID)
+					(:ID, :EventID,:BrandID, :Name, :Hidden, :Custom, :StartDate, :EndDate, :TermsID, :Instructions, :Bgcolor, :Tripbudget, :Status, :sponsorID,:closeDate,:createdDate)
 				ON DUPLICATE KEY UPDATE
 					eventID=VALUES(eventID),
                                         brandID=VALUES(brandID),
@@ -321,6 +338,8 @@ class mofilmSourceBase implements systemDaoInterface, systemDaoValidatorInterfac
 					instructions=VALUES(instructions),
 					bgcolor=VALUES(bgcolor),
                                         sponsorID=VALUES(sponsorID),
+                                        closeDate=VALUES(closeDate),
+                                        createdDate=VALUES(createdDate),
 					tripbudget=VALUES(tripbudget),
 					status=VALUES(status)';
 
@@ -340,6 +359,8 @@ class mofilmSourceBase implements systemDaoInterface, systemDaoValidatorInterfac
 					$oStmt->bindValue(':Instructions', $this->_Instructions);
 					$oStmt->bindValue(':Bgcolor', $this->_Bgcolor);
                                         $oStmt->bindValue(":sponsorID", $this->_SponsorID);
+                                        $oStmt->bindValue(":closeDate", $this->_CloseDate);
+                                        $oStmt->bindValue(":createdDate", $this->_CreatedDate);
 					$oStmt->bindValue(':Tripbudget', $this->_Tripbudget);
 					$oStmt->bindValue(':Status', $this->_Status);
 
@@ -397,6 +418,8 @@ class mofilmSourceBase implements systemDaoInterface, systemDaoValidatorInterfac
 		$this->_EventID = 0;
                 $this->_BrandID = 0;
                 $this->_SponsorID = 0;
+                $this->_CloseDate = '';
+                $this->_CreatedDate = '';
 		$this->_Name = '';
 		$this->_Hidden = self::NO_N;
 		$this->_Custom = self::NO_N;
@@ -1233,6 +1256,30 @@ class mofilmSourceBase implements systemDaoInterface, systemDaoValidatorInterfac
 	function setSponsorID($inSponsorID) {
 		if ( $inSponsorID !== $this->_SponsorID ) {
 			$this->_SponsorID = $inSponsorID;
+			$this->setModified();
+		}
+		return $this;
+	}
+        
+        function getCloseDate() {
+		return $this->_CloseDate;
+	}
+        
+        function setCloseDate($inCloseDate) {
+		if ( $inCloseDate !== $this->_CloseDate ) {
+			$this->_CloseDate = $inCloseDate;
+			$this->setModified();
+		}
+		return $this;
+	}
+        
+        function getCreatedDate() {
+		return $this->_CreatedDate;
+	}
+        
+        function setCreatedDate($inCreatedDate) {
+		if ( $inCreatedDate !== $this->_CreatedDate ) {
+			$this->_CreatedDate = $inCreatedDate;
 			$this->setModified();
 		}
 		return $this;
