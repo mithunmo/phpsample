@@ -183,7 +183,7 @@ $months = array (1=>'Jan',2=>'Feb',3=>'Mar',4=>'Apr',5=>'May',6=>'Jun',7=>'Jul',
      * @return string
      */
     function getReportName() {
-        return 'User Preferred Genres';
+        return 'User Cohort Report';
     }
 
     /**
@@ -192,7 +192,8 @@ $months = array (1=>'Jan',2=>'Feb',3=>'Mar',4=>'Apr',5=>'May',6=>'Jun',7=>'Jul',
      * @return string
      */
     function getReportDescription() {
-        return 'Summary of user preferred film genres as entered upon registration or through edit profile. ';
+        return 'Understand retention and engagement over time of our users by registration cohort.
+    ';
     }
 
     /**
