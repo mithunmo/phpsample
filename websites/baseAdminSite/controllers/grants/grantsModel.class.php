@@ -400,7 +400,7 @@ class grantsModel extends mofilmUserMovieGrants {
 			}
                         if($ProductID == "3"){
                         if($sourceID == "990"){
-                            $html .= '<span style="font-size:30px; font-weight:bold; color:#077ac3;">Please complete this sentence: This creative idea will inspire social content about …</span><br />';
+                            $html .= '<span style="font-size:30px; font-weight:bold; color:#077ac3;">Please complete this sentence:</span><br />';
                                     $html .= '<span style="font-size:30px; font-weight:bold; color:#077ac3;">This creative platform will inspire films for Mother’s Day about... </span><br />';
 				$html .= '<span style="font-size:25px; color:#5a5857">'.$oUserMovieGrants->getParamSet()->getParam('question1').'</span><br /><br />';
                                 $html .= '<span style="font-size:30px; font-weight:bold; color:#077ac3;">This creative platform will inspire films for Holidays about... </span><br />';
