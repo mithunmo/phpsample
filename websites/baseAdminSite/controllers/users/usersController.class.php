@@ -74,17 +74,8 @@ class usersController extends mvcController {
 	function launch() {
 		switch ( $this->getAction() ) {
 			case self::ACTION_EDIT:
-				$userID = $this->getActionFromRequest(false, 1);
-				$oView = new usersView($this);
-				try {
-					systemLog::message('User is editing user record '.$userID);
-					
-					$this->getModel()->getUser($userID);
-					$oView->showUserEditPage();
-				} catch ( mvcModelException $e ) {
-					$this->getRequest()->getSession()->setStatusMessage($e->getMessage(), mvcSession::MESSAGE_ERROR);
-					$this->redirect($this->buildUriPath(self::ACTION_VIEW));
-				}
+				 $userID = $this->getActionFromRequest(false, 1);
+                 $this->redirect(system::getConfig()->getParam('mofilm', 'platformUri')->getParamValue().'users/'.$userID.'?token='.$this->getRequest()->getSession()->getToken());
 			break;
 			
 			case self::ACTION_DO_EDIT:
