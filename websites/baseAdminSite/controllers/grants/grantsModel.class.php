@@ -326,7 +326,7 @@ class grantsModel extends mofilmUserMovieGrants {
                             if($sourceID == "941")
                                 $html .= '<span style="font-size:30px; font-weight:bold; color:#077ac3;">What is the creative idea?</span><br />';
                             else    
-                                $html .= '<span style="font-size:30px; font-weight:bold; color:#077ac3;">What is your creative platform?</span><br />';
+                                $html .= '<span style="fx   ont-size:30px; font-weight:bold; color:#077ac3;">What is your creative platform?</span><br />';
                         }    
 			elseif($ProductID == "5"){
                             if(isset($grantUpdate))
@@ -398,6 +398,15 @@ class grantsModel extends mofilmUserMovieGrants {
 				$html .= '<span style="font-size:30px; font-weight:bold; color:#077ac3;">Script</span><br />';
 				$html .= '<span style="font-size:25px; color:#5a5857">'.$oUserMovieGrants->getScript().'</span><br /><br />';
 			}
+                        if($ProductID == "3"){
+                        if($sourceID == "990"){
+                            $html .= '<span style="font-size:30px; font-weight:bold; color:#077ac3;">Please complete this sentence: This creative idea will inspire social content about …</span><br />';
+                                    $html .= '<span style="font-size:30px; font-weight:bold; color:#077ac3;">This creative platform will inspire films for Mother’s Day about... </span><br />';
+				$html .= '<span style="font-size:25px; color:#5a5857">'.$oUserMovieGrants->getParamSet()->getParam('question1').'</span><br /><br />';
+                                $html .= '<span style="font-size:30px; font-weight:bold; color:#077ac3;">This creative platform will inspire films for Holidays about... </span><br />';
+				$html .= '<span style="font-size:25px; color:#5a5857">'.$oUserMovieGrants->getParamSet()->getParam('question2').'</span><br /><br />';
+                                }
+                        }
                         if($ProductID == "3")
                         {
                             if($sourceID == "941") ;
@@ -407,7 +416,12 @@ class grantsModel extends mofilmUserMovieGrants {
                             $html .= '<span style="font-size:25px; color:#5a5857">'.$oUserMovieGrants->getParamSet()->getParam('ReferenceFilm1').'</span><br /><br />';
                             $html .= '<span style="font-size:25px; color:#5a5857">'.$oUserMovieGrants->getParamSet()->getParam('ReferenceFilm2').'</span><br /><br />';
                             $html .= '<span style="font-size:25px; color:#5a5857">'.$oUserMovieGrants->getParamSet()->getParam('ReferenceFilm3').'</span><br /><br />';
-                            }    
+                            }  
+                            else if($sourceID == "990"){
+                            $html .= '<span style="font-size:30px; font-weight:bold; color:#077ac3;">Please provide at least 2 additional executions (using Mother’s Day, Holiday or neither) that could be derived from the creative platform for Social and Point of Sale. </span><br />';
+                            $html .= '<span style="font-size:25px; color:#5a5857">'.$oUserMovieGrants->getParamSet()->getParam('ReferenceFilm1').'</span><br /><br />';
+                            $html .= '<span style="font-size:25px; color:#5a5857">'.$oUserMovieGrants->getParamSet()->getParam('ReferenceFilm2').'</span><br /><br />';
+                            }
                             else{
                             $html .= '<span style="font-size:30px; font-weight:bold; color:#077ac3;">Please describe 3 additional film or non-film executions that could be a part of the creative platform</span><br />';
                             $html .= '<span style="font-size:25px; color:#5a5857">'.$oUserMovieGrants->getParamSet()->getParam('ReferenceFilm1').'</span><br /><br />';

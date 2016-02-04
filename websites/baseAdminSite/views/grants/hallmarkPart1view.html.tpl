@@ -83,7 +83,7 @@
 			
                                                
                         <div class="formFieldContainer">
-				<h4>Please upload 3 image references that help bring the insight, idea, tonality and / or style of the creative platform to life.</h4>
+				<h4>Please provide 3 visual references that add further context to the creative platform.</h4>
 				<div class="ui-accordion-content ui-widget-content ui-accordion-content-active ui-corner-top ui-corner-bottom">
                                   {if $oGrant->isFileExists('ReferenceImage1')}
 				<div class="formFieldContainer">
