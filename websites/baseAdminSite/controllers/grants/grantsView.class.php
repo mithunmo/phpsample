@@ -132,6 +132,8 @@ class grantsView extends mvcView {
                         $this->render($this->getTpl('dosview'));
                     else if(($SID == "990"))
                         $this->render($this->getTpl('hallmarkPart1view'));
+                    else if(($SID == "989"))
+                        $this->render($this->getTpl('hallmarkPart2view'));
                     else    
                         $this->render($this->getTpl('momindsview'));
                 } else {
@@ -203,6 +205,8 @@ class grantsView extends mvcView {
                         $this->render($this->getTpl('dosedit'));
                     else if(($sourceID == "990"))
                         $this->render($this->getTpl('hallmarkPart1edit'));
+                    else if(($sourceID == "989"))
+                        $this->render($this->getTpl('hallmarkPart2edit'));
                     else
                         $this->render($this->getTpl('momindsedit'));
                 }
