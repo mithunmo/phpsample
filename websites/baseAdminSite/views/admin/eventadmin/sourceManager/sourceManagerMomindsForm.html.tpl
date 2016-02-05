@@ -525,7 +525,6 @@
                 <div class="clearBoth"></div>
             </div>
         </div>
-       {if $oUser->getPermissions()->isRoot()}         
         {if $oController->getAction() == 'editObject'}
         <h3><a href="#" id="ProjectBudget">Budget</a></h3>
         <div>
@@ -547,7 +546,7 @@
             </table>
         </div>
         {/if}
-        {/if}
+        
         <h3><a href="#" >Idea Submission Form</a></h3>
         <div>
             <table>
