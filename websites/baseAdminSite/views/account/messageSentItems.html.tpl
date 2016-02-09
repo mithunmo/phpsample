@@ -30,7 +30,7 @@
 							{foreach name=list item=oObject from=$objects}
 								<tr class="{cycle values='alt,'}">
 									<td class="pmDate">{$oObject->getSentDate()|date_format:'%d %B %Y @ %H:%M'}</td>
-                                                                        <td class="pmSender"><a href="/users/edit/{$oObject->getToUserID()}" target="_blank">{$oObject->getRecipient()->getFullname()}</a></td>
+                                                                        <td class="pmSender"><a href="{system::getConfig()->getParam('mofilm', 'platformUri')->getParamValue()}{'users/'}{$oObject->getToUserID()}{'?token='}{$accessToken}" target="_blank">{$oObject->getRecipient()->getFullname()}</a></td>
 									<td class="pmSubject"><a href="{$readSentUri}/{$oObject->getMessageID()}" title="{t}Read{/t}">{$oObject->getSubject()}</a></td>
 									<td class="last">
 										<a href="{$readSentUri}/{$oObject->getMessageID()}" title="{t}Read{/t}"><img src="{$themeicons}/32x32/mail-mark-read.png" alt="{t}Read{/t}" class="icon" /></a>
