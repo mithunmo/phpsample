@@ -7,7 +7,7 @@
 {/strip}
 {if $oController->hasAuthority('usersController.edit')}
 	{if $oVideoResult->getUser()->getID() > 0}
-		<a href="/users/edit/{$oVideoResult->getUser()->getID()}" title="{t}Edit user{/t} {$oVideoResult->getUser()->getFullname()|xmlstring}">{$oVideoResult->getUser()->getFullname()|truncate:20:'..'|xmlstring}</a>
+		<a href="{system::getConfig()->getParam('mofilm', 'platformUri')->getParamValue()}{'users/'}{$oVideoResult->getUser()->getID()}{'?token='}{$accessToken}" title="{t}Edit user{/t} {$oVideoResult->getUser()->getFullname()|xmlstring}">{$oVideoResult->getUser()->getFullname()|truncate:20:'..'|xmlstring}</a>
 	{else}
 		{$oVideoResult->getUser()->getFullname()|truncate:20:'..'|xmlstring}
 	{/if}

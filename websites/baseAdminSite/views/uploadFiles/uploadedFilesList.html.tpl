@@ -48,7 +48,7 @@
 				{foreach $oResults->getResults() as $oObject}
 					<tr class="{cycle values=",alt"}">
 						<td {if $oObject@iteration % 2}class="alt"{/if}>{$oObject->getID()}</td>
-						<td {if $oObject@iteration % 2}class="alt"{/if}><a href="/users/edit/{$oObject->getUserID()}">{$oObject->getUser()->getFullname()}</a></td>
+						<td {if $oObject@iteration % 2}class="alt"{/if}><a href="{system::getConfig()->getParam('mofilm', 'platformUri')->getParamValue()}{'users/'}{$oObject->getUserID()}{'?token='}{$accessToken}">{$oObject->getUser()->getFullname()}</a></td>
 						<td align="center" {if $oObject@iteration % 2}class="alt"{/if}><img src="/resources/client/events/logo/{$oObject->getSource()->getEvent()->getLogoName()}.png" width="50" height="28" alt="{$oObject->getSource()->getEvent()->getName()}" title="{$oObject->getSource()->getEvent()->getName()}" /></td>
 						<td align="center" {if $oObject@iteration % 2}class="alt"{/if}><img src="/resources/client/sources/logo/{$oObject->getSource()->getLogoName()}.png" width="50" height="28" alt="{$oObject->getSource()->getName()}" title="{$oObject->getSource()->getName()}" /></td>
 						<td align="center" {if $oObject@iteration % 2}class="alt"{/if}>{$oObject->getUploadType()}</td>

@@ -32,7 +32,7 @@
                         <h6>{$oPaymentDetails['products']['name']}</h6>
                     </td>
                     <td>{$oPaymentDetails['brands']['name']}</td>
-                    <td><a href="/users/edit/{$oPaymentDetails['users']['ID']}">{$oPaymentDetails['users']['firstname']}{' '}{$oPaymentDetails['users']['surname']}</a>
+                    <td><a href="{system::getConfig()->getParam('mofilm', 'platformUri')->getParamValue()}{'users/'}{$oPaymentDetails['users']['ID']}{'?token='}{$accessToken}">{$oPaymentDetails['users']['firstname']}{' '}{$oPaymentDetails['users']['surname']}</a>
                     </td>
                     <td>{$oPaymentDetails['payment']['paymentType']}</td>
                     <td>{$oPaymentDetails['payment']['status']}</td>

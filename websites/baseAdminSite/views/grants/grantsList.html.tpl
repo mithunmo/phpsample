@@ -151,7 +151,7 @@
 								{/if}
 							{/if}
 						</td>
-						<td {if $oObject@iteration % 2}class="alt"{/if}><a href="/users/edit/{$oObject->getUserID()}"> {if $oObject->getUser()->getFullname()}{$oObject->getUser()->getFullname()}{else}{$oObject->getUser()->getPropername()}{/if}  </a></td>
+						<td {if $oObject@iteration % 2}class="alt"{/if}><a href="{system::getConfig()->getParam('mofilm', 'platformUri')->getParamValue()}{'users/'}{$oObject->getUserID()}{'?token='}{$accessToken}"> {if $oObject->getUser()->getFullname()}{$oObject->getUser()->getFullname()}{else}{$oObject->getUser()->getPropername()}{/if}  </a></td>
 						<td {if $oObject@iteration % 2}class="alt"{/if}>
 							{$oObject->getFilmTitle()}
 							{if !($oObject->getApplicationAppliedStatus())}

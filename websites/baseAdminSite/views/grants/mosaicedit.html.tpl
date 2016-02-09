@@ -42,7 +42,7 @@
  <div class="formFieldModerator">
                             
                             <h4>Film Maker</h4>
-                            <a href="/users/edit/{$oGrant->getUserID()}" title="{t}View users admin profile{/t}" target="_blank"> {$oGrant->getUser()->getFullname()}  </a>
+                            <a href="{system::getConfig()->getParam('mofilm', 'platformUri')->getParamValue()}{'users/'}{$oGrant->getUserID()}{'?token='}{$accessToken}" title="{t}View users admin profile{/t}" target="_blank"> {$oGrant->getUser()->getFullname()}  </a>
                              
                         </div>
                             <br>
