@@ -31,7 +31,7 @@
 							{foreach name=list item=oObject from=$objects}
 								<tr class="{cycle values='alt,'}">
 									<td class="pmDate">{$oObject->getCreateDate()|date_format:'%d %B %Y @ %H:%M'}</td>
-                                                                        <td class="pmSender"><a href="/users/edit/{$oObject->getFromUserID()}" target="_blank">{$oObject->getSender()->getFullname()}</a></td>
+                                                                        <td class="pmSender"><a href="{system::getConfig()->getParam('mofilm', 'platformUri')->getParamValue()}{'users/'}{$oObject->getFromUserID()}{'?token='}{$accessToken}" target="_blank">{$oObject->getSender()->getFullname()}</a></td>
 									<td class="pmStatus">
 										{if $oObject->getStatus() == 'New' && $oObject->getCreateDate()|date_format:'%Y%m%d' == $smarty.now|date_format:'%Y%m%d'}
 											<img src="{$themeicons}/32x32/mail-status-unread-new.png" alt="{t}Unread New{/t}" title="{t}Unread New{/t}" class="icon" />

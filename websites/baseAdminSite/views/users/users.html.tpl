@@ -66,7 +66,7 @@
 					<tr class="{cycle values="alt,"}">
 						<td>
 							{if $oController->hasAuthority('usersController.edit')}
-								<a href="{$editUri}/{$oUserResult->getID()}" title="{t}Edit user details{/t}">
+								<a href="{system::getConfig()->getParam('mofilm', 'platformUri')->getParamValue()}{'users/'}{$oUserResult->getID()}{'?token='}{$accessToken}" title="{t}Edit user details{/t}">
 									<img src="{$themeicons}/16x16/action-edit-object.png" alt="{t}Edit user details{/t}" class="smallIcon" />
 									{if strlen($oUserResult->getFullname()) > 3}{$oUserResult->getFullname()}{else}{$oUserResult->getEmail()}{/if}
 								</a>

@@ -24,7 +24,7 @@
                             <div class="content">
                                 <div class="filters">
                                     <div style="display:inline;float:left;padding-right:10px;width:135px;" >User :</div>
-                                    <div ><a href="/users/edit/{$oObject->getUserID()}">{$oModel->getUserName($oObject->getUserID())}</a></div>
+                                    <div ><a href="{system::getConfig()->getParam('mofilm', 'platformUri')->getParamValue()}{'users/'}{$oObject->getUserID()}{'?token='}{$accessToken}">{$oModel->getUserName($oObject->getUserID())}</a></div>
                                 </div>  
                                 <div class="filters">
                                     <div style="display:inline;float:left;padding-right:10px;width:135px;">Event :</div>
@@ -52,11 +52,11 @@
                                 </div>
                                 <div class="filters">
                                     <div style="display:inline;float:left;padding-right:10px;width:135px;">Submitter :</div>
-                                    <div ><a href="/users/edit/{$oObject->getSubmitterID()}">{$oModel->getUserName($oObject->getSubmitterID())}</a></div>
+                                    <div ><a href="{system::getConfig()->getParam('mofilm', 'platformUri')->getParamValue()}{'users/'}{$oObject->getSubmitterID()}{'?token='}{$accessToken}">{$oModel->getUserName($oObject->getSubmitterID())}</a></div>
                                 </div>  
                                 <div class="filters">
                                     <div style="display:inline;float:left;padding-right:10px;width:135px;">Approver :</div>
-                                    <div ><a href="/users/edit/{$oObject->getApproverID()}">{$oModel->getUserName($oObject->getApproverID())}</a></div>
+                                    <div ><a href="{system::getConfig()->getParam('mofilm', 'platformUri')->getParamValue()}{'users/'}{$oObject->getApproverID()}{'?token='}{$accessToken}">{$oModel->getUserName($oObject->getApproverID())}</a></div>
                                 </div>
                                 <div class="filters">
                                     <div style="display:inline;float:left;padding-right:10px;width:135px;">Approver Comments :</div>
@@ -80,7 +80,7 @@
                                 </div>  
                                 <div class="filters">
                                     <div style="display:inline;float:left;padding-right:10px;width:135px;">Paid By:</div>
-                                    <div >{if $oObject->getAccountUser() != 0}{t}<a href="/users/edit/{$oObject->getAccountUser()}">{/t}{$oModel->getUserName($oObject->getAccountUser())}</a>{else}{'-'}{/if}</div>
+                                    <div >{if $oObject->getAccountUser() != 0}{t}<a href="{system::getConfig()->getParam('mofilm', 'platformUri')->getParamValue()}{'users/'}{$oObject->getAccountUser()}{'?token='}{$accessToken}">{/t}{$oModel->getUserName($oObject->getAccountUser())}</a>{else}{'-'}{/if}</div>
                                 </div>
                                 <div class="filters">
                                     <div style="display:inline;float:left;padding-right:10px;width:135px;">Payment Comments :</div>

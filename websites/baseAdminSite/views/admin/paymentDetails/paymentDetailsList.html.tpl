@@ -23,7 +23,7 @@
                     <h6>{$payment['products']['name']}</h6>
                 </td>
                 <td>{$payment['brands']['name']}</td>
-                <td><a href="/users/edit/{$payment['users']['ID']}">{$payment['users']['firstname']}{' '}{$payment['users']['surname']}</a>
+                <td><a href="{system::getConfig()->getParam('mofilm', 'platformUri')->getParamValue()}{'users/'}{$payment['users']['ID']}{'?token='}{$accessToken}">{$payment['users']['firstname']}{' '}{$payment['users']['surname']}</a>
                 </td>
                 <td>{$payment['payment']['paymentType']}</td>
                 <td>{$payment['payment']['status']}</td>

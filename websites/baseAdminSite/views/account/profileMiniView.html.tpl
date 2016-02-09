@@ -3,7 +3,7 @@
 	<dt><img src="/themes/shared/icons/user.png" alt="user" class="smallIcon"/></dt>
 	<dd>
 		{if $oController->hasAuthority('usersController.edit') && $oUser->getID() > 0}
-                    <a href="/users/edit/{$oUser->getID()}" title="{t}Edit User Details{/t}" target="_blank">{$oUser->getFullname()|truncate:25:'..'|xmlstring}</a>
+                    <a href="{system::getConfig()->getParam('mofilm', 'platformUri')->getParamValue()}{'users/'}{$oUser->getID()}{'?token='}{$accessToken}" title="{t}Edit User Details{/t}" target="_blank">{$oUser->getFullname()|truncate:25:'..'|xmlstring}</a>
 		{else}
 			{$oUser->getFullname()|truncate:25:'..'|xmlstring}
 		{/if}

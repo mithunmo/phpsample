@@ -3,7 +3,7 @@
 	<dt><img src="/themes/shared/icons/refer.png" alt="user" class="smallIcon"/></dt>
 	<dd>
 		{t}Referred By{/t} : 
-		<a href="/users/edit/{$oMovie->getReferrer()->getID()}" title="{t}Edit User Details{/t}">{$oMovie->getReferrer()->getFullname()|truncate:25:'..'|xmlstring}</a>
+		<a href="{system::getConfig()->getParam('mofilm', 'platformUri')->getParamValue()}{'users/'}{$oMovie->getReferrer()->getID()}{'?token='}{$accessToken}" title="{t}Edit User Details{/t}">{$oMovie->getReferrer()->getFullname()|truncate:25:'..'|xmlstring}</a>
 	</dd>
 	
 	<dt><img src="/themes/shared/icons/date.png" alt="date" class="smallIcon"/></dt>

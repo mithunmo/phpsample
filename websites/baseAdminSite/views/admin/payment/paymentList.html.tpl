@@ -70,7 +70,7 @@
 		<tbody>
 		{foreach $objects as $oObject}
 			<tr class="{cycle values="alt,"}">
-                                <td><a href="/users/edit/{$oObject->getUserID()}">{$oModel->getUserName($oObject->getUserID())}</a></td>
+                                <td><a href="{system::getConfig()->getParam('mofilm', 'platformUri')->getParamValue()}{'users/'}{$oObject->getUserID()}{'?token='}{$accessToken}">{$oModel->getUserName($oObject->getUserID())}</a></td>
                                 <td>{if $oObject->getGrantID() == 0}{'-'}{else}<a href="/grants/view/{$oObject->getGrantID()}">{$oObject->getGrantID()}</a>{/if}</td></td>
 				<td>{$oObject->getPaymentType()}</td>
 				<td>{if $oObject->getAmountGrant() != ''}${$oObject->getAmountGrant()}{/if}</td>		
