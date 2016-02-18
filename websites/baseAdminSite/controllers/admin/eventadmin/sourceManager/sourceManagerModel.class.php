@@ -253,7 +253,9 @@ class sourceManagerModel extends mofilmSource implements mvcDaoModelInterface {
             
             $oStmt = dbManager::getInstance()->prepare($query);
             
+            echo $newStatus.'----'.$oldStatus;
             if($newStatus == "PUBLISHED" && $oldStatus == "DRAFT"){
+            	echo 'in if';exit;
             	$params = array(
             			'http' => array(
             					'method' => 'POST',
