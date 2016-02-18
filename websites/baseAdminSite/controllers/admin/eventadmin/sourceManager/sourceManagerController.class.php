@@ -314,9 +314,10 @@ class sourceManagerController extends mvcDaoController {
 			$this->addInputToModel($data, $this->getModel());
 			$oModel = new sourceManagerModel();
 			$this->getModel()->save();
+			/*
             $sessionUserID = $this->getRequest()->getSession()->getUser()->getID();
 			$oModel->updateSourceStatusLog($primaryKey,$inStatus,$data['Status'],$sessionUserID);
-                        
+                     */   
                         $oEventData = mofilmEvent::getInstance($data['EventID']);
                         $ProductID = $oEventData->getProductID();
                         
