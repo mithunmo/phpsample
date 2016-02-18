@@ -264,7 +264,7 @@ class sourceManagerModel extends mofilmSource implements mvcDaoModelInterface {
             	$context  = stream_context_create($params);
             	$statusEmailURL = system::getConfig()->getParam('mofilm', 'emailMofilmUri')->getParamValue() .'/sourceStatus/?';
             	$result   = file_get_contents($statusEmailURL, false, $context);
-            	 
+            	 print_r($result);exit;
             }
 
             if ($oStmt->execute()) {
