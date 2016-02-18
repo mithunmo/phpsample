@@ -323,7 +323,7 @@ class sourceManagerController extends mvcDaoController {
 									'http' => array(
 											'method' => 'POST',
 											'header'  => 'Content-type: application/x-www-form-urlencoded',
-											'content' => 'urlAction=statusEmail&userID='.$sessionUserID.'&sourceID='.$sourceID
+											'content' => 'urlAction=statusEmail&userID='.$sessionUserID.'&sourceID='.$primaryKey
 									)
 							);
 							$context  = stream_context_create($params);
