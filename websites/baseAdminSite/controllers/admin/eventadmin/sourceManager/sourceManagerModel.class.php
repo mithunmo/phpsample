@@ -247,10 +247,10 @@ class sourceManagerModel extends mofilmSource implements mvcDaoModelInterface {
             $newStatusRes = dbManager::getInstance()->query($newStatusQuery);
             $newStatusVal = $newStatusRes->fetch(); 
 
-           echo $query = "INSERT INTO ".system::getConfig()->getDatabase('mofilm_content').".statusLog 
+            $query = "INSERT INTO ".system::getConfig()->getDatabase('mofilm_content').".statusLog 
                      (sourceID, oldStatusID, newStatusID, logDate, userID) VALUES (".$sourceID.",
-                     ".$oldStatusVal['ID'].",".$newStatusVal['ID'].",,".$sessionUserID.") ";
-            exit;
+                     ".$oldStatusVal['ID'].",".$newStatusVal['ID'].",'',".$sessionUserID.") ";
+            
             $oStmt = dbManager::getInstance()->prepare($query);
 
             if ($oStmt->execute()) {
