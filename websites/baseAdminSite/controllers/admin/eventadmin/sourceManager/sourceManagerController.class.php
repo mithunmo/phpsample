@@ -311,14 +311,26 @@ class sourceManagerController extends mvcDaoController {
                             $data['Custom'] = "N";
                         
                         
-			$this->addInputToModel($data, $this->getModel());
-			$oModel = new sourceManagerModel();
-			$this->getModel()->save();
-			
-            $sessionUserID = $this->getRequest()->getSession()->getUser()->getID();
-			$oModel->updateSourceStatusLog($primaryKey,$inStatus,$data['Status'],$sessionUserID);
+						$this->addInputToModel($data, $this->getModel());
+						$oModel = new sourceManagerModel();
+						$this->getModel()->save();
+						
+			            $sessionUserID = $this->getRequest()->getSession()->getUser()->getID();
+						$oModel->updateSourceStatusLog($primaryKey,$inStatus,$data['Status'],$sessionUserID);
              
-                        $oEventData = mofilmEvent::getInstance($data['EventID']);
+						if($data['Status'] == "PUBLISHED" && $inStatus == "DRAFT"){
+							$params = array(
+									'http' => array(
+											'method' => 'POST',
+											'header'  => 'Content-type: application/x-www-form-urlencoded',
+											'content' => 'urlAction=statusEmail&userID='.$sessionUserID.'&sourceID='.$sourceID
+									)
+							);
+							$context  = stream_context_create($params);
+							$statusEmailURL = system::getConfig()->getParam('mofilm', 'emailMofilmUri')->getParamValue() .'/sourceStatus/?';
+							$result   = file_get_contents($statusEmailURL, false, $context);
+						}
+						$oEventData = mofilmEvent::getInstance($data['EventID']);
                         $ProductID = $oEventData->getProductID();
                         
                         

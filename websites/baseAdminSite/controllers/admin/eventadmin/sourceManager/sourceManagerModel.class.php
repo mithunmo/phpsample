@@ -253,23 +253,7 @@ class sourceManagerModel extends mofilmSource implements mvcDaoModelInterface {
             
             $oStmt = dbManager::getInstance()->prepare($query);
             
-            echo $newStatus.'----'.$oldStatus;
-            if($newStatus == "PUBLISHED" && $oldStatus == "DRAFT"){
-            	echo 'in if';exit;
-            	$params = array(
-            			'http' => array(
-            					'method' => 'POST',
-            					'header'  => 'Content-type: application/x-www-form-urlencoded',
-            					'content' => 'urlAction=statusEmail&userID='.$sessionUserID.'&sourceID='.$sourceID
-            			)
-            	);
-            	$context  = stream_context_create($params);
-            	$statusEmailURL = system::getConfig()->getParam('mofilm', 'emailMofilmUri')->getParamValue() .'/sourceStatus/?';
-            	$result   = file_get_contents($statusEmailURL, false, $context);
-            	 print_r($result);exit;
-            }
-
-            if ($oStmt->execute()) {
+           if ($oStmt->execute()) {
                 return true;
             }else{
                 throw new mvcModelException('Problem in saving status log');  
