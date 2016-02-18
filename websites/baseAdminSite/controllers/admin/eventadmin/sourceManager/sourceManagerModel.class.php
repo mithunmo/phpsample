@@ -233,4 +233,32 @@ class sourceManagerModel extends mofilmSource implements mvcDaoModelInterface {
             return $link;
         }
         
+		function updateSourceStatusLog($sourceID,$oldStatus,$newStatus,$sessionUserID){
+        	    	
+            $oldStatusQuery  =  'SELECT sourceStatusMaster.ID
+                                    FROM '.system::getConfig()->getDatabase('mofilm_content').'.sourceStatusMaster
+                                    WHERE sourceStatusMaster.name ="'.$oldStatus.'"';
+            $oldStatusRes = dbManager::getInstance()->query($oldStatusQuery);
+            $oldStatusVal = $oldStatusRes->fetch(); 
+
+            $newStatusQuery  =  'SELECT sourceStatusMaster.ID
+                                FROM '.system::getConfig()->getDatabase('mofilm_content').'.sourceStatusMaster
+                                WHERE sourceStatusMaster.name ="'.$newStatus.'"';
+            $newStatusRes = dbManager::getInstance()->query($newStatusQuery);
+            $newStatusVal = $newStatusRes->fetch(); 
+
+            $query = "INSERT INTO ".system::getConfig()->getDatabase('mofilm_content').".statusLog 
+                     (sourceID, oldStatusID, newStatusID, logDate, userID) VALUES (".$sourceID.",
+                     ".$oldStatusVal['ID'].",".$newStatusVal['ID'].",,".$sessionUserID.") ";
+
+            $oStmt = dbManager::getInstance()->prepare($query);
+
+            if ($oStmt->execute()) {
+                return true;
+            }else{
+                throw new mvcModelException('Problem in saving status log');  
+            }
+        	
+        }
+        
     }
