@@ -234,7 +234,7 @@ class sourceManagerModel extends mofilmSource implements mvcDaoModelInterface {
         }
         
 		function updateSourceStatusLog($sourceID,$oldStatus,$newStatus,$sessionUserID){
-        	    	
+        	    	echo $sourceID.'--'.$oldStatus.'--'.$newStatus.'--'.$sessionUserID;
             $oldStatusQuery  =  'SELECT sourceStatusMaster.ID
                                     FROM '.system::getConfig()->getDatabase('mofilm_content').'.sourceStatusMaster
                                     WHERE sourceStatusMaster.name ="'.$oldStatus.'"';
