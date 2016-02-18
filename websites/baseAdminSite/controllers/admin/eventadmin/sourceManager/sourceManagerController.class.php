@@ -241,7 +241,7 @@ class sourceManagerController extends mvcDaoController {
                     
                         $oSourceData = mofilmSource::getInstance($primaryKey);
                         $inEventID = $oSourceData->getEventID();
-                        $inStatus  = $oSourceData->getStatus();
+                        $inStatus  = $oSourceData->getSourceStatus();
 
                         $ProdEvent = mofilmEvent::getInstance($inEventID);
                         $PID = $ProdEvent->getProductID();
@@ -317,7 +317,7 @@ class sourceManagerController extends mvcDaoController {
 			
             $sessionUserID = $this->getRequest()->getSession()->getUser()->getID();
 			$oModel->updateSourceStatusLog($primaryKey,$inStatus,$data['Status'],$sessionUserID);
-                     
+             
                         $oEventData = mofilmEvent::getInstance($data['EventID']);
                         $ProductID = $oEventData->getProductID();
                         
