@@ -163,8 +163,9 @@
                         {/foreach}
                         <div id="dynamicPaymentDiv"></div>
                          <input type="hidden"  id="totalParts" name="totalParts" value="{$multiPaymentCount}" />
+                         <input type="hidden"  id="availableParts" name="availableParts" value="{$multiPaymentCount}" />
                          <input type="hidden"  id="parentID" name="parentID" value="{$oPaymentDetails['parentDetails'][0]['payment']['ID']}" />
-                    </div>   
+                    </div>     
                  
                 <div class="paymenttotal">
                     <div id="errorAmount" class="paymenterror"></div>
