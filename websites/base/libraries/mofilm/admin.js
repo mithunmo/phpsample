@@ -1030,6 +1030,7 @@ jQuery(document).ready(function() {
                     var AllowedGrants = 0;
                     var GrantedAmount = 0;
                     var ExistingGrantAmount = 0;
+                    var grantExtraAmnt = 0;
 
                     GrantsAvailable = $('#GrantsAvailable').val();
                     GrantsDispersed = $('#GrantDispersed').val();
@@ -1039,15 +1040,24 @@ jQuery(document).ready(function() {
                     AllowedGrants = TotalGrants-GrantsDispersed;
                     GrantedAmount = $('#GrantedAmount').val();
                     ExistingGrantAmount = $('#existingGrantAmount').val();
-
+                    if(Number(ExistingGrantAmount)!== Number(GrantedAmount)){
+                    	if(Number(GrantedAmount) > Number(ExistingGrantAmount)){
+                    		grantExtraAmnt = Number(GrantsDispersed) + (Number(GrantedAmount)-Number(ExistingGrantAmount));
+                    	}
+                    }
+           
                     if(ExistingGrantAmount > GrantedAmount){
                         alert('In order to decrease an approved grant amount please use payments admin. You may need to request this from the finance team directly. Thank you!');
                         AllowedSubmit = 0;
                     }else{
-                        if(GrantedAmount > AllowedGrants ){
+                    	  if(grantExtraAmnt > TotalGrants){
+                    		 alert('The grant pot and agreed over-granting buffer has been spent. Please speak with the finance team to agree a greater buffer.');
+                             AllowedSubmit = 0;
+                    	  }
+                        /*if(GrantedAmount > AllowedGrants ){
                             alert('The grant pot and agreed over-granting buffer has been spent. Please speak with the finance team to agree a greater buffer.');
                             AllowedSubmit = 0;
-                        }
+                        }*/
                     }
                 }
                 if(AllowedSubmit == 1) {
