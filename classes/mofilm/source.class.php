@@ -548,7 +548,8 @@ class mofilmSource extends mofilmSourceBase {
 		return array(
 			mofilmSourceBase::SOURCE_STATUS_DRAFT,
 			mofilmSourceBase::SOURCE_STATUS_PUBLISHED,
-			mofilmSourceBase::SOURCE_STATUS_CLOSED,
+			mofilmSourceBase::SOURCE_STATUS_COMPLETED,
+			mofilmSourceBase::SOURCE_STATUS_CANCELED,
 			mofilmSourceBase::SOURCE_STATUS_JUDGING,
 			mofilmSourceBase::SOURCE_STATUS_WINNERS,
 		);

@@ -188,10 +188,11 @@ class mofilmEventBase implements systemDaoInterface, systemDaoValidatorInterface
 	protected $_Status;
 	
 	CONST STATUS_DRAFT = 'DRAFT';
-	CONST STATUS_CLOSED = 'CLOSED';
+	CONST STATUS_COMPLETED = 'COMPLETED';
 	CONST STATUS_PUBLISHED = 'PUBLISHED';
 	CONST STATUS_JUDGING = 'JUDGING';
 	CONST STATUS_WINNERS = 'WINNERS';
+    CONST STATUS_CANCELED= 'CANCELED';
 	
 	
 	/**
