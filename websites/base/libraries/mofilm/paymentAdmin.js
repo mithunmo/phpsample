@@ -181,7 +181,7 @@ jQuery(document).ready(function(){
         var multiPaymentStr =''; 
         availableParts++;
         $("#dynamicPaymentDiv").html('');
-        $("#totalParts").val(totalParts);
+       // $("#totalParts").val(totalParts);
         for(var i=availableParts; i<=totalParts; i++){         
             multiPaymentStr += '<div class="col-md-12"><hr class="paymenthr"/></div>';              
             multiPaymentStr += '<div class="row" style="padding:10px 20px;">\n\
