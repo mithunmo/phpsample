@@ -446,7 +446,7 @@ class mofilmEvent extends mofilmEventBase {
 		return array(
 			mofilmEventBase::STATUS_DRAFT,
 			mofilmEventBase::STATUS_PUBLISHED,
-			mofilmEventBase::STATUS_CANCELED,
+			mofilmEventBase::STATUS_CANCELLED,
 			mofilmEventBase::STATUS_JUDGING,
 			mofilmEventBase::STATUS_WINNERS,
 		);
@@ -457,7 +457,7 @@ class mofilmEvent extends mofilmEventBase {
 			mofilmEventBase::STATUS_DRAFT,
 			mofilmEventBase::STATUS_PUBLISHED,
 			mofilmEventBase::STATUS_COMPLETED,
-            mofilmEventBase::STATUS_CANCELED,
+            mofilmEventBase::STATUS_CANCELLED,
 		);
 	}
         
