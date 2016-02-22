@@ -8,6 +8,7 @@
  * @version $Rev: 393 $
  */
 jQuery(document).ready(function(){
+	alert('xvscc');
     var today = new Date();
     if ($('#editPaymentForm').length) {
         $('.editDisable').prop("readonly", true);
@@ -176,12 +177,15 @@ jQuery(document).ready(function(){
     /******** Edit ADhoc Payment Page Validation Start ********/
     /* Display of edit adhoc page load, showing the series dynamically */   
     $('#PaymentNumberAdhoc').on('change',function(){
+    	alert('hello');
         var totalParts = $("#PaymentNumberAdhoc").val();
         var availableParts = $("#totalParts").val();
+        alert(totalParts);
+        alert(availableParts);
         var multiPaymentStr =''; 
         availableParts++;
         $("#dynamicPaymentDiv").html('');
-        $("#totalParts").val(totalParts);
+       // $("#totalParts").val(totalParts);
         for(var i=availableParts; i<=totalParts; i++){         
             multiPaymentStr += '<div class="col-md-12"><hr class="paymenthr"/></div>';              
             multiPaymentStr += '<div class="row" style="padding:10px 20px;">\n\
