@@ -176,8 +176,8 @@ jQuery(document).ready(function(){
     /******** Edit ADhoc Payment Page Validation Start ********/
     /* Display of edit adhoc page load, showing the series dynamically */   
     $('#PaymentNumberAdhoc').on('change',function(){
-        var totalParts = $("#PaymentNumberAdhoc").val();
-        var availableParts = $("#totalParts").val();
+    	var totalParts = $("#PaymentNumberAdhoc").val();
+        var availableParts = $("#availableParts").val();
         var multiPaymentStr =''; 
         availableParts++;
         $("#dynamicPaymentDiv").html('');
